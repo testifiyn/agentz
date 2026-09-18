@@ -198,6 +198,22 @@ vacuum is.
 | **5** | **Fake-review trust checker** | **Strongest (dated, large, orphaned)** | **Strongest (4 falsifiable wedges)** | **Strongest (zero infra)** | **★ PICK** |
 | 6 | Free-trial charge preventer | Strong (chronic) | Moderate | Good | Solid backup |
 
+## STATUS UPDATE (Run 2, 2026-09-18)
+
+- **#5 (fake-review trust checker / TrueGrade): KILLED.** Re-validation
+  found the leading incumbent (SureVett) already ships every planned
+  differentiator plus more. See `research/fake-review-trust-checker.md`.
+- **#6 (trial-charge preventer, the designated fallback): PIVOT, not
+  built as scoped.** The as-scoped MVP nearly duplicates an existing,
+  zero-traction competitor (DueCue); the best-evidenced real pain
+  (dark-pattern cancellation friction) isn't what the scoped MVP solves.
+  Pivot direction (cancellation-assistance tool) noted for future
+  validation. See `research/trial-charge-preventer.md`.
+- Candidates #1–#4 are being freshness-checked before picking the next
+  one to run through full adversarial validation — same-day research is
+  not assumed to still be current without a live re-check, per the
+  lesson learned from #5.
+
 ## AGENT_PICK: #5 — Fake-review / trust-score checker for Amazon
 
 Picked over Candidate 1 (time-tracking/invoicing) and Candidate 2 (uptime

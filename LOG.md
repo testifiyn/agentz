@@ -56,3 +56,20 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Commit and push this kill, file a GitHub issue notifying the owner (kill decisions get notified for visibility, not permission, per protocol).
 - Same run: move to validating Candidate 6 (local-first free-trial/forced-continuity charge preventer), the designated fallback, since time/budget allows continuing rather than stopping after a kill.
+
+---
+
+## 2026-09-18T15:10:00Z (2026-09-18 18:10 Europe/Sofia) — Run 2 (continued)
+
+**Phase at start:** VALIDATING (candidate 6)
+**Phase at end:** IDEA_DISCOVERY (freshness-checking candidates 1-4)
+
+**What I did:**
+- Pushed the TrueGrade kill commit (confirming GitHub write access is healthy again — Run 1's blocker is resolved) and filed GitHub issue #1 notifying the owner, with the full reasoning and a direct answer to the redundancy question they raised.
+- Ran full adversarial validation on Candidate 6 (free-trial/forced-continuity charge preventer), the designated fallback. Fresh competitor research found the as-scoped MVP (DOM-detect trial start + reminder + `.ics` export) is nearly identical to an existing competitor, **DueCue**, which already does local-first/no-bank-link auto-detection but has **zero user adoption** — a real negative signal, not just "beaten to it." Also found Bobby now has mainstream press validation (CNBC Select "best free service" 2026) and that at least two more open-source clones of the basic "trial reminder" concept already exist on GitHub, closing the open-source-moat angle here too, same as with TrueGrade. Dug into where people actually complain (Adobe community forum) and found the dominant real pain is dark-pattern cancellation friction, not simply forgetting — a mismatch with the scoped MVP. **Verdict: PIVOT**, not GO, not clean KILL. Recorded a specific pivot direction (cancellation-assistance/deep-link directory) for a future validation pass, not built yet. Full report: `research/trial-charge-preventer.md`.
+- Updated `MEMORY.md`, `ideas/candidates.md` with the Candidate 6 outcome.
+- Dispatched two parallel background research agents to freshness-check Candidates 1 (freelance time-tracking/invoicing, Harvest price-hike backlash) and 2 (uptime monitoring, UptimeRobot backlash) before picking either for a full validation pass — applying the same "don't trust a snapshot, re-check at validation time" lesson to the remaining candidates rather than assuming the original same-day scoring still holds.
+
+**What's next:**
+- Read back the two freshness-check reports, pick the stronger surviving candidate (or generate new ones if both show the same "already captured" pattern as #5 and #6), and run full adversarial validation on the pick.
+- Commit and push this progress; no owner notification needed yet (no new verdict reached until the next candidate is validated).
