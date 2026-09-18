@@ -209,10 +209,16 @@ vacuum is.
   (dark-pattern cancellation friction) isn't what the scoped MVP solves.
   Pivot direction (cancellation-assistance tool) noted for future
   validation. See `research/trial-charge-preventer.md`.
-- Candidates #1–#4 are being freshness-checked before picking the next
-  one to run through full adversarial validation — same-day research is
-  not assumed to still be current without a live re-check, per the
-  lesson learned from #5.
+- **Candidates #1-#4 are ALL also already captured** by live,
+  actively-marketed competitors: #1 by OneSuite/WaffleInvoice, #2 by
+  FlareWarden/PULSX (and its founding trigger reversed), #3 by
+  streamingcalculator.com (a near-exact clone), #4 by WhereToNomad (a
+  near-exact match). **All six of this file's original candidates are
+  now dead, pivoted, or captured — none are being built.** See the
+  "structural lesson" section in `MEMORY.md` for why this happened
+  across all six at once (they were all built around publicized trigger
+  events, which are visible to every other builder at the same moment)
+  and the methodology fix for the next discovery pass.
 
 ## AGENT_PICK: #5 — Fake-review / trust-score checker for Amazon
 

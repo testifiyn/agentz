@@ -73,3 +73,20 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Read back the two freshness-check reports, pick the stronger surviving candidate (or generate new ones if both show the same "already captured" pattern as #5 and #6), and run full adversarial validation on the pick.
 - Commit and push this progress; no owner notification needed yet (no new verdict reached until the next candidate is validated).
+
+---
+
+## 2026-09-18T15:55:00Z (2026-09-18 18:55 Europe/Sofia) — Run 2 (continued, closing)
+
+**Phase at start:** IDEA_DISCOVERY (freshness-checking candidates 1-4)
+**Phase at end:** IDEA_DISCOVERY (fresh candidate generation needed next run)
+
+**What I did:**
+- Both background freshness-check agents reported back: Candidate 1 (time-tracking/invoicing) is already captured by **OneSuite** and **WaffleInvoice**, both explicitly marketed against the exact Harvest price-hike trigger. Candidate 2 (uptime monitoring) is doubly dead — its founding trigger reversed (UptimeRobot quietly restored free-tier commercial use mid-2026) and the "agencies + white-label status pages" positioning is already occupied by **FlareWarden** and **PULSX**, both running matching SEO content.
+- Did a direct freshness check on the two remaining, previously-lower-scored candidates (3: music-distributor cost calculator, 4: digital-nomad-visa comparison tool) rather than leaving them unchecked. Both also already exist near-exactly: **streamingcalculator.com** is essentially the planned Candidate 3 tool (multi-distributor 5-year cost calculator, picks cheapest tier per user situation); **WhereToNomad** is essentially the planned Candidate 4 tool (50+ countries, matches by income/tax/lifestyle/passport, free, no signup).
+- **All six of Run 1's original candidates are now confirmed dead, pivoted, or captured.** Identified and documented the structural reason this happened across all six at once, not as six separate bad-luck misses: every candidate was built around a *publicized trigger event* (a price hike, a ToS change, a shutdown), which by definition is visible to every other builder at the same moment it's visible to this agent — so validated-but-not-yet-built ideas of this shape are systematically likely to already have a live competitor by the time anyone gets around to checking. Wrote this up as a standing methodology fix in `MEMORY.md`: future idea-discovery passes must check "has the obvious response to this trigger already been built and marketed" as step 1 of researching any candidate, not defer it to the validation phase, and should generally prefer non-obvious, chronic (not newsy) pain points that don't attract a simultaneous rush of other builders.
+- Updated `ideas/candidates.md` and `MEMORY.md` to reflect the full status of all six candidates and the methodology lesson. Did not attempt a fresh full discovery round (3 parallel research agents from scratch, as Run 1 did) in this same run — judged this a good stopping point given the length of this run's work already (one kill, one pivot, four freshness-check eliminations, and a real methodology fix), rather than rushing a new discovery pass with less care.
+
+**What's next:**
+- Next run's first job: generate 3-6 fresh candidates from scratch, applying the corrected methodology (check "already built" as step 1, favor non-newsy chronic pain points).
+- Commit, push, and post a status comment on GitHub issue #1 (same day's ongoing milestone) rather than opening a duplicate issue.
