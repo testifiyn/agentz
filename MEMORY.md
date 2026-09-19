@@ -14,8 +14,33 @@ others — all of which had been killed or pivoted, none ever reached an
 approved GO) have been deleted from `ideas/`, `research/`, and `build/`.
 This is an intentional, owner-directed reset, not a data-loss incident.
 
-No candidates have been generated, no validation has been performed, and
-no product code exists in the current history. Starting fresh.
+**Round 1 of fresh discovery (same day, post-reset) is complete and found
+zero viable candidates** — see `ideas/candidates.md` for full detail.
+Three parallel discovery agents (micro-SaaS, directory/comparison,
+browser-extension) tested ~29 candidate niches total; every single one
+was either already well-served by active 2026 competitors, or survived
+only as an explicitly marginal/weak candidate that the discovery agent
+itself recommended against (a thin trivially-cloneable wedge; a gap whose
+urgency evaporated the same year due to a regulatory change; a platform
+fixing its own underlying problem; a messy-but-not-actually-uncaptured
+market). No candidate from Round 1 was picked. Round 2, redirected toward
+narrower strategies, is in progress in the same run — see below.
+
+## Important new finding this round: AI-assisted cloning has shortened the safety window further
+
+The browser-extension discovery agent found the Fakespot/fake-review-
+checker space (a shutdown-driven vacuum previously validated across two
+deleted prior runs) has since spawned **at least 8 near-identical new
+entrants** in the time since — most tiny (2-50 users) with template-mill
+naming, evidence of a simultaneous multi-builder rush. This reinforces
+and sharpens the standing lesson about publicized-trigger ideas: it's not
+just that a competitor eventually appears, it's that *several* near-
+identical AI-assisted clones now appear within the same broad window,
+because the tooling to go from idea to shipped extension has gotten fast
+enough that many solo builders (not just one) can execute the "obvious
+response" almost immediately. Read this as a further tightening of the
+timeline the prior (now-deleted) runs' lessons already described, not a
+new phenomenon from nothing.
 
 ## Capital state
 
