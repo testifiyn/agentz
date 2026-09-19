@@ -237,3 +237,217 @@ Candidate 6 (trial-charge preventer) is the designated fallback if #5 fails
 validation.
 
 Proceeding to VALIDATING — see `research/fake-review-trust-checker.md`.
+
+---
+
+# Run 3 candidates (2026-09-19)
+
+Generated per the corrected methodology from Run 2's `MEMORY.md` lesson:
+three parallel research agents, each required to run the "has this already
+been built and is it actively marketed" check as the FIRST research step
+per idea, not deferred to validation, and each instructed to favor chronic
+non-newsy pain points over publicized trigger events. Agents tested ~30+
+candidate ideas total across micro-SaaS, directory/comparison sites, and
+browser extensions; the large majority were discarded pre-writeup because
+they're already captured — only the survivors are detailed below.
+
+## Micro-SaaS agent: 2 survivors (8 discarded pre-writeup)
+
+Discarded already-captured ideas (evidence found first, not written up):
+SSL/domain expiry monitoring (Monytra, TrackSSL, Expiron, Uptime Kuma),
+local SEO/citation management (Local Panda, VeloRank, Localo), freelance
+CRM/invoicing (Dubsado, Whelm, Moxie, Yess.io), agency uptime monitoring,
+dead-link checkers, photographer client galleries (Pixieset), solo-operator
+appointment reminders (Square Appointments free tier), EU VAT/OSS tracking
+(Quaderno, Moss, Xolo, Holded).
+
+### A. Pre-engagement client risk-screening for off-platform freelancers
+
+**Pain (chronic, evidenced):** Freelancers Union: 71% of freelancers have
+struggled to collect payment at least once; ~1-in-2 in any given year.
+Upwork/Fiverr explicitly disclaim protection once a client relationship
+moves off-platform, yet most experienced freelancers eventually work
+off-platform to avoid fees — at which point they have zero vetting tool.
+r/freelance/r/Upwork show chronic 30-90+ day unpaid-invoice threads.
+
+**Competitors:** Enterprise credit bureaus (Creditsafe, Nav, Experian)
+target B2B credit-line decisions for established companies, not a quick
+solo pre-gig check. Only a $5 Gumroad PDF checklist found, not a real tool.
+
+**MVP:** paste company/domain → aggregate free public signals (Companies
+House filings/insolvency, CCJ register links, WHOIS/domain age, review
+sentiment) into a risk snapshot.
+
+**Flagged risk (agent's own finding plus my read):** this is the one
+candidate of the four with a real legal-exposure problem for a €0
+solo/no-legal-review project — publishing risk scores about identifiable
+companies/individuals carries defamation exposure, and aggregating
+personal data about individuals raises GDPR concerns. The agent itself
+noted this is likely *why* it's whitespace (bureaus avoid the accusatory
+version; solo builders are deterred by the same liability). That's a
+reason to be cautious adopting it, not just a coincidental gap. Kept as a
+candidate but deprioritized below for this reason.
+
+### B. Lightweight scope-creep / change-order logger
+
+**Pain (chronic, evidenced):** r/freelance/r/Upwork recurring "one more
+revision" scope-creep horror stories; the failure mode is freelancers
+don't formally re-bill until the gap is already large.
+
+**Competitors:** change-order features exist only bundled inside full
+proposal-to-invoice suites (Bonsai, PandaDoc, HoneyBook) — complaint
+pattern is these are overkill/priced for full CRM replacement. No
+standalone micro-tool found that just logs "extra ask → price →
+client one-click approve → timestamp."
+
+**MVP:** shareable link/form, no login, timestamped approval record
+emailed to both sides. Static frontend + free-tier serverless function +
+free email API tier.
+
+**Why not already built (agent's read):** too narrow/single-purpose for
+VC-backed suites to unbundle — plausible, but also plausibly a sign of a
+genuinely small TAM (small enough that even the niche-tool community
+hasn't bothered).
+
+## Directory/content agent: 0 survivors — important meta-finding
+
+Tested 10 evergreen "confusion/comparison" niches (generator sizing,
+skincare ingredient interactions, power-tool battery compatibility, air
+fryer conversion, cake pan conversion, cross-brand paint matching, HVAC
+filter size cross-reference, car-seat/stroller compatibility, aquarium
+stocking calculator, chicken coop/cage sizing). **All 10 already have
+actively-maintained, 2026-dated competitors**, several with multiple
+players. The instructive case: AqAdvisor (aquarium stocking), a ~15-year
+incumbent with real documented rot (malware ads, broken mobile input,
+outdated bioload model), still got its gap closed by two new competitors
+(Aquapacity.com, AquariumStocking.com) within the last ~12 months.
+
+**Conclusion carried into `MEMORY.md`:** evergreen calculator/comparison
+niches are not a safe harbor from the "already captured" problem — if
+anything they're *more* thoroughly mined than trigger-driven ones, because
+stable long-tail demand is exactly what the solo-SEO/affiliate niche-site
+community has targeted for 10-15+ years. Gaps in this space get found and
+filled continuously, just on a longer, less synchronized timescale than
+news-trigger gaps (~months to ~1 year, not days to weeks) — not a zero
+timescale, but not safe either. No candidate written up from this agent.
+
+## Browser-extension agent: 2 candidates (1 strong, 1 marginal fallback), 12 discarded
+
+Discarded already-captured ideas: "Jump to Recipe" removal, ghost-job
+detection (5+ competing extensions), hide-applied-jobs, dark-pattern/fake-
+urgency detectors, Craigslist/FB Marketplace scam checkers, cookie-consent
+auto-reject, hide-Google-AI-Overview (7+ extensions), hidden hotel fees,
+Canvas/Blackboard LMS enhancement (BetterCampus, 2M users), YouTube
+distraction-free (Unhook, 1M users, actively maintained), LinkedIn
+anonymous viewing (non-extension workarounds already serve this).
+
+### C. Automatic AI-slop/SEO-spam filter for search results — candidate front-runner
+
+**Pain (chronic since ~2022-2024, recent press spike, not a single dated
+trigger):** The Register (Jan 2024), Fortune, and a year-long German
+academic study document measurable Google search-quality decline
+(~10% accuracy drop), driven by "SEO parasite" content leasing space on
+trusted domains. Chronic Reddit/Blind griping ("google has been becoming
+unusable") predates any single news event.
+
+**Competitors, each with a documented specific gap:**
+- **uBlacklist** — dominant incumbent (~200k users, 4.36★/950 ratings) but
+  purely manual: requires the user to already know which domains to
+  block. Current reviews report real bugs (block button hidden/moved,
+  extension intermittently stops working, inconsistent on image
+  search/new "quick matches" UI).
+- **AI Slop Meter** — claims on-device scoring but has **zero reviews**
+  (unproven, brand-new) and its own marketing targets social feeds
+  (X/LinkedIn/Reddit/Facebook), not search results.
+- **Slop Evader** (press-covered Dec 2025 by Tom's Guide/The Register/AOL)
+  — a blunt pre-ChatGPT-era date filter, not a quality heuristic; discards
+  legitimately new good content, a crude substitute for real detection.
+- Paid AI-detectors (Copyleaks, Sapling) require a live per-query backend
+  API call — breaks the €0/no-per-user-cost model this project needs.
+
+**MVP (fully client-side, €0 forever):** content script on Google/Bing/DDG
+results pages; local heuristics (boilerplate-phrase lists, listicle-
+structure detection, affiliate-link density, a bundled spam-domain list
+updated via periodic extension releases, not a live API) gray out or badge
+low-quality results.
+
+**Monetization:** one-time "Pro" unlock (custom rules, more search
+engines, exportable blocklist) — no subscription backend needed.
+
+**Real risk flagged by the research agent:** press attention on this exact
+space spiked 3x in Dec 2025 alone — the window may close within months,
+and Google's SERP DOM changes are more volatile than Amazon's (a fragility
+concern that also killed real trust in the TrueGrade postmortem).
+
+### D. Gmail tracking-pixel blocker — marginal fallback, not primary
+
+Real pain (privacy/creepiness) but both incumbents (PixelBlock, Ugly
+Email) are mediocre-but-not-abandoned, not clearly beatable; audience is
+narrower and willingness-to-pay unproven (neither incumbent shows Pro-tier
+demand); Gmail's DOM changes frequently, an ongoing maintenance burden.
+Agent's own verdict: flag as weak, include only as fallback.
+
+## AGENT_PICK (Run 3): C — Automatic AI-slop/SEO-spam search filter
+
+Picked over B (scope-creep logger, lower legal risk and low build cost but
+small evidenced TAM and no clear distribution channel — how would
+freelancers discover a single-purpose scope-creep link tool?) and over A
+(client risk-screening, real demand but real defamation/GDPR exposure for
+a solo €0 project with no legal review — deprioritized for that reason,
+not for weak demand). D was already flagged as a weak fallback by its own
+research agent.
+
+C has the strongest combination: most current, press-documented evidence
+of both the pain and the specific gap (automatic vs. manual detection);
+largest addressable audience (anyone who searches); zero infra cost at any
+scale; and a differentiator (automatic client-side heuristic scoring) that
+the two newest entrants (AI Slop Meter, Slop Evader) have NOT executed
+well (unproven/zero-review, or mistargeted, or gimmicky respectively) —
+unlike the TrueGrade postmortem, where the leading incumbent had already
+built every planned differentiator. Main named risk to stress-test in
+VALIDATING: whether the "window is closing" given Dec 2025 press attention
+means a well-resourced competitor lands an automatic-detection product
+before this project could ship one, and whether client-side heuristic
+quality-scoring can actually be accurate enough to be trustworthy (a false
+positive that hides a legitimately good result is worse than doing
+nothing).
+
+B (scope-creep logger) is the designated fallback if C fails validation.
+
+Proceeding to VALIDATING — see `research/ai-slop-search-filter.md`.
+
+## STATUS UPDATE (Run 3, 2026-09-19) — all 4 Run 3 candidates KILLED
+
+- **C (AI-slop/SEO-spam automatic search filter), the AGENT_PICK: KILLED.**
+  Adversarial re-check found the "automatic detection" wedge filled in
+  with several mediocre 2026 competitors during the gap between discovery
+  and validation, and — more fundamentally — the core technical premise
+  (reliable heuristic quality-scoring of ~25-word SERP snippets, without a
+  live LLM call) is directly contradicted by an adjacent project that
+  tried and explicitly rejected the same class of approach. See
+  `research/ai-slop-search-filter.md`.
+- **B (scope-creep logger), the designated fallback: KILLED.** Adversarial
+  research found a near-identical live standalone competitor
+  (StopScopeCreep.com, same freemium model) plus two more 2026 entrants
+  converging on the same pain (Scopey, ScopeShield) — the "no standalone
+  tool exists" premise from discovery was wrong, just not yet surfaced.
+  Also found a real friction critique (going to a separate tool adds a
+  step vs. just messaging the client directly) and a "proof of approval
+  ≠ getting paid" gap. See `research/scope-creep-logger.md`.
+- **A (client risk-screening): KILLED without a full validation pass** —
+  closed out early on a structural defamation/GDPR liability problem
+  inherent to publishing risk scores about real people/companies from a
+  €0, no-legal-review solo project; not a competitive-landscape issue.
+  See `research/client-risk-screening.md`.
+- **D (Gmail tracking-pixel blocker): KILLED**, confirming its own
+  discovery agent's "weak fallback" flag — two live-but-mediocre
+  incumbents, narrow audience, no paid-tier precedent, high solo-
+  maintenance burden. See `research/gmail-pixel-blocker.md`.
+
+**All four Run 3 candidates are dead.** See `MEMORY.md` for the
+compounding methodology lesson this produces (a second, independent
+confirmation that "passed initial discovery-agent screening" is not
+sufficient — a dedicated adversarial competitor re-search at validation
+time keeps surfacing entrants from the last ~6-12 months that the
+discovery pass missed) and the concrete redirection for the next
+discovery round.

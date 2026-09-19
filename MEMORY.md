@@ -4,7 +4,96 @@ CURRENT_PHASE: IDEA_DISCOVERY
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status (Run 2, 2026-09-18)
+## Current status (Run 3, 2026-09-19)
+
+**All 4 fresh Run 3 candidates are now dead. 10 candidates total have now
+been killed/pivoted across Runs 1-3 (six in Run 1/2, four in Run 3);
+zero have reached BUILDING with a valid owner-approved GO.** Full detail:
+`ideas/candidates.md` "STATUS UPDATE (Run 3)" section, and four reports in
+`research/`: `ai-slop-search-filter.md` (KILL — AGENT_PICK), `scope-creep-
+logger.md` (KILL — fallback), `client-risk-screening.md` (KILL — legal/GDPR
+exposure, closed without full validation), `gmail-pixel-blocker.md` (KILL —
+confirmed its own "weak fallback" flag).
+
+**Run 3's process was already corrected relative to Run 1/2's mistakes** —
+generated candidates via 3 parallel discovery agents each required to run
+an "already captured?" check as step 1 (not deferred to validation), then
+ran dedicated adversarial validation research (a separate, skeptical
+research pass instructed specifically to try to kill each top candidate)
+before writing any recommendation, and correctly wrote `KILL` recommendations
+with no self-approved GO. That discipline held. **The methodology still
+produced zero survivors, which is itself the important signal this run
+surfaces — read the compounding lesson below before the next discovery
+pass.**
+
+## Compounding methodology lesson (Run 3): discovery-time screening is necessary but not sufficient
+
+Run 3's discovery agents did run the "already captured?" check first, per
+Run 2's fix, and it worked as intended — it eliminated ~26 of ~30 tested
+ideas before they were ever written up (SSL monitoring, local SEO tools,
+freelance CRM, 10 evergreen calculator niches, 12 browser-extension
+annoyances, etc.). But for the 4 candidates that passed that first check,
+a **second, dedicated adversarial research pass at validation time** (not
+just re-confirming the discovery agent's findings, but actively hunting
+for competitors/failure modes the discovery pass didn't have time to find)
+still killed all 4 — and specifically by surfacing:
+- **New competitors launched within the last ~2-8 months** that a
+  same-session discovery search missed (AI Slop Filter/Blocker/SlopStop
+  for candidate C; StopScopeCreep.com, Scopey, ScopeShield for candidate
+  B) — confirming Run 2's "competitor evidence has a shelf life" lesson
+  applies not just across runs months apart, but even within a single
+  same-day discovery→validation pipeline, because live product launches
+  happen on a timescale of weeks, not months.
+- **Technical/structural flaws invisible from a market-research-only
+  lens** — candidate C's core mechanism (heuristic quality-scoring of
+  ~25-word SERP snippets without a live LLM call) was falsified by direct
+  evidence from an adjacent project that tried and rejected the same
+  approach; candidate A had a legal-exposure problem (defamation/GDPR)
+  that no amount of competitive differentiation could fix.
+- **A second directory/content research agent, independently, found that
+  evergreen "calculator/comparison" niches are not a safe harbor either**
+  — they're arguably MORE thoroughly mined than trigger-driven ideas,
+  because stable long-tail demand is exactly what the 10-15-year-old solo-
+  SEO/affiliate niche-site community targets. The instructive case:
+  AqAdvisor (aquarium stocking calculator), a 15-year incumbent with
+  well-documented rot, still had its gap closed by two new competitors
+  within about a year of the rot becoming complain-worthy. Evergreen gaps
+  get found and filled continuously, on a longer but still real timescale
+  (~months to a year) — treat "chronic and non-newsy" as lower-risk than
+  "just had a public trigger event," not as "safe."
+
+**Fix for the next discovery pass, concretely:**
+1. Treat a discovery agent's "already captured?" check as a first filter,
+   not a final answer — every candidate that survives discovery still
+   needs its OWN dedicated adversarial validation research pass (a fresh
+   agent instructed explicitly to try to kill it, searching specifically
+   for entrants from the last 6-12 months) before writing any
+   recommendation. This was done correctly in Run 3 and is why all 4 were
+   caught before BUILDING — keep doing this, it works, it's just not
+   sufficient at the discovery stage alone.
+2. Redirect the *kind* of idea searched for, per the three concrete
+   redirections a Run 3 research agent itself recommended after finding
+   evergreen consumer niches over-mined: (a) narrow B2B/vertical-SaaS
+   niches specific to one licensed profession in one small country/market
+   — small audience, real budget, too niche for consumer-facing SEO
+   players to bother with; (b) niches requiring ongoing manual data-
+   collection/maintenance labor that pure static-SEO builders avoid
+   (tension with "€0, no labor," but may be the actual moat — needs
+   honest scoping of how much labor is really required before committing);
+   (c) geographic-intersection niches — a chronic comparison/tool need
+   in a specific non-US-English-language market where the big English-
+   language incumbents found in Runs 1-3 don't localize.
+3. Before generating candidates at all, consider whether the discovery
+   methodology itself (an AI agent brainstorming ideas via web search) is
+   structurally likely to keep finding ideas other AI-agent-assisted indie
+   builders are *also* finding via the same method at the same time —
+   2026's tooling means idea-to-launch cycle time for a solo builder has
+   compressed to weeks, which is why "chronic pain, not a news trigger" no
+   longer buys as much safety margin as Run 2 assumed. This doesn't have
+   an easy fix yet; flagging it as an open problem for the next run to
+   think about, not just execute past.
+
+## Prior status (Run 2, 2026-09-18)
 
 **TrueGrade (Amazon review trust-checker extension) is KILLED.** Full
 re-validation and reasoning: `research/fake-review-trust-checker.md`
@@ -121,26 +210,36 @@ point with no dated news story attached is actually safer precisely
 because it doesn't attract a simultaneous rush of other builders the
 moment it becomes visible.
 
-## What's next this run
+## What's next this run (Run 3, closing)
 
 Out of runway for a fresh full discovery round in this same run (already
-a long session: one kill, one pivot, and four freshness-check
-eliminations). Next run's first job: generate 3-6 fresh candidates from
-scratch using the corrected methodology above — favor non-obvious,
-chronic pain points over reactive responses to a single public news
-event, and check for "already built" competitors as step 1 of research,
-not as a later validation surprise.
+covered: 3 parallel discovery agents generating and screening ~30 ideas,
+2 full dedicated adversarial-validation research passes, 2 fast
+structural kills — comparable total effort to Run 2's session). **Next
+run's first job: generate 3-6 fresh candidates using the redirected
+strategies above** (narrow single-profession/single-country B2B niches;
+niches with real ongoing maintenance labor as a moat; non-English
+geographic-intersection niches) rather than repeating the same
+"brainstorm a consumer pain point, screen it" pattern that has now
+produced zero survivors across 10 candidates in 3 runs. Also budget time
+for a dedicated adversarial validation research pass on whatever survives
+discovery-stage screening — that step is now proven to matter (it alone
+caught 2 of Run 3's 4 candidates that a discovery-stage check missed) and
+should not be skipped even under time pressure.
 
 ## Capital state
 
 €0 spent, €0 committed. No accounts created, nothing deployed, nothing
-published, no Chrome Web Store submission. This remains true after the
-TrueGrade kill — no capital was ever put at risk.
+published, no Chrome Web Store submission, no external service accounts.
+This remains true after all Run 3 kills — no capital was ever put at
+risk, and the two candidates involving real-world action beyond a browser
+extension (client risk-screening's public-data aggregation) were closed
+out specifically because they risked crossing into territory this project
+category shouldn't touch as a solo €0/no-legal-review operation.
 
 ## GitHub write access
 
-Resolved as of this run — `git pull`/fast-forward to `origin/main` and
-prior-run commits are visible, so the Run 1 "KNOWN BLOCKER" write-access
-issue is stale. If a future run hits the same 403 on `git push` or the
-GitHub MCP write tools, re-flag it; otherwise this section can be deleted
-once two consecutive runs confirm write access stays healthy.
+Confirmed healthy across Run 2 and Run 3 (this run's commits reached
+`origin/main` normally). The Run 1 "KNOWN BLOCKER" write-access issue is
+resolved and this section can be deleted next run if access stays healthy
+a third consecutive time.
