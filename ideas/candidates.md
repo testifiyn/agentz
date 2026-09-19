@@ -103,14 +103,120 @@ inconsistent numbers in two cases — treat exact figures as directional.
 A real validation pass on anything from this agent should re-verify via
 a different access route before relying on precise numbers.
 
-## AGENT_PICK: none — no candidate from Round 1 clears the bar
-
 All three agents converged independently on the same conclusion: the
 "brainstorm an obvious consumer/freelancer pain point, then check if it's
 taken" methodology is now producing systematically weak results, even
 across genuinely different niches (general freelancer ops, DE/UK
-consumer directories, mainstream-platform browser utilities). See
-`MEMORY.md` for the full reasoning and the redirected strategy for the
-next discovery round (already in progress in this same run — non-English
-vertical professional niches, very recent post-event gaps under 12 months
-old, and niches with a real ongoing-maintenance-labor moat).
+consumer directories, mainstream-platform browser utilities).
+
+## Round 2 (same day) — three redirected strategies
+
+### Non-English vertical B2B (regulated professions): 0 survivors
+
+Tested 7 profession×country pairs (Polish sworn translators, Czech court
+interpreters, Czech court experts, Spanish property managers, Polish
+driving instructors, Portuguese solicitadores, Dutch bailiffs) with
+in-language searches. **Every one already has either an official
+free tool from the profession's own regulator/chamber, a free grassroots
+tool built by a peer practitioner, or a mature commercial vertical SaaS
+serving it at low per-seat pricing.** Meta-finding: regulated professions
+with real compliance pain are exactly the populations motivated enough to
+already have built or bought a fix — regulation itself creates the
+incentive for someone (often the regulator) to close the gap fast.
+
+### Very recent (<4mo) trigger events: 0 strong survivors, 1 marginal
+
+Tested 4 genuinely recent 2026 triggers (GitHub Copilot metered billing,
+June 2026; Notion Mail shutdown, announced June 2026, dead Sept 22 2026;
+PromptPerfect shutdown, Sept 2026; OpenAI Assistants API deprecation,
+Aug 26 2026). **All saturated within 2-12 weeks of the trigger date** —
+PromptPerfect fastest at ~2-3 weeks (9 near-identical "alternative"
+wrapper sites already live), Copilot billing at ~10 weeks (7+ trackers
+plus GitHub's own native dashboard), Notion Mail at ~12 weeks (7+
+listicles plus a repositioned incumbent). **Key finding: recency no
+longer buys head start once a trigger is newsworthy/SEO-indexed — any
+"X is shutting down 2026" query already returns a content farm within
+weeks.** Marginal survivor: a free offline codemod CLI for OpenAI
+Assistants-API migration (no official migration tool exists, and the
+shim/proxy angle is taken but a pure static-analysis codemod isn't) — but
+the best-fit audience already hit the wall ~3 weeks before this research,
+leaving only a shrinking laggard pool, and monetization is thin (GitHub
+Sponsors / lead-gen at best). Not picked.
+
+### Maintenance-labor-moat niches: 1 real survivor, 1 conditional, 2 rejected
+
+Rejected: "best VPN for China" live-status tracker (real staleness
+problem, but already dominated by well-funded affiliate publishers —
+Gizmodo, TechRadar, CyberInsider — running continuous test panels a solo
+€0 builder can't out-resource); ad-blocker/Manifest-V3 compatibility
+tracker (real staleness during Chrome's MV3 rollout, but by Sept 2026
+this is a settled fact pattern, not fast-changing enough to sustain a
+moat). Conditional, not picked: developer "free tier" status tracker
+(real staleness evidence — outdated "free cloud hosting" listicles still
+describe AWS's pre-July-2025 tier — but an existing resource, Hatchable,
+already does this well and is current; would need a narrower wedge like
+free-tier LLM API credits specifically).
+
+**Survivor — "Living" Digital Nomad Visa Status Tracker — ★ AGENT_PICK
+for full adversarial validation.** Real, well-evidenced staleness problem:
+visa income thresholds are pegged to annually-revised local wage indices,
+so published figures go stale within a year; whole programs quietly die
+with no press release (Antigua & Barbuda's Nomad Digital Residence shut
+Nov 2025; Anguilla's official page "gone quiet... untouched for years";
+the Bahamas program "seemingly discontinued") yet still appear on
+aggregator lists. Nomad List itself draws documented complaints about
+outdated/inaccurate crowd-sourced data. MVP: static site with a
+version-controlled dataset, visible "last verified" date per country, and
+a free GitHub Actions change-detector polling official government source
+URLs weekly to flag updates for manual review (~3-5 hrs/week estimated
+maintenance labor). Monetization: SafetyWing/Genki nomad-insurance
+affiliate links, relocation-consultant referral fees, eventual "verified
+visa alert" newsletter. The research agent itself flagged the moat as
+"weak but real — not technical, behavioral": nothing stops another
+AI-agent builder from cloning the same playbook, the edge is that
+existing incumbents in this space are annual-refresh SEO content mills,
+not continuous primary-source monitors.
+
+**Important validation flag (from this project's own institutional
+memory, not from this research agent):** the general digital-nomad-visa-
+comparison concept was examined once before in this project's history —
+a now-deleted prior run found several close competitors (WhereToNomad,
+GlobalNomad.guide, and others) already running matching-by-income/tax/
+lifestyle filter tools. This round's proposed differentiator is
+different (a *living*, continuously-re-verified resource with visible
+"last verified" dates, not a matching filter), but the adversarial
+validation pass on this candidate MUST specifically re-check whether
+those or other incumbents already do continuous/dated freshness
+verification — if they do, the core differentiator collapses the same
+way it did for this project's previously-validated "automatic AI-slop
+detection" candidate, where the wedge looked open until a dedicated
+competitor re-check found it already filled.
+
+Proceeding to VALIDATING — see `research/nomad-visa-tracker.md`.
+
+## STATUS UPDATE: nomad-visa-tracker KILLED — confirms the flagged risk
+
+Adversarial validation confirmed the exact concern raised above: at least
+six named competitors (Discovery Sessions, NomadQualify, WhereNext,
+VisaDB.io, Enomads, Immigrant Invest/Passportivity) already display
+visible "last verified/updated" dates, one just two days more recent than
+this validation itself. The core differentiator ("existing resources are
+static, ours is visibly current") is factually false as a market
+description. Full report: `research/nomad-visa-tracker.md`. **This is the
+second time in this project's history a "incumbents are static, we'll be
+dynamic" wedge looked open at discovery time and collapsed under
+dedicated adversarial re-check** (the first was the AI-slop search
+filter, in now-deleted history) — worth treating as a standing pattern.
+
+**All candidates from both Round 1 and Round 2 are now dead.** Ten
+distinct redirected strategies have now been tried in this single day
+(post-reset): general micro-SaaS, DE/UK evergreen comparisons, mainstream
+browser extensions, non-English vertical B2B professions, very-recent
+(<4mo) trigger events, and maintenance-labor-moat niches. None produced a
+survivor that held up under dedicated adversarial validation. See
+`MEMORY.md` for the full status and the Round 3 redirection (combining
+two specific suggestions from Round 2's own research agents: a narrow
+cross-profession utility tied to a <12-month regulatory/technical change
+that requires genuine engineering effort to address, not a thin wrapper —
+targeting the gap between "too recent to be cloned yet" and "requires
+real work, so clones are slower").
