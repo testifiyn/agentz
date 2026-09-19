@@ -220,3 +220,53 @@ cross-profession utility tied to a <12-month regulatory/technical change
 that requires genuine engineering effort to address, not a thin wrapper —
 targeting the gap between "too recent to be cloned yet" and "requires
 real work, so clones are slower").
+
+## Round 3 — engineering-effort-moat regulatory niches: 0 survivors
+
+Tested 4 candidates tied to recent (within ~12 months) regulatory/
+technical changes requiring genuinely nontrivial engineering, not a thin
+wrapper:
+
+1. **EU Cyber Resilience Act vulnerability reporting** (live 11 Sept
+   2026) — real engineering complexity (SBOM parsing, OSV/CISA-KEV
+   matching, Art.14 report generation), but **7+ GitHub repos already
+   shipped compliance tools within ~8 days of the deadline** — the clone
+   wave adapted to "hard" engineering, just taking ~1 week instead of
+   2-3.
+2. **EUDR geolocation/due-diligence for micro importers** — real
+   complexity (GeoJSON/KML parsing, deforestation-raster overlay), killed
+   three ways at once: a free complete toolkit already exists (Preferred
+   by Nature), a free no-signup validator already exists (Silvatrace),
+   and a regulatory simplification just let the smallest operators skip
+   geolocation data entirely, removing the exact complexity a tool would
+   monetize.
+3. **DAC8/CARF crypto-asset tax reporting** (in force 1 Jan 2026) — the
+   one candidate with a plausible residual competitive gap (existing
+   vendors are enterprise-tiered), but rejected on trust/market-size
+   grounds: regulated financial entities won't file tax reports through
+   an unaccountable solo/AI-built tool, and the addressable market
+   (~300 MiCA-licensed firms post-consolidation) is too thin for €0
+   organic distribution.
+4. **EU PPWR recyclability grading / UK packaging EPR fees** — dead on
+   both counts: the EU methodology isn't even defined yet (deferred to
+   2028), and the UK version was saturated by multiple calculators the
+   moment its fee schedule published.
+
+**Verdict: 0 survivors, and a sharper version of the standing lesson.**
+Engineering complexity does not buy meaningfully more runway than a thin
+wrapper does — it only shifted the clone-saturation window from ~2-3
+weeks to ~1-2 weeks in the one case with real complexity (CRA). The
+research agent's own conclusion: "complexity seems to only shift the
+clone-saturation window... not to months." Recommends the next search
+either target changes too obscure to be publicly countdown-clocked (no
+swarm trigger), or abandon the regulatory-trigger axis entirely.
+
+## Summary: 11 discovery strategies tried in one day, zero survivors
+
+Round 1 (3 strategies) + Round 2 (3 strategies) + Round 3 (1 strategy,
+4 sub-candidates) + the original Run 1-3 history before today's reset
+(6 more strategies, now deleted but summarized in `MEMORY.md`) = 11
+distinct angles tried today alone, all killed either at discovery-stage
+screening or at dedicated adversarial validation. See `MEMORY.md` for the
+full structural read and recommended next steps for the owner's
+attention.
