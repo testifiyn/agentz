@@ -4,7 +4,31 @@ CURRENT_PHASE: IDEA_DISCOVERY
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status (2026-09-20): first real survivor across 20 tried strategies, but blocked on an unresolved legal-liability question — not yet GO or KILL
+
+Round 4 (this run, a new day, no owner input received) deliberately tested
+two business-model axes the prior day's 11 killed strategies hadn't
+touched: content/newsletter/community-curation (0/9 survivors — killed by
+a *different*, compressed-to-years incumbency problem: every niche
+already has an established expert newsletter, a >10k-member trade
+association, or a vendor content-marketing swarm occupying the "trusted
+curator" role) and productized-service (1/9 survivor). The survivor — a
+manual candidate-identity/fraud-vetting concierge for small startups
+hiring remote workers, addressing the real and evidenced 2026 DPRK-fake-
+employee fraud wave — is the first candidate across 4 discovery rounds
+whose clone-resistance argument held up under adversarial pressure (the
+race it creates is reputation-building over time, not forking a repo).
+**It is not yet approved to build.** It carries a serious, unresolved
+legal-liability flag: the service likely qualifies as a "Consumer
+Reporting Agency" under the U.S. FCRA, which would impose statutory
+damages, mandatory disclosures, and dispute/adverse-action procedures a
+€0 solo operator cannot currently implement correctly. Per the HARD
+SAFETY BOUNDARY (never create uncontrolled legal/financial liability for
+the owner), this must be resolved by dedicated legal-risk research before
+any adversarial validation of demand/distribution/monetization proceeds
+further. Full detail in `ideas/candidates.md`.
+
+### Prior day: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code

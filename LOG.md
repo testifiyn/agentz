@@ -38,3 +38,22 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-20T06:10:00Z (scheduled run, no live owner input received) — Round 4: first survivor, blocked on legal risk
+
+**Phase at start:** IDEA_DISCOVERY (prior day: 11/11 strategies killed)
+**Phase at end:** IDEA_DISCOVERY (1 candidate promoted to adversarial validation, legal-risk question first — not GO, not KILL)
+
+**What I did:**
+- Loaded state per protocol (git pull/fetch, read MEMORY.md, LOG.md, ideas/candidates.md, ideas/decision.md — no owner override present). New day, no live user input since the last scheduled firing, so proceeded autonomously per the project's standing instruction that discovery/research/kill decisions don't need a stop-and-ask gate.
+- Deliberately targeted the two untested business-model axes the prior day's own recommendation had flagged (content/community model; productized-service model), specifically because both structurally avoid the "clonable software artifact" shape that killed all 11 prior strategies. Ran two parallel research agents, each required to explicitly reason about clone-resistance and to report zero survivors honestly if that's what the evidence showed.
+- Also fixed a minor repo-hygiene issue: added `.gitignore` for `.claude/worktrees/`, local git-worktree infrastructure the Agent tool creates for background agents, which a stop-hook flagged as untracked (not project content, correctly excluded rather than committed).
+- **Content/community agent**: 9 professional/hobbyist niches tested, 0 survivors. New structural finding distinct from the clone-speed problem: every niche already has a long-established expert newsletter, a large trade association delivering the same curation as a membership benefit, or a vendor content-marketing swarm with no pressure to monetize — a compressed-to-*years* incumbency problem, not compressed-to-weeks.
+- **Productized-service agent**: 9 candidates tested, 8 killed at discovery stage (saturated markets, or structural blockers like PI-licensing requirements or ethics-rule bans on contingency fees). 1 survivor: a manual candidate-identity/fraud-vetting concierge for small startups hiring remote workers, addressing the evidenced 2026 DPRK-fake-employee fraud wave (DOJ indictments, Fortune reporting, Gartner projections). First candidate across 4 rounds whose clone-resistance argument survived adversarial pressure — but the agent itself flagged a serious, unresolved U.S. FCRA consumer-reporting-agency liability risk that could be fatal, and recommended resolving that before any other validation work.
+- Wrote up both axes' full findings in `ideas/candidates.md` and rewrote `MEMORY.md`'s status section to reflect the survivor and its blocking risk, per the HARD SAFETY BOUNDARY against creating uncontrolled legal/financial liability for the owner.
+
+**What's next:**
+- Dedicated legal-risk research pass on the surviving candidate: does this service design actually trigger FCRA "consumer reporting agency" status; is there a redesign (e.g., non-employment business-partner/vendor trust verification, or a scope limited to identity/consistency facts rather than a hire/no-hire risk judgment) that avoids CRA status without destroying the evidenced demand; are there equivalent EU/UK data-protection blockers for non-US customers. This determines GO/KILL — not distribution or demand, which look comparatively solid per the research agent.
+- Commit, push. No owner notification yet — will notify once the legal-risk question resolves to either a validated GO candidate or a kill, since a mid-validation status update isn't yet a decision worth interrupting the owner for.

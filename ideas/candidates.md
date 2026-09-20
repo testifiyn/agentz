@@ -270,3 +270,119 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-09-20, new day) — two untested business-model axes
+
+Per the prior day's own recommendation, this round deliberately avoided
+every previously-tried angle (all software-product-shaped: SaaS, browser
+extensions, directories, regulatory tools) and tested two structurally
+different business models, each required to explicitly reason about why
+it would resist the "AI-assisted clone ships within days-to-weeks"
+pattern that killed all 11 prior strategies. Two parallel agents, one per
+axis.
+
+### Content / newsletter / community-curation axis: 9 niches tested, 0 survivors
+
+Tested: independent pharmacy owners (PBM/drug-shortage economics), HOA
+board members, self-storage operators, small residential landlords
+(state rent-control tracking), volunteer fire/EMS departments (grant
+funding), small importers (2026 tariff/refund chaos), small nonprofit
+EDs (federal funding cuts), short-term-rental hosts (city regulation
+tracking), craft brewery/distillery owners (TTB/excise tax).
+
+**New structural finding, distinct from the clone-speed problem:** every
+niche was already occupied by one of three incumbent types, each a
+*harder*, not easier, moat than a clonable SaaS artifact: (1) an
+established subject-matter-expert newsletter with a large loyal base
+built over 10-15+ years (e.g. pharmacy/PBM economics is owned by "Drug
+Channels," 100,000+ subscribers since the 2000s); (2) a dominant trade
+association delivering the same curation as a membership benefit (HOA →
+Community Associations Institute, 51,000 members; craft brewers →
+Brewers Association); (3) a swarm of vendor content-marketing operations
+that produce the same curation for free as a customer-acquisition funnel
+for their own software, and therefore face zero pressure to monetize the
+content itself and will always outspend/out-frequency an independent
+paid newsletter. Two near-misses (small-importer tariff-refund
+newsletter; volunteer-fire-EMS grant digest) were explicitly rejected,
+not marginally accepted — the first is already a saturated recent-trigger
+niche (two live competing Substacks found) with no identifiable
+first-100-readers seed community, the second has a real content gap but
+target readers (unpaid volunteer fire chiefs, <$50k department budgets)
+have no ability to pay and the plausible sponsor pool already reaches
+them directly via trade-show channels.
+
+**Lesson carried forward:** this is a compressed-to-*years* incumbency
+problem, not the compressed-to-*weeks* clone problem — screen future
+content-axis candidates by ruling out any niche that already has (a) a
+commercial software vendor selling into it, or (b) a national/professional
+trade association with >10k members; both were found without exception
+across all 9 tests.
+
+### Productized-service axis: 9 candidates tested, 1 survivor with a serious unresolved legal-risk flag
+
+Killed at discovery stage (saturated, or a structural monetization/
+regulatory blocker): grant writing for nonprofits (saturated by agencies
++ AI tools; contingency fees explicitly barred by Grant Professional
+Association ethics rules); unclaimed-property/heir-finder service
+(mature crowded niche; many states require PI licensing to solicit
+heirs); rental-scam verification for international students (already
+served by named competitors Secureprop.com and StudentsLanding); vetted-
+offshore-VA background checks (already the core marketed feature of
+every VA staffing agency, e.g. Virtual Coworker's "FBI-grade background
+checks"); China sourcing-agent/factory verification (fully mature market,
+"thousands" of existing agents per the research agent's own search);
+AI-fact-checking-as-a-service (already served by both software —
+Originality.ai, Winston AI — and existing Fiverr gigs); deepfake/AI-
+candidate-detection as a standalone product (already a venture-funded
+software race — GetReal Security, Tofu, Socure, Endorsed — moving in
+months not weeks, the same clone-speed trap wearing a fraud-detection
+costume; also human manual detection is documented as *worse* than
+tooling here, 55.54% accuracy in one meta-analysis, undercutting the
+core "human judgment beats software" thesis for this specific angle).
+
+**Survivor — manual candidate-identity/fraud-vetting concierge for small
+startups hiring remote workers.** Real, well-evidenced, currently-
+accelerating problem: DOJ has indicted 14 DPRK nationals over $88M
+funneled through fake U.S. tech jobs across 300+ companies; a founder
+told Fortune ~95% of resumes he receives are from North Korean engineers
+posing as Americans; Gartner projects 1-in-4 job applicants will be fake
+by 2028. No affordable per-candidate manual vetting product was found
+serving the small-startup segment specifically (enterprise identity-
+verification SaaS and full-service staffing agencies are both wrong-
+sized for a solo founder's one-off hire) — though the agent flags this
+absence-of-competitor finding as genuinely unverified (Fiverr/Upwork gig
+listings could not be directly browsed). Service design: OSINT cross-
+referencing + a live adaptive video interview + reference calls +
+24-48h red/yellow/green risk memo, flat fee ($99-249 range plausible),
+€0-feasible to start. Distribution: r/startups, r/EntrepreneurRideAlong,
+Indie Hackers, YC Startup School, Wellfound community — contributing real
+value to threads already discussing fake-candidate fraud before pitching.
+**Clone-resistance reasoning (the first candidate across all 4 rounds
+whose argument didn't immediately collapse under adversarial pressure):**
+this doesn't compete on detection technology (no ML edge over funded
+competitors) but on being a cheap, no-integration, trust-based human
+gut-check for a buyer segment too small for both enterprise SaaS and
+staffing-agency sales motions — a clone of this is another person
+building their own reputation and case history from zero, a fundamentally
+slower race than forking a repo. The agent is explicit that the
+process/checklist itself is trivially copyable; the moat is reputation
+built through delivered cases, which doesn't exist at launch.
+
+**Serious unresolved risk, potentially fatal:** this service likely
+qualifies as a "Consumer Reporting Agency" function under the U.S. FCRA
+(which defines a CRA by function — "assembles or evaluates information
+on individuals... for employment decisions" — regardless of how the
+provider labels itself), triggering statutory damages up to $1,000/
+violation plus class-action exposure, mandatory consumer disclosures,
+dispute rights, and adverse-action procedures a solo €0 operator has no
+budget to implement correctly. The research agent could not rule this
+out and flagged it as the single question to resolve before anything
+else — including whether reframing as non-employment "business-partner/
+vendor trust verification" avoids FCRA's employment-purpose trigger
+without destroying the evidenced demand (which is specifically about
+employment fraud).
+
+**Status: promoted to dedicated adversarial validation, legal-risk
+question first**, per both the research agent's own recommendation and
+this project's HARD SAFETY BOUNDARY (no creating uncontrolled legal/
+financial liability for the owner). Not yet a GO or a KILL.
