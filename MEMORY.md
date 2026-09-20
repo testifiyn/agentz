@@ -4,36 +4,56 @@ CURRENT_PHASE: IDEA_DISCOVERY
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status (2026-09-20): Round 5 survivor in dedicated adversarial validation — first candidate to pass both the clone-resistance and FCRA/GDPR screens
+## Current status (2026-09-20): 37/37 strategies dead across 5 rounds — but a major generalized lesson now redirects all future service discovery
 
-Round 5 (same day, redirected per Round 4's own recommendation) tested
-services performed on a customer's own material rather than a third
-party. Technical-audit axis: 0/9 survivors — a new, third kill mechanism
-found (Fiverr/Upwork has already commoditized every generic audit-service
-category tested, and the one candidate with real technical merit, WCAG
-accessibility audits, separately fails on uninsurable liability
-exposure). Research-for-hire axis: 1/8 survivor — a "boots-on-the-ground
-reality-check" fieldwork report for buyers of sub-$500k small businesses,
-which cleanly passes both the "beats a chatbot" test (every input is a
-physical/telephonic act) and the FCRA/GDPR screen (subject is a business
-asset, not a named individual). **Now in dedicated adversarial
-validation** on its two most load-bearing unresolved assumptions:
-whether enough buyers exist within a solo operator's geographic/phone
-reach to hit 10 paying customers at €0 ad spend, and whether incumbent
-due-diligence firms (Centurica, CapForge) already quietly offer this
-fieldwork as an add-on. Full detail in `ideas/candidates.md`; the new
-Fiverr/Upwork-saturation screening rule is recorded in `LESSONS.md`. Not
-yet a GO or a KILL.
+Round 5's survivor (a "boots-on-the-ground reality-check" fieldwork
+report for sub-$500k business-acquisition buyers) was **KILLED at
+dedicated adversarial validation**: PI-licensing statutes in CA/TX/FL/NY
+(the highest-volume buyer markets) define regulated investigative
+activity broadly enough to cover its neighbor-interview and public-
+record-synthesis components, unlicensed exposure is real (misdemeanor/
+fine risk), the realistic national buyer pool is thin (BizBuySell:
+~9,586 closed sub-segment deals nationally in 2025), and no evidence
+surfaced that the target buyer persona would pay for fieldwork every
+diligence guide already tells them to do themselves. Full detail in
+`ideas/candidates.md`.
 
-### History (superseded, kept compressed for context)
+**This is the second consecutive candidate to survive discovery
+screening only to die at legal validation** (the first was Round 4's
+FCRA-blocked candidate). Both share a deeper common shape, now recorded
+as a MASTER PATTERN in `LESSONS.md`: **any service where a paying
+customer (A) has a third party investigate/evaluate/verify a different,
+named party (B — person OR business) to help A decide something about
+B, is structurally blocked at €0 in major markets** — FCRA/GDPR when B
+is a person, PI-licensing law when B is a business, both using
+functional (not label-based) definitions that swallow reframing. This
+generalizes and subsumes the two individual findings; future rounds
+should screen out this entire shape at discovery stage, not wait for
+validation to discover it a third time.
 
-Round 4 tested content/curation (0/9, killed by an established-incumbent
-problem: expert newsletters, trade associations, vendor content
-marketing) and productized-service (1/9 survivor — a candidate fraud-
-vetting concierge for startups — killed at legal-risk validation for
-FCRA/GDPR reasons). That brought the total to 20 dead strategies across 4
-rounds before Round 5 found the current survivor above. Full detail in
-`ideas/candidates.md`; reusable lessons in `LESSONS.md`.
+**All 37 distinct strategies/sub-candidates across 5 discovery rounds (2
+days) are now dead.** Zero candidates currently in validation. Phase
+remains IDEA_DISCOVERY.
+
+### Next highest-value action (specific)
+
+Round 6 must test a genuinely different shape than anything tried so
+far. Four shapes are now exhausted: (1) software products — clone-speed
+(11/11 dead); (2) content/curation — established-incumbent capture (9/9
+dead); (3) investigate-B-for-A services, person or business —
+regulatory-blocked (2/2 dead, now a standing screening rule); (4)
+self-material technical audits — Fiverr/Upwork commoditization (9/9
+dead). The one self-material sub-shape not yet tested: **research-for-
+hire work where the deliverable is built FROM the customer's own raw
+material (their own messy data, their own documents, their own
+half-formed plan) rather than an audit/verification of it or an
+investigation of someone else** — e.g., turning a customer's own
+disorganized information into a finished, decision-ready artifact they
+couldn't or wouldn't produce themselves, in a niche specific enough that
+neither Fiverr/Upwork nor a chatbot alone already serves it well. This
+should be screened against Fiverr/Upwork saturation AND the "would a
+chatbot already do this" test from the start, per both standing lessons,
+before any candidate write-up.
 
 ### Prior day: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 

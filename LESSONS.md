@@ -69,6 +69,58 @@ toward services where the customer is investigating *themselves* /
 their own material (which doesn't implicate third-party consumer-report
 law the same way).
 
+## 2026-09-20 — MASTER PATTERN: any service where party A pays to have party B investigated/evaluated, to help A decide something about B, is structurally blocked at €0 in major markets — regardless of whether B is a person or a business
+
+**Context:** two separate Round 4/5 candidates independently converged on
+the same underlying legal shape and were both killed by it, via two
+*different* statutes, discovered separately before this pattern was
+named:
+1. A candidate-fraud-vetting concierge (party A = a startup, party B = a
+   job candidate) — killed by FCRA (federal, person-specific).
+2. A "reality-check" fieldwork report for small-business buyers (party A
+   = the buyer, party B = the target business being bought) — killed by
+   state private-investigator licensing law (CA/TX/FL/NY all define
+   regulated investigative activity, near-identically, as investigation
+   *for hire* into the "business," "reputation," "character," "conduct,"
+   or "transactions" of a "person" — and every one of those states'
+   statutory definition of "person" explicitly includes corporations/
+   LLCs/business entities, not just individuals). Licensing requires
+   years of documented investigative experience, exams, and bonding —
+   not obtainable at €0 in any reasonable timeframe, and operating
+   unlicensed carries real misdemeanor/fine exposure (up to $5,000 and/or
+   1 year in jail in California alone).
+
+**The generalized rule:** it does not matter whether the investigation
+subject is a named individual (FCRA/GDPR territory) or a named business
+entity (PI-licensing territory in most major US states) — the trigger is
+the *shape* of the transaction: a paying customer (A) commissions a
+third party to investigate, evaluate, or verify claims about a *different,
+named* party (B), in order to help A make a decision about B. This shape
+is regulated, expansively and near-identically, across federal consumer-
+protection law and state investigative-licensing law, and neither
+regulatory regime cares how the service is labeled (report, memo,
+advisory, consulting, fieldwork, reality-check) — both use functional,
+substance-over-form definitions that swallow reframing attempts.
+
+**Implication — screen out at discovery stage, do not wait for
+validation:** any future service candidate of the shape "customer A pays
+us to check up on / verify / investigate / vet / audit *someone or
+something A doesn't own or control*, so A can decide whether to
+hire/buy/rent/date/lend-to/partner-with/invest-in it" should be treated
+as presumptively dead on regulatory grounds before spending research time
+on demand or competition. This is now the umbrella rule that subsumes
+the FCRA/GDPR finding above and generalizes it to businesses, not just
+individuals. The one shape that reliably avoids it (see the
+Fiverr-saturation lesson below) is a service performed ON THE CUSTOMER'S
+OWN material/property/decision, at the customer's own request, for the
+customer's own use — e.g. auditing the customer's own website, not
+someone else's business; helping a customer analyze their own numbers,
+not verify a third party's claims about themselves. That shape has real,
+different failure modes (commoditization, thin differentiation vs. free
+tools/chatbots) — but not this one.
+
+---
+
 ## 2026-09-20 — Any generic "manual audit of a business's own website/code/data" service must be screened against Fiverr/Upwork/Freelancer before write-up — this saturation is as disqualifying as a GitHub clone
 
 **Hypothesis:** Services performed on a customer's own material (technical

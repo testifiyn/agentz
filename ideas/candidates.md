@@ -499,6 +499,39 @@ neighbor-interview and public-record-search components trip private-
 investigator licensing requirements (mystery-shopping itself is already
 established as legal/unlicensed).
 
-**Status: promoted to dedicated adversarial validation**, focused first
-on the geographic-density/customer-volume assumption and the incumbent-
-add-on question, per the research agent's own recommendation.
+**Status: KILLED.** Dedicated adversarial validation found: (1)
+**geographic/volume risk confirmed real** — BizBuySell recorded only
+9,586 closed sub-segment transactions nationally in 2025 across 70+
+tracked metros (~100-150/metro/year), and no data source could establish
+what fraction of buyers would pay a stranger for fieldwork most buyer-
+diligence guides explicitly instruct them to do themselves, leaving a
+plausible pool of single digits to a few dozen realistic customers/year
+per metro at zero ad spend; (2) incumbent-add-on concern did NOT kill it
+— Centurica/CapForge/SMBDiligence/DueDilio are confirmed financial/
+legal/QoE-only, and DueDilio's own buyer-guide content tells buyers to do
+site visits themselves rather than offering it as a service; (3)
+**PI-licensing risk confirmed and independently fatal** — California
+(BPC §7521), Texas (Occ. Code §1702.104), Florida (§493.6101), and New
+York (GBS §71) all define regulated investigative activity, in
+near-identical model-act language, as investigation for hire into the
+"business, reputation, character, conduct, or transactions" of a
+"person" — and each state's definition of "person" explicitly includes
+corporations/LLCs. The neighbor-interview and public-record-synthesis
+components (not the mystery-shopping alone, which has a narrower
+carve-out in some states) squarely match this language. Unlicensed
+exposure includes real misdemeanor/fine risk (up to $5,000 and/or 1 year
+in California), and the four states checked are exactly the
+highest-volume buyer markets per BizBuySell's own report — removing them
+guts an already-thin national pool. (4) No positive evidence found that
+the target buyer persona (frugal, hands-on, already instructed by every
+diligence guide to do this fieldwork personally) would actually pay for
+it rather than DIY it — the "beats a chatbot" framing never tested
+against the real alternative, which is "do it yourself for free," not
+"ask an AI."
+
+**All candidates across all 5 discovery rounds (37 distinct strategies/
+sub-candidates) are now dead.** This is the second consecutive candidate
+to survive discovery-stage screening only to be killed at dedicated legal
+validation, and the two kills share a deeper common shape — see the new
+MASTER PATTERN lesson in `LESSONS.md`, which now redirects all future
+service-model discovery.
