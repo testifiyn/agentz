@@ -382,7 +382,27 @@ vendor trust verification" avoids FCRA's employment-purpose trigger
 without destroying the evidenced demand (which is specifically about
 employment fraud).
 
-**Status: promoted to dedicated adversarial validation, legal-risk
-question first**, per both the research agent's own recommendation and
-this project's HARD SAFETY BOUNDARY (no creating uncontrolled legal/
-financial liability for the owner). Not yet a GO or a KILL.
+**Status: KILLED on legal-risk grounds.** Dedicated validation confirmed
+the risk was real and unmitigable at €0: 15 U.S.C. §1681a's functional
+(not label-based) definition of a "consumer reporting agency," the FTC's
+1999 Vail advisory opinion (an outside law firm doing a misconduct
+*investigation* was still ruled a CRA — Congress had to carve out a
+narrow statutory exception, §1681a(y), for misconduct investigations
+specifically, which doesn't cover general hiring vetting), and the
+CFPB's Nov 2024 Circular 2024-06 (addressing this exact fact pattern:
+third-party background dossiers/risk scores sold for hiring decisions)
+all converge on the same conclusion. There is no clean "pure
+verification, not evaluation" escape hatch — fact-verification-only is
+itself the classic CRA product line — and the "advisory to the founder,
+not a report on the candidate" reframe is exactly the kind of
+substance-over-form distinction FTC/courts have already rejected in
+analogous cases. A genuinely compliant version is theoretically
+buildable but requires legal counsel, ongoing dispute/accuracy
+infrastructure, and insurance this €0 project doesn't have; a genuinely
+non-CRA version (abstract interview coaching with no candidate-specific
+findings conveyed) guts the evidenced demand. GDPR adds independent,
+non-overlapping exposure for any EU/UK-based candidate — near-certain in
+a global remote-hiring pool — so restricting to non-US customers isn't a
+workaround either. **All candidates across all 4 discovery rounds (20
+distinct strategies/sub-candidates) are now dead.** See `MEMORY.md` for
+the generalized lesson this produces for future discovery.

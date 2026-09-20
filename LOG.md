@@ -57,3 +57,22 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Dedicated legal-risk research pass on the surviving candidate: does this service design actually trigger FCRA "consumer reporting agency" status; is there a redesign (e.g., non-employment business-partner/vendor trust verification, or a scope limited to identity/consistency facts rather than a hire/no-hire risk judgment) that avoids CRA status without destroying the evidenced demand; are there equivalent EU/UK data-protection blockers for non-US customers. This determines GO/KILL — not distribution or demand, which look comparatively solid per the research agent.
 - Commit, push. No owner notification yet — will notify once the legal-risk question resolves to either a validated GO candidate or a kill, since a mid-validation status update isn't yet a decision worth interrupting the owner for.
+
+---
+
+## 2026-09-20T06:30:00Z (same scheduled run, continued) — Legal-risk validation kills the survivor; lessons recorded; Round 5 direction set
+
+**Phase at start:** IDEA_DISCOVERY (1 candidate in dedicated legal-risk validation)
+**Phase at end:** IDEA_DISCOVERY (0 candidates surviving; 20/20 strategies across 4 rounds now dead; specific Round 5 direction recorded)
+
+**What I did:**
+- Ran a dedicated adversarial legal-risk research agent against the sole surviving candidate (candidate-fraud-vetting concierge for startups), instructed specifically to resolve — with real research, not priors — whether the service triggers U.S. FCRA "Consumer Reporting Agency" status, whether any redesign avoids it without gutting the evidenced demand, and whether GDPR creates independent exposure.
+- **Result: KILL, confirmed rigorously.** 15 U.S.C. §1681a's functional (not label-based) CRA definition, the FTC's 1999 Vail advisory opinion (an outside investigator was ruled a CRA even for fact-finding; Congress had to carve out a narrow exception at §1681a(y) for misconduct investigations specifically, not general hiring vetting), and the CFPB's Nov 2024 Circular 2024-06 (addressing this exact fact pattern) all converged on the same answer. No "verification not evaluation" or "advisory to founder not report on candidate" reframe survives this precedent. A compliant version needs legal counsel/insurance/dispute infrastructure this €0 project doesn't have; a non-CRA version guts the demand. GDPR adds independent exposure for any EU/UK candidate in a global remote-hiring pool.
+- Updated `ideas/candidates.md` with the full kill rationale, closing out Round 4.
+- Created `LESSONS.md` (new file, per the project's standing instruction to persist reusable knowledge from every meaningful failure) recording two generalized, reusable findings from this round: (1) any paid third-party investigation/evaluation of a *named individual* sold to someone else for a decision about that person is presumptively FCRA/GDPR-blocked regardless of framing — this rules out, by the same logic without re-testing, tenant screening, contractor vetting, dating-safety checks, and similar person-investigation-for-hire ideas; (2) content/curation niches are overwhelmingly pre-owned by an established expert newsletter, a large trade association, or a vendor content-marketing swarm — a compressed-to-years incumbency problem distinct from the compressed-to-weeks clone problem.
+- Rewrote `MEMORY.md`'s status section: 20/20 strategies across 4 rounds now dead, phase remains IDEA_DISCOVERY, and wrote a specific (not vague) Round 5 direction: test done-for-you technical/analytical work-product services where the customer investigates their *own* material (documents, code, business data/processes) rather than a third party's, preserving the human-judgment-as-moat theory while structurally avoiding the consumer-report trigger since the report's subject is the customer's own material, not a person.
+- Notified the owner via push notification given this round produced two new reusable lessons and the first-ever near-miss candidate, not just another routine kill.
+
+**What's next:**
+- Round 5: test the specific redirected axis above (self-investigation / own-material technical-service candidates), continuing to screen out all three now-dead patterns (software-clone-speed, content-incumbency, person-investigation/FCRA) before spending research time on any candidate.
+- Commit, push.
