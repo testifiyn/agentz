@@ -4,56 +4,36 @@ CURRENT_PHASE: IDEA_DISCOVERY
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status (2026-09-20): 20/20 strategies now dead — but this round produced two genuinely new, reusable lessons, not just another kill
+## Current status (2026-09-20): Round 5 survivor in dedicated adversarial validation — first candidate to pass both the clone-resistance and FCRA/GDPR screens
 
-Round 4 (this run, a new day, no owner input received) deliberately tested
-two business-model axes the prior day's 11 killed strategies hadn't
-touched: content/newsletter/community-curation (0/9 survivors — killed by
-a *different*, compressed-to-years incumbency problem: every niche
-already has an established expert newsletter, a >10k-member trade
-association, or a vendor content-marketing swarm occupying the "trusted
-curator" role) and productized-service (1/9 survivor, the first candidate
-across 4 rounds whose clone-resistance argument held up under adversarial
-pressure). That survivor — a manual candidate-identity/fraud-vetting
-concierge for small startups hiring remote workers, addressing the real
-and evidenced 2026 DPRK-fake-employee fraud wave — was then **KILLED at
-dedicated legal-risk validation**: it structurally triggers U.S. FCRA
-"Consumer Reporting Agency" status (confirmed via statute, FTC's 1999
-Vail advisory-opinion precedent, and the CFPB's Nov 2024 Circular
-2024-06 addressing this exact fact pattern), with no compliant version
-buildable at €0 capital and independent GDPR exposure on top. Full detail
-in `ideas/candidates.md`; the generalized, reusable version of both
-lessons (a new regulatory-risk screening rule for person-investigation
-services, and the content-axis incumbency pattern) is now recorded
-permanently in `LESSONS.md` so future rounds don't re-spend agent-hours
-re-discovering either.
+Round 5 (same day, redirected per Round 4's own recommendation) tested
+services performed on a customer's own material rather than a third
+party. Technical-audit axis: 0/9 survivors — a new, third kill mechanism
+found (Fiverr/Upwork has already commoditized every generic audit-service
+category tested, and the one candidate with real technical merit, WCAG
+accessibility audits, separately fails on uninsurable liability
+exposure). Research-for-hire axis: 1/8 survivor — a "boots-on-the-ground
+reality-check" fieldwork report for buyers of sub-$500k small businesses,
+which cleanly passes both the "beats a chatbot" test (every input is a
+physical/telephonic act) and the FCRA/GDPR screen (subject is a business
+asset, not a named individual). **Now in dedicated adversarial
+validation** on its two most load-bearing unresolved assumptions:
+whether enough buyers exist within a solo operator's geographic/phone
+reach to hit 10 paying customers at €0 ad spend, and whether incumbent
+due-diligence firms (Centurica, CapForge) already quietly offer this
+fieldwork as an add-on. Full detail in `ideas/candidates.md`; the new
+Fiverr/Upwork-saturation screening rule is recorded in `LESSONS.md`. Not
+yet a GO or a KILL.
 
-**All 20 distinct strategies/sub-candidates tried across 4 discovery
-rounds (2 days) are now dead.** Zero candidates currently in validation.
-Phase remains IDEA_DISCOVERY; a 5th round is needed.
+### History (superseded, kept compressed for context)
 
-### Next highest-value action (specific, not "keep researching")
-
-Round 5 should test a **third, still-untested axis**, now screening out
-three known-dead patterns before spending research time on any candidate:
-(1) software-product-shaped ideas (clone-speed problem, 11/11 dead), (2)
-content/curation niches already owned by an established newsletter or
->10k-member trade association or vendor content-marketing swarm (9/9
-dead), (3) any paid service that investigates/scores a *named individual*
-for a third party's decision about that person — hiring, tenancy, dating
-safety, lending, insurance — regardless of framing (FCRA/GDPR-shaped,
-1/1 tested and dead, but the underlying legal logic generalizes to the
-whole category per `LESSONS.md`). Concretely, redirect toward: services
-where the customer investigates their own material rather than a third
-party's, or where the deliverable concerns non-personal subject matter
-(documents, code, market/financial data, business processes) rather than
-a risk judgment about a person. A plausible concrete redirection not yet
-tested: done-for-you technical/analytical work-product services (e.g.
-manual data cleanup, structured research-for-hire, technical audits of
-a company's *own* systems/documents/code rather than of a person) —
-this preserves the "human judgment as moat" theory while avoiding the
-consumer-report trigger entirely, since the subject of the report is the
-customer's own material, not a third party.
+Round 4 tested content/curation (0/9, killed by an established-incumbent
+problem: expert newsletters, trade associations, vendor content
+marketing) and productized-service (1/9 survivor — a candidate fraud-
+vetting concierge for startups — killed at legal-risk validation for
+FCRA/GDPR reasons). That brought the total to 20 dead strategies across 4
+rounds before Round 5 found the current survivor above. Full detail in
+`ideas/candidates.md`; reusable lessons in `LESSONS.md`.
 
 ### Prior day: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 

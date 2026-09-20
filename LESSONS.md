@@ -69,6 +69,47 @@ toward services where the customer is investigating *themselves* /
 their own material (which doesn't implicate third-party consumer-report
 law the same way).
 
+## 2026-09-20 — Any generic "manual audit of a business's own website/code/data" service must be screened against Fiverr/Upwork/Freelancer before write-up — this saturation is as disqualifying as a GitHub clone
+
+**Hypothesis:** Services performed on a customer's own material (technical
+audits: accessibility, SEO, GDPR/cookie compliance, security, CRO,
+data-quality, license-compliance, email-deliverability) avoid both the
+clone-speed problem (not a software artifact) and the FCRA/GDPR trap (not
+investigating a person), so they should be a safe axis for a €0
+productized service.
+
+**What happened:** All 9 candidates tested were already active, named,
+multi-seller commodity gig categories on Fiverr/Upwork/Freelancer.com at
+$5-$100, years before this project existed. The one candidate with
+genuine, provable technical merit (WCAG/accessibility audits — manual
+testing genuinely catches ~60-70% of issues automated scanners miss, and
+real willingness-to-pay exists at $2k-$50k for boutique/enterprise tiers)
+still failed on two independent grounds: (1) a trust-less, credential-
+less solo entrant cannot out-compete 9+ existing sub-$50 sellers on a
+purchase decision that is entirely about trust, and (2) accessibility-
+audit liability is a documented, standard E&O-insurance exclusion/gap —
+an uninsured solo operator has direct, uncapped exposure if a client is
+sued after acting on a paid audit, which this €0 project cannot
+responsibly absorb.
+
+**Generalized implication:** avoiding the software-clone-speed problem
+and the person-investigation/FCRA problem is necessary but not
+sufficient. A third, independent kill mechanism exists: the global
+freelance labor marketplace (Fiverr/Upwork/Freelancer.com) has already
+commoditized nearly every generic "I will manually check/audit X for
+you" service category that can be described in a one-line gig title.
+**Before writing up any productized-service candidate in full, search
+Fiverr/Upwork/Freelancer.com for the exact service description** — a
+mature, multi-seller gig category there should be treated as
+disqualifying at the same stage a discovery agent would treat an
+existing GitHub clone as disqualifying for a software idea, not
+discovered only during dedicated validation. Separately, always check
+whether the specific claim being sold ("audit," "compliance check,"
+"certification") carries a professional-liability/insurance angle
+specific to that niche (accessibility and security audits both do) —
+this is a distinct check from the FCRA/GDPR one and must be run even when
+the service isn't about a named individual.
+
 **Also carried forward from this same round (content/community axis):**
 a distinct, unrelated finding — professional/hobbyist content-curation
 niches are overwhelmingly already owned by (a) an established expert

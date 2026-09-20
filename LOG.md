@@ -76,3 +76,21 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Round 5: test the specific redirected axis above (self-investigation / own-material technical-service candidates), continuing to screen out all three now-dead patterns (software-clone-speed, content-incumbency, person-investigation/FCRA) before spending research time on any candidate.
 - Commit, push.
+
+---
+
+## 2026-09-20T06:39:00Z (same scheduled run, continued) — Round 5: technical-audit axis killed, research-for-hire axis finds a real survivor
+
+**Phase at start:** IDEA_DISCOVERY (0 candidates surviving, 20/20 strategies dead, Round 5 direction set)
+**Phase at end:** IDEA_DISCOVERY (1 candidate — sub-$500k business-acquisition fieldwork report — promoted to dedicated adversarial validation)
+
+**What I did:**
+- Ran two parallel Round 5 agents on the redirected axis (services on the customer's own material): technical-audit services, and research-for-hire/analytical work-product services.
+- **Technical-audit axis: 0/9 survivors.** New, third kill mechanism found (distinct from clone-speed and content-incumbency): every audit-service category tested (WCAG, technical SEO, GDPR/cookie, website security, CRO, data-quality, license-compliance, email-deliverability) is already an active, multi-seller Fiverr/Upwork/Freelancer.com commodity gig category at $5-$100. The one candidate with genuine technical merit (WCAG accessibility audits — manual testing really does catch issues automated scanners miss, and real willingness-to-pay exists at $2k-$50k tiers) still failed: a trust-less solo entrant can't beat 9+ existing cheap sellers on a trust-driven purchase decision, and accessibility-audit liability is a documented standard E&O-insurance exclusion this project can't responsibly absorb uninsured.
+- **Research-for-hire axis: 1/8 survivor.** A "boots-on-the-ground reality-check" fieldwork report for buyers of sub-$500k small local businesses (verifying a seller's foot-traffic/reputation/competitive claims via mystery-shopping the target and its competitors, review-authenticity review, neighbor conversations, and public-record checks). First candidate across 5 rounds to cleanly pass the "genuinely beats a chatbot" test (every input is a physical/telephonic act) and to cleanly avoid the FCRA/GDPR trap (subject is a business asset's claims, not a named individual's character/eligibility).
+- Recorded a new standing lesson in `LESSONS.md`: screen every service candidate against Fiverr/Upwork/Freelancer.com saturation at discovery stage (same weight as a GitHub-clone check for software ideas), and separately check for a niche-specific professional-liability/insurance angle.
+- Wrote up both axes fully in `ideas/candidates.md`, rewrote `MEMORY.md`'s status section (trimming now-superseded detail per the file's own "rewritten, not just appended" instruction), and promoted the fieldwork-report candidate to dedicated adversarial validation — not yet a GO.
+
+**What's next:**
+- Dedicated adversarial validation on the fieldwork-report candidate's two most load-bearing assumptions: (1) whether enough sub-$500k acquisition buyers exist within a solo operator's realistic geographic/phone reach to hit 10 paying customers at €0 ad spend (the research agent's own flagged most-likely-fatal risk), and (2) whether incumbent due-diligence firms (Centurica, CapForge) already quietly offer this fieldwork as an add-on, which would undercut the "no one does this" claim. Also needs a state-by-state check on whether the neighbor-interview/public-record components trip PI-licensing requirements.
+- Commit, push.

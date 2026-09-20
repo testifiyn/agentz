@@ -406,3 +406,99 @@ a global remote-hiring pool — so restricting to non-US customers isn't a
 workaround either. **All candidates across all 4 discovery rounds (20
 distinct strategies/sub-candidates) are now dead.** See `MEMORY.md` for
 the generalized lesson this produces for future discovery.
+
+## Round 5 (2026-09-20, same day) — services on the customer's own material
+
+Redirected per Round 4's specific recommendation: test services where the
+customer investigates/analyzes their *own* material (systems, code, data,
+business situation) rather than a third party, structurally avoiding the
+FCRA/GDPR trap. Two parallel agents.
+
+### Technical-audit-service axis: 9 candidates tested, 0 survivors
+
+Tested WCAG accessibility, technical SEO, GDPR/cookie compliance, website
+security, Shopify/WooCommerce CRO, data-quality/CRM-hygiene, open-source
+license/dependency-compliance, and SPF/DKIM/DMARC email-deliverability
+audits, plus GA4 tracking-health audits. **New, third kill mechanism
+found, distinct from clone-speed and content-incumbency:** every single
+one is already an active, multi-seller commodity gig category on Fiverr/
+Upwork/Freelancer.com at $5-$100 (9+ named WCAG sellers, dozens of SEO-
+audit gigs, 6+ GDPR-audit gigs, etc.), years before this project existed.
+The one candidate with genuine technical merit — **WCAG/accessibility
+audits** (manual testing genuinely catches 60-70% of issues automated
+scanners miss; real willingness-to-pay confirmed at $2k-$50k boutique/
+enterprise tiers) — still failed on two independent grounds: a trust-
+less, credential-less solo entrant can't out-compete 9+ existing sub-$50
+sellers on a purchase decision that's entirely about trust, and
+accessibility-audit liability is a documented standard E&O-insurance
+exclusion — an uninsured solo operator has direct, uncapped exposure if a
+client is sued after acting on a paid audit. New standing lesson
+recorded in `LESSONS.md`: screen every service candidate against Fiverr/
+Upwork/Freelancer.com saturation at discovery stage, same as a GitHub-
+clone check for software ideas, and separately check for a niche-specific
+professional-liability/insurance angle.
+
+### Research-for-hire / analytical work-product axis: 8 candidates tested, 1 survivor
+
+Killed at discovery stage: competitor-landscape research reports
+(Fiverr-saturated + a chatbot already does this adequately); contract
+plain-language red-flag review (flat-fee attorney services already exist
+at $240-575, plus an active AI-contract-review product race — Genie AI,
+Spellbook, Ironclad, Lexion — reintroducing clone-speed risk); messy-
+spreadsheet cleanup (heavily Fiverr/Upwork-commoditized, overlaps mature
+bookkeeping-cleanup market); SaaS-spend audits (automated by free/cheap
+bank-linked tools — Rocket Money, Subtrakr — doing 80%+ of this already);
+franchise purchase due diligence (served by an established provider
+ecosystem — Centurica, CapForge from $995, DueDilio); site-selection/
+feasibility studies (an established $3k+ consultant niche, and lenders
+require a credentialed "standard of care" study); competitor mystery-
+shopping (a mature named industry — CustomerWise, Reality Based Group,
+secretview.io — already serves it).
+
+**Survivor — "boots-on-the-ground reality-check" fieldwork report for
+sub-$500k small-business acquisition buyers.** First-time buyers of small
+local businesses ($50k-500k — laundromats, salons, auto shops,
+restaurants) have no affordable way to verify a seller's *non-financial*
+claims (real foot traffic, genuine reputation trend, true competitive
+standing) before committing; standard buyer checklists repeatedly instruct
+buyers to do this fieldwork themselves because no affordable service does
+it for them, and full financial DD on deals this size ($20k-50k list
+price, or $995 at the cheapest dedicated small-deal provider, CapForge)
+covers financial/legal review only, never physical fieldwork. Service:
+flat fee ($197-497), 2-3 mystery-shop visits to the target at different
+times, mystery-shop of 2-3 named competitors, full (not averaged) review-
+history authenticity read, informal conversations with neighboring
+businesses, and a public-record check (registration, UCC liens, civil-
+court index, license status), synthesized into a "what matches the
+seller's story, what doesn't" report. **This is the first candidate
+across 5 rounds to cleanly pass the "does this genuinely beat asking a
+chatbot" test through a non-informational mechanism** — every input is a
+physical or telephonic act (visiting a location, calling a competitor
+posing as a customer, chatting with the neighboring dry-cleaner) a
+chatbot cannot perform, and the synthesis step is believability judgment,
+not a lookup. It also cleanly avoids the FCRA/GDPR trap from Round 4
+because the report's subject is a business asset's claims and public
+record, not a named individual's character or eligibility — confirmed by
+the research agent as a discipline to maintain (never drift into judging
+the seller as a person). Distribution: r/smallbusiness and r/Entrepreneur
+(recurring "how do I verify this seller's numbers" threads — answer with
+free value first), BizBuySell's community forum, Acquisitions Anonymous
+podcast community / Acquisition Lab, local SCORE mentor chapters as a
+warm-referral source.
+
+**Unresolved risks flagged for dedicated adversarial validation (not yet
+GO):** (1) purely one-shot customers with no repeat-trust flywheel, so
+CAC against a $200-500 ticket is a real concern; (2) **geographically
+bound** — a solo operator can only physically visit businesses within
+driving range, which may badly cap addressable volume — flagged by the
+research agent as the single most likely fatal flaw; (3) unverified
+whether existing DD firms (Centurica, CapForge) already quietly offer
+this fieldwork as an add-on when asked, which would undercut the "no one
+does this" claim; (4) needs a state-by-state check on whether the
+neighbor-interview and public-record-search components trip private-
+investigator licensing requirements (mystery-shopping itself is already
+established as legal/unlicensed).
+
+**Status: promoted to dedicated adversarial validation**, focused first
+on the geographic-density/customer-volume assumption and the incumbent-
+add-on question, per the research agent's own recommendation.
