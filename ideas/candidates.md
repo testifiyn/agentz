@@ -270,3 +270,35 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-09-21) — productized SERVICE model, not software: 0 survivors
+
+Deliberately tested the one lever flagged in `MEMORY.md` after the
+2026-09-19 day as untested: a paid, human+AI-delivered service instead of
+another self-serve software product or content site, on the hypothesis
+that trust/relationships might resist the "cloned within weeks" dynamic
+that killed all 11 software-model candidates. Three candidates, each
+researched by an independent adversarial agent:
+
+1. **AI-content de-slopping/fact-checking service** — KILL. Already a
+   labeled Fiverr category and standing Upwork vertical with 10+ named
+   agencies offering the exact same "AI-assist + human fact-check"
+   pitch at every price tier from $5 to $25,000/mo.
+2. **Weekly human-curated competitor-intelligence brief** — KILL. The
+   affordable indie tier is already filled by live automated competitors
+   (Linkeddit Compete $99/mo, RivalWatch $29/mo, Spydomo $10/mo) pricing
+   at or below the candidate's floor with zero marginal labor cost, plus
+   free substitutes (Google Alerts, F5Bot, changedetection.io).
+3. **Paid "we'll migrate your codebase" service for API/framework
+   deadline laggards** (tested against OpenAI Assistants API, Google
+   Content API→Merchant API, Microsoft EWS deadlines) — KILL, all three.
+   Consultancies/SEO content already swarmed these deadlines up to a
+   year in advance; a free official migration tool and a paid
+   compatibility shim (Ragwalla) both undercut the "pay to rewrite"
+   pitch for the clearest case (OpenAI).
+
+**Full detail:** `research/service-model-round.md`. Combined with
+2026-09-19: **14 independent discovery strategies across two distinct
+business-model axes (software product, productized service), zero
+survivors.** See `MEMORY.md` for the updated structural synthesis and
+the decision point being surfaced to the owner.

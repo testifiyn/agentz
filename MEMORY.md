@@ -1,10 +1,18 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection; no active business yet)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: FALSE (never reached — no candidate has survived long enough to enter a 3-candidate portfolio)
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: none surviving
+PRIMARY_BOTTLENECK: no viable candidate found across 14 independent discovery strategies over 2 days, spanning two distinct business-model axes (self-serve software, productized service). Further undirected brainstorm-and-check discovery cycles have sharply diminishing expected value without either (a) new information — a trigger event caught within ~24-72h, genuinely untested so far — or (b) an owner steer on which specific untested lever to invest in next (see options below).
+NEXT_HIGHEST_VALUE_ACTION: get owner input on which of the 3 concrete options below to pursue next (time-based monitoring infrastructure requires ongoing recurring compute cost the owner should bless; accepting a marginal candidate is a judgment call only the owner should make; a further business-model change beyond software/service has no obvious untested candidate left without owner input on what "different" should mean). Absent owner input by the next run, default is one more fresh discovery round on new-day triggers rather than re-running exhausted strategies, per standing practice.
+OWNER_ACTION_REQUIRED: yes — see "Recommendation for the owner's attention" below. Not a hard blocker (this project's standing instruction is that research/kill decisions don't need a stop-and-ask gate, and the next run will proceed autonomously regardless), but two full days of 0/14 warrants an explicit owner steer rather than a third day of the same undirected cycle.
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status: 14 discovery strategies tried across 2 days, zero survivors — two independent business-model axes both structurally blocked
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
@@ -81,51 +89,76 @@ by default, because almost anything an AI research pass turns up as
 "looks open" turns out, on a dedicated adversarial re-check, to already
 be filled or filling in real time.
 
+### Update, 2026-09-21: the "business-model change" option was tested — also failed, sharpening rather than resolving the picture
+
+Two days later, this run deliberately tested option 2 below (productized
+service instead of software product) rather than repeating the exhausted
+"brainstorm SaaS/content idea, check if taken" methodology. Three
+candidates (AI-content editing/fact-checking service, human-curated
+weekly competitor-intel brief, paid deprecation-migration service) were
+researched adversarially and all three were killed — full detail in
+`research/service-model-round.md` and `ideas/candidates.md` Round 4. The
+failure mode was different from the software-model round (not "cloned
+within weeks" but "already occupied by agencies with a year of accumulated
+trust/ranking, or by cheap automated substitutes pricing at or below where
+a manual solo operator needs to price to survive"), which is itself useful
+information: **it means the root constraint isn't just "software ideas
+get cloned fast," it's broader — a zero-reputation, zero-network,
+zero-capital solo AI operator has no structural advantage over either (a)
+other AI agents doing the same automatable research-and-clone loop, or
+(b) incumbents (software or human) who already hold the trust/relationship/
+ranking position that a *service* business specifically depends on.**
+That is a harder problem than "pick a better niche" — it points at needing
+either genuine speed (catching something before anyone, human or AI, has
+had time to build trust or clone it) or a real, current, owner-provided
+unfair advantage (a network, a skill, a piece of data, a relationship) that
+this project does not currently have on record. Two full days, 14
+strategies, two distinct business-model axes, zero survivors — this is
+the point to get an explicit owner steer rather than run a third or fourth
+day of undirected variations on the same discovery-then-kill cycle.
+
 ### Recommendation for the owner's attention (not a request for
 permission to continue — the project's standing instruction is that
 research/idea/kill decisions don't need a stop-and-ask gate, and future
 runs will keep working autonomously regardless)
 
-Given eleven independent strategies failed in one day, continuing to
-spend agent-hours on "brainstorm + web-search screen" discovery without
-changing the fundamental approach is unlikely to be productive in the
-short term. Worth the owner knowing about and weighing in on if they have
-a preference, next time they check in:
-
-1. **Time-based approach**: rather than exhausting many strategies in one
-   sitting, a future run could deliberately watch for and react to a
-   fresh trigger event within 24-72 hours of it breaking, before it's
-   SEO-indexed or GitHub-cloned — several research agents flagged this as
-   the one lever not really tested today (today's "recent trigger" tests
-   were all 2-4 months old, already indexed). This needs a different
-   operating rhythm (frequent short checks for breaking news in relevant
-   spaces) rather than one-shot deep research.
-2. **Business-model change**: everything tried today was a software
-   product (SaaS tool, static comparison site, browser extension). A
-   productized service, content/newsletter product, or community model
-   was not tested and might face different (possibly more favorable, or
-   possibly worse given the HARD SAFETY BOUNDARY on real outreach)
-   dynamics — worth considering explicitly next round rather than
-   defaulting back to "another tool."
-3. **Owner override**: `ideas/decision.md` remains available if the
-   owner has a specific direction in mind they'd like pursued regardless
-   of what discovery search turns up — the adversarial validation
-   discipline would still apply to protect against building something
-   already captured.
-4. **Accept a marginal candidate deliberately, eyes open**: several
-   near-misses this session were rejected for being merely marginal, not
-   fatally flawed (e.g., the change-order/scope-creep tool from the
-   deleted history had thin-but-real differentiation potential; the
-   OpenAI Assistants-API codemod from Round 2 has a real, if shrinking,
-   underserved audience). None were picked because the project's standing
-   discipline is not to force weak ideas through — but if the owner would
-   rather ship something small and imperfect than keep searching for a
-   clean wedge, that's a legitimate call only they can make.
+1. **Time-based approach, still untested**: deliberately watch for and
+   react to a fresh trigger event within 24-72 hours of it breaking,
+   before it's SEO-indexed, GitHub-cloned, or agency-content-marketed —
+   this remains the one lever never actually implemented across both
+   discovery days (all "recent trigger" tests so far were weeks-to-months
+   old, already indexed/swarmed). This needs a different operating
+   rhythm — a recurring scan (e.g. a scheduled Routine firing a few times
+   a day) rather than one-shot deep research — which means committing to
+   an ongoing recurring compute/token cost. Not set up yet in this run
+   specifically so the owner can weigh in on the cadence/cost tradeoff
+   first, rather than committing to open-ended recurring resource use
+   unilaterally.
+2. **Business-model change**: TESTED 2026-09-21, KILLED (see above). Content/
+   newsletter/community models specifically (as opposed to productized
+   service, which is what got tested) remain untested if the owner wants
+   that explored next, though the same "no existing audience/trust" root
+   constraint likely applies there too.
+3. **Owner override or unfair-advantage input**: `ideas/decision.md`
+   remains available if the owner has a specific direction, or — more
+   valuably given the pattern above — any real asset this project doesn't
+   currently know about (an existing audience, a specific skill or
+   credential, industry relationships, access to a dataset, a community
+   the owner is already part of) that could function as the "unfair
+   advantage" every killed candidate so far has lacked. The adversarial
+   validation discipline would still apply to protect against building
+   something already captured.
+4. **Accept a marginal candidate deliberately, eyes open**: unchanged
+   from 2026-09-19 — several near-misses (change-order/scope-creep tool,
+   OpenAI Assistants-API codemod) were marginal, not fatally flawed. Still
+   not picked because the project's standing discipline is not to force
+   weak ideas through, but remains a legitimate owner call.
 
 Absent owner input, the default is to keep trying fresh discovery rounds
-in future runs (new day, new triggers, possibly a different time-of-day
-check for very recent breaking news), not to force a pick from today's
-rejected pool.
+in future runs, but the marginal value of another undirected round is now
+low given two full 0-for-14 days — the next run should treat getting an
+owner steer as at least as high-value as running a fifteenth strategy
+cold.
 
 ## Capital state
 
@@ -134,9 +167,9 @@ published, no Chrome Web Store submission, no external service accounts.
 
 ## GitHub write access
 
-Confirmed healthy this run — multiple commits reached `origin/main`
-normally (reset commit, Round 1 commit, Round 2 commit all pushed
-successfully).
+Confirmed healthy as of 2026-09-19 (reset commit, Round 1, Round 2, Round
+3 commits all pushed successfully). This run (2026-09-21) will confirm
+again with the Round 4 push.
 
 ## Prior-run lessons carried forward informally (from before today's reset, now deleted as files)
 

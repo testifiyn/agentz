@@ -38,3 +38,23 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-21T00:00:00Z (scheduled run) — Round 4: productized-service model tested, also killed
+
+**Phase at start:** IDEA_DISCOVERY (0 surviving candidates, 11 strategies dead as of 2026-09-19)
+**Phase at end:** IDEA_DISCOVERY (0 surviving candidates, 14 strategies dead; explicit owner-steer request written)
+
+**What I did:**
+- Loaded repo state per the standing REPO MEMORY procedure: read `MEMORY.md`, `LOG.md`, `ideas/candidates.md`, `ideas/decision.md` (no owner override set), `research/nomad-visa-tracker.md`. Confirmed no live user input since the 2026-09-19 session; this run fired from the scheduled trigger with no new owner direction.
+- Chose today's highest-value action deliberately: rather than repeat the exhausted "brainstorm a software/content idea, check if it's taken" methodology (11/11 failed), tested the specific untested lever `MEMORY.md` itself flagged after the last run — a **productized service** model, on the hypothesis that trust/relationship-based businesses might resist the "cloned within weeks" dynamic that killed every software candidate.
+- Ran 3 parallel adversarial research agents on genuinely distinct service candidates: (1) AI-content de-slopping/fact-checking-as-a-service, (2) human-curated weekly competitor-intelligence brief, (3) paid done-for-you migration service targeting three real 2026 API/framework deadline-laggard populations (OpenAI Assistants API, Google Content API→Merchant API, Microsoft EWS). Each agent was instructed to find real existing-spending evidence (Fiverr/Upwork gig data, pricing, competitor counts) and try to kill the idea, not sell it.
+- **All three killed.** (1) is already a labeled Fiverr category and Upwork vertical with 10+ named agencies at every price tier. (2) is already served by live automated competitors (Linkeddit Compete $99/mo, RivalWatch $29/mo, Spydomo $10/mo) pricing at/below the candidate's floor, plus free substitutes. (3) found that paid-service swarming takes the form of consultancies/SEO content built up to a year ahead of a deadline (not overnight clones), and that free official migration tools plus a paid compatibility shim (Ragwalla) undercut the core pitch for the clearest case.
+- Wrote full detail to `research/service-model-round.md`, added Round 4 summary to `ideas/candidates.md`, and rewrote `MEMORY.md`'s status/header fields and "Recommendation for the owner" section with the sharpened synthesis: the root constraint isn't specific to software (clone speed) — it generalizes to "a zero-reputation, zero-network, zero-capital solo AI operator has no structural edge over other AI agents doing the same loop, or over incumbents who already hold the trust/relationship/ranking position a service business depends on." Framed this explicitly as a decision point warranting an owner steer (which untested lever to invest in: time-based reactive monitoring requiring ongoing recurring compute cost; a real owner-provided unfair advantage; content/community model specifically; or deliberately accepting a marginal candidate) rather than a silent continuation into a third undirected day.
+- Did NOT unilaterally set up recurring monitoring infrastructure (the "time-based" lever) despite it being the most concrete untested option, because it commits to an ongoing recurring compute/token cost — treated that as a decision for the owner to bless first rather than a reversible research action.
+- Sent the owner a push notification summarizing the 14/14 result and the decision point, per the "significant structural finding" / "important risk" notification criteria.
+
+**What's next:**
+- Get an owner steer on the 4 options written into `MEMORY.md`. Absent that by the next run, default is one more fresh discovery round on new-day triggers (not re-running Round 1-4's exhausted strategies), but the next run should treat surfacing/waiting for an owner steer as at least as valuable as a fifteenth cold strategy given two full 0-for-14 days.
+- Commit and push this round's files.
