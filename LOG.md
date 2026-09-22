@@ -38,3 +38,24 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-22T06:16:00Z — Round 4: testing untested business-model axes (scheduled run)
+
+**Phase at start:** IDEA_DISCOVERY (11/11 prior strategies killed, awaiting owner input, no response yet)
+**Phase at end:** IDEA_DISCOVERY (12/12 software+content strategies now killed; 2 community-first candidates found, deliberately not yet validated further — owner decision needed)
+
+**What I did:**
+- Loaded state per repo-memory protocol: read `MEMORY.md`, `LOG.md`, `ideas/candidates.md`, `ideas/decision.md` (no owner override present), `research/`, and confirmed via `git log`/`git status` that the branch is clean and nothing changed since the 2026-09-19 run.
+- Per the standing default ("keep trying fresh discovery... absent owner input") and per the four options logged for the owner last run, chose to test the two axes explicitly flagged as untested rather than re-running the same "brainstorm a tool, check if it's taken" method for a 12th time on diminishing returns: (1) content-authority/SEO model, (2) community-first model.
+- Dispatched two parallel adversarial research agents. **Content-authority**: tested 6 evergreen niches (error-code databases, board-game rules hub, pizza-oven troubleshooting, vintage-collectible ID guides, genealogy guides) — 0 survivors, same clone-speed failure pattern as software, including a brand-new competing HVAC error-code database found to have launched *during the research window itself*. **Community-first**: tested 8 niches — 5 killed (already owned by a dominant existing community), 3 survived with caveats (2e-parents strongest, tech-to-trades career-changers weaker, secondary-infertility marginal/not recommended).
+- Also dispatched a background inventory check of existing GitHub issues (#1, #2, #3 — all open, all documenting prior kill rounds from before and during the 2026-09-19 reset) to confirm nothing needed closing/updating before adding a new one.
+- Identified a structurally new finding: community-first is the first axis where the blocker isn't "does a gap exist" but "will the owner commit ~3-5 hrs/week of real personal participation" — something the agent cannot substitute for without it becoming spam. Wrote a full candidate brief (`research/2e-parents-community.md`) for the strongest survivor, explicitly stopping short of a GO/KILL recommendation and framing it as an owner decision, per this project's own rule that community-building "requires the human owner's own authentic participation time."
+- Updated `MEMORY.md` (added the standard structured header block per the project's own template, which had never been added before; wrote the Round 4 summary), `ideas/candidates.md` (full Round 4 detail), and this log entry.
+- Deliberately did NOT proceed to deep adversarial validation of either community candidate — that would spend more agent time on a candidate the owner may not be able to operate, which is not the highest-value action while a decision only the owner can make is still open.
+
+**What's next:**
+- Open a new GitHub issue (next: #4) summarizing this run for the owner and asking directly: can/will you commit ~3-5 hrs/week to run one of these two communities personally, and if so which one (2e-parents recommended) — or should the agent keep searching new axes instead?
+- Commit, push, notify the owner (this is a genuine milestone: first candidates with real evidence since the reset, but gated on a decision only they can make).
+- If the owner responds with a choice, proceed to dedicated adversarial validation of that candidate next run. If no response, the default is to keep searching fresh axes rather than unilaterally committing the owner's time or letting the two candidates sit unflagged indefinitely.

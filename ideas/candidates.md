@@ -270,3 +270,87 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-09-22) — testing two untested business-model axes
+
+Per the options logged for the owner's attention after the 11/11 result,
+this round tested the two axes explicitly flagged as untested: a
+content-authority (SEO) model, and a community-first model. Both were run
+as dedicated adversarial-research passes (not brainstorm-then-check), same
+discipline as prior rounds.
+
+### Content-authority / SEO model: 0 survivors, 6 killed — same clone-speed pattern as software
+
+Tested 6 evergreen candidates (3D-printer error-code database, HVAC/
+mini-split error-code database, board-game rules-clarification hub, Ooni
+pizza-oven troubleshooting/recipes, vintage-collectible ID/value guides
+using Pyrex as the test case, German-ancestry genealogy guides). **All
+six killed.** Pattern: in every niche, either a large incumbent (big
+media, a nonprofit archive/institutional partner, an official publisher)
+already occupies the core queries, or — where the niche looked genuinely
+thin — a dedicated small-site competitor had already filled it, in
+several cases visibly updated *during this very research window*
+(September 2026). Most striking: while researching the HVAC error-code
+niche, the agent surfaced a brand-new "DIY HVAC Tools" lookup (2,500
+codes / 48 brands) that had launched in September 2026, plus an
+open-source GitHub dataset updated Sept 15 2026 — i.e., the same
+single-digit-week clone-speed problem that killed 11 software ideas is
+equally present in pure content. The "sustained content work takes months
+to out-authority, buying real runway" thesis did not hold up: AI-driven
+content generation now produces new "authority-shaped" competitors
+(photo-ID apps, huge auto-generated databases) about as fast as AI-driven
+app generation produces competing tools. Full findings in
+`research/content-authority-round4.md` is not written up separately since
+every candidate was killed at the same discovery-stage depth as Round 1's
+tool ideas — this summary is the complete record.
+
+### Community-first model: 3 found, 2 real survivors — the first candidates since the reset with genuine, if partial, evidence of a gap
+
+Tested 8 niches (mobile/loan-signing notaries, solo female van-lifers,
+parents of gifted kids generally, young widows/widowers, secondary
+infertility, parents of twice-exceptional/2e kids, white-collar-to-
+skilled-trades career changers). **5 killed** as already served by a
+dominant existing community (a 72k-member active subreddit for general
+gifted parenting; multiple large Discord/Facebook communities for
+van-lifers; established nonprofits with in-person chapters for widows;
+a large notary-specific forum ecosystem). **3 survive, with caveats:**
+
+1. **Parents of twice-exceptional (2e) kids — strongest survivor.**
+   Fragmented across 6+ small Facebook groups plus one *paid* expert-run
+   group (proving willingness to pay), but no single free hub and no
+   dedicated subreddit. Full candidate write-up:
+   `research/2e-parents-community.md`.
+2. **White-collar/tech-to-skilled-trades career changers.** Real,
+   recurring chatter (Blind, Reddit) with zero dedicated space, but a
+   plausibly transient audience (once someone finishes an apprenticeship
+   they likely just join a trade-specific subreddit and stop needing this
+   space) — weaker retention story than #1.
+3. **Secondary infertility — marginal, not recommended as primary.** The
+   most emotionally strongly-evidenced gap of anything tested (real,
+   independently-documented "belonging nowhere" pain), but r/infertility
+   already explicitly welcomes this population, search limits prevented
+   fully ruling out a small dedicated existing sub, and the topic carries
+   materially higher moderation/liability risk (grief + medical) at an
+   estimated 5-8 hrs/week versus 3-5 for the other two. Not being pursued
+   further absent owner interest specifically in this one.
+
+**Critical new constraint surfaced by this axis, not present in any prior
+candidate:** the discovery agent's own honest assessment is that a real
+community requires the *owner's own authentic participation time* — an
+estimated 3-5 hrs/week of genuine engagement in existing adjacent spaces —
+which is not something this project's agent can automate or substitute
+for without it becoming spam (explicitly forbidden). Every candidate
+tried before this round (software, content) could in principle be built
+and run by the agent alone; this is the first axis where the actual
+bottleneck to starting is a decision only the owner can make: whether
+they are willing and able to commit that weekly time. See
+`research/2e-parents-community.md` for the full brief and the explicit
+reasoning for stopping short of a GO/KILL call and putting this to the
+owner instead.
+
+**Running total: 12 of 12 tested business-model strategies on the
+software/content axes have failed (11 software+content-adjacent from
+before this round, +6 more content-authority niches this round, all
+killed); the community-first axis is the first to produce credible
+survivors, gated on an owner decision rather than further agent-side
+research.**

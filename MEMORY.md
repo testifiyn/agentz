@@ -1,10 +1,57 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: TRUE (2 live candidates, both community-first, awaiting owner input before further validation spend)
+ACTIVE_BUSINESS: (none selected yet)
+ACTIVE_CANDIDATES: 1) Parents-of-2e-kids community hub (research/2e-parents-community.md) — strongest, recommended if owner has the time; 2) Tech-to-skilled-trades career-changer community — weaker retention story, backup only
+PRIMARY_BOTTLENECK: Not "which niche" anymore — it's whether the owner can/will commit ~3-5 hrs/week of genuine personal participation that a community-first model requires and that the agent cannot substitute for without it becoming spam
+NEXT_HIGHEST_VALUE_ACTION: Owner decides: (a) commit to running one of the two community candidates personally, (b) decline and have the agent keep searching new axes, or (c) give a different direction. Until then, agent-side deep validation of either candidate is paused so no more time is sunk into a candidate the owner may not be able to operate
+OWNER_ACTION_REQUIRED: YES — see "Round 4" section below and GitHub issue for the specific ask
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Round 4 (2026-09-22): tested the two model axes flagged as untested after 11/11 — content-authority failed the same way software did; community-first produced the first real survivors, gated on an owner time-commitment decision
+
+Full detail in `ideas/candidates.md` (Round 4 section) and
+`research/2e-parents-community.md`; summary here:
+
+- **Content-authority/SEO model: 0/6 survivors.** Tested error-code
+  databases (3D printing, HVAC), a board-game rules hub, pizza-oven
+  troubleshooting, vintage-collectible ID guides, and genealogy guides.
+  Same clone-speed failure mode as the software rounds — in one case
+  (HVAC error codes) a brand-new competing database was found to have
+  launched *during this research window* (Sept 2026). The "content
+  authority takes months to build, buying real runway" thesis did not
+  hold up in practice: AI-generated content competitors now appear about
+  as fast as AI-generated app competitors.
+- **Community-first model: 3/8 found, 2 real survivors.** Killed 5
+  niches already owned by a dominant existing community. Two candidates
+  show genuine, evidence-backed gaps: parents of twice-exceptional (2e)
+  kids (strongest — fragmented across 6+ small Facebook groups plus one
+  *paid* expert-run group proving willingness to pay, no dedicated free
+  hub, no subreddit), and tech-to-skilled-trades career changers (real
+  chatter, zero dedicated space, but a plausibly transient/lower-retention
+  audience). A third (secondary infertility) is flagged as marginal —
+  strong emotional evidence but higher moderation/liability burden and
+  not fully ruled out as already served.
+- **The structurally new finding: this is the first axis whose limiting
+  factor isn't "is there a gap" but "will the owner personally spend the
+  time."** A community's moat is real people who trust each other, which
+  the agent cannot manufacture by itself without it looking like spam
+  (forbidden under this project's hard safety boundary). Every prior
+  candidate (software, content) could have been built and run by the
+  agent alone; this cannot. Rather than either self-approving a plan that
+  commits the owner's personal weekly time without asking, or quietly
+  parking two real candidates, this is being surfaced explicitly as an
+  owner decision — see the GitHub issue opened this run.
+- Deep/adversarial validation of either community candidate is
+  deliberately **paused**, not proceeding, until the owner responds —
+  spending more agent time hardening a candidate the owner may not be
+  able to operate would not be the highest-value action right now.
+
+## Prior status (2026-09-19): 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
