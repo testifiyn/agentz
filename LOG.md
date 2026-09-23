@@ -38,3 +38,23 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-23T00:00:00Z (scheduled run, 4 days after previous session) — Round 4: business-model and timing levers tested, both fail
+
+**Phase at start:** IDEA_DISCOVERY (11/11 strategies killed as of last session, recommendation left for owner)
+**Phase at end:** IDEA_DISCOVERY (13/13 strategies killed; structural read revised and sharpened)
+
+**What I did:**
+- Scheduled/automated firing, no live owner input since the last session. Pulled repo state, read `MEMORY.md`, `LOG.md`, `ideas/candidates.md`, `ideas/decision.md` (still no owner override).
+- Per the prior session's own recommendation, picked the two flagged-but-untested levers rather than repeating the same national-scale software-product discovery a third time: (a) business-model change (service/content/community instead of software), (b) a genuine <72h-fresh trigger event paired with a manual-service response.
+- Ran two parallel research agents with real web search and adversarial-kill discipline (no fabricated evidence, actively tried to kill each candidate).
+- **Agent A (service/content/community, 9 candidates tested):** 0 survivors. Every well-evidenced candidate (IEP/special-ed advocacy, probate concierge, caregiver navigation, property-tax appeal, pet-insurance claim appeals, federal-RTO newsletter, name-change concierge, childcare-licensing help) already had an active, often well-funded 2025-2026 competitor or free government/nonprofit program. One candidate (remote-worker isolation community) had no confirmed competitor but also no evidence of willingness to pay — killed on weak monetization signal, not competition.
+- **Agent B (<72h trigger scan, ~15 events checked):** 0 survivors. Closest candidate (F5 BIG-IP CVE-2026-94127, disclosed 2026-09-22) already had a vendor advisory, hotfix, and 7+ independent security-outlet writeups within ~24 hours, and was the wrong shape for a €0 solo service anyway (enterprise infra, specialized skill required). All other events were either too old and already saturated (Sora 2 API shutdown migration guides) or too diffuse/gradual to count as a genuine break.
+- **Synthesized both results into a revised structural finding**, written into `MEMORY.md`: avoiding software does not avoid the clone-race dynamic — the dynamic tracks *searchable, quantifiable pain* regardless of delivery mechanism (a capital-backed incumbent races a solo service operator just as fast as a code-forker races a solo SaaS founder). The untested dimension flagged by both agents independently: deliberately small-TAM, hyper-local, or otherwise sub-googleable niches that wouldn't attract VC or national-nonprofit attention and wouldn't show up in broad web search — no specific instance verified yet, so not a candidate, but the clearest remaining lever.
+- Updated `ideas/candidates.md` (Round 4 section, full per-candidate detail) and rewrote `MEMORY.md` (structured header fields added per the project's format, status section revised, recommendation section replaced to point at the scale-down lever as the next default action).
+
+**What's next:**
+- Absent owner input, next run should test the scale-down/hyper-local lever specifically — this needs a different sourcing method (a specific local community, forum, or municipal source) rather than broad national web search, since broad search is exactly the mechanism that keeps surfacing niches capital has already found.
+- Commit, push, and notify the owner: this is a second significant structural finding (13/13 now, and *why* it generalizes past software) worth surfacing proactively, not routine progress.

@@ -270,3 +270,91 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-09-23) — testing the business-model lever: services, content, community
+
+Per the owner-facing recommendation left at the end of the 2026-09-19
+session, this round deliberately tested the one lever flagged as
+untried: business models other than software (productized services,
+newsletter/content, community), plus a tight <72h fresh-trigger scan
+aimed at a service response. Two parallel research agents, real web
+search, adversarial kill attempts on every candidate.
+
+### Agent A: productized service / content / community — 0 survivors, 9 tested
+
+- **IEP/special-ed parent advocacy** (service+community) — real pain
+  (411,549 unfilled/uncertified US teaching positions, <half of states
+  meet federal special-ed compliance), but already served: Undivided
+  ($5M funded, paid "Navigators"), findparentadvocates.com (national
+  marketplace), usehighlighter.com (new 2026 SaaS entrant), even the
+  narrow "military-family IEP transfer" sub-niche has a named competitor
+  (thedyslexialife.com's "DoDEA IEP Advocate") plus free Military
+  OneSource escalation.
+- **Probate/executor concierge** — real pain ($14,225 / 513hrs avg per
+  Atticus's own published stats) but Atticus (VC-backed) already owns
+  exactly this position.
+- **Aging-parent/caregiver navigation** — real pain (63M+ unpaid US
+  caregivers) but an already-licensed profession (Aging Life Care
+  Association) plus giant referral incumbents (A Place for Mom,
+  Caring.com).
+- **Property tax appeal service** — real pain (74% worried, only 22%
+  appeal) but Ownwell just raised $50M (total ~$74M) doing precisely
+  this on contingency, actively fighting competitors on performance
+  claims.
+- **Pet insurance claim appeal service** — active named competitor
+  ("Paws & Appeals") plus an AI startup (Counterforce Health) and law
+  firms already in the space.
+- **Federal employee RTO newsletter/community** — extremely hot pain
+  right now (2026 5-day-RTO executive order, r/fednews activity spike)
+  but decades-deep incumbent trust already covers it (Federal News
+  Network, GovExec, FedSmith).
+- **Marriage/divorce legal name-change concierge** — active 2025-2026
+  paid competitor (NewlyNamed) plus older players (HitchSwitch,
+  MissNowMrs).
+- **Daycare/home-childcare licensing renewal help** — every US state
+  already funds free CCR&R agencies for this, plus VC-funded
+  Wonderschool offers ongoing admin support.
+- **Remote-worker isolation community** — no confirmed direct
+  competitor, but also no evidence anyone pays for it specifically
+  (loneliness-support communities monetize poorly); killed on weak
+  monetization evidence, not competition.
+
+**Meta-finding (the real deliverable of this round):** in every case
+where real search evidence of a painful, well-documented problem
+existed, that same googleability meant venture capital or a government/
+nonprofit funder had already moved on it — several explicitly within the
+last 12 months (Ownwell's $50M raise Feb 2026, usehighlighter.com as a
+brand-new entrant, NewlyNamed's 2026 content). **Avoiding software did
+not avoid the clone-race dynamic — it just changed who does the
+racing, from code-clones to capital.** The dynamic tracks *searchable,
+quantifiable pain*, not delivery mechanism. One untested, unverified
+structural angle flagged (not a candidate — no evidence gathered for a
+specific instance): hyper-local, single-city, small-TAM services too
+small in aggregate to be nationally googleable or VC-attractive.
+
+### Agent B: fresh (<72h) trigger scan for a service-shaped response — 0 survivors, ~15 events checked
+
+Closest candidate: **F5 BIG-IP APM CVE-2026-94127** (disclosed
+2026-09-22, CVSS 9.8, unauthenticated RCE, added to CISA KEV same day) —
+but F5's own advisory + hotfix + emergency mitigation, plus independent
+coverage from 7+ named security outlets, was already published within
+~24 hours; also wrong shape for a €0 solo service (enterprise
+infrastructure, requires specialized network-security engineering, buyer
+already has security teams/MSP contracts). Sora 2 API shutdown (Sept 24
+deadline) ruled out as a 6-month-telegraphed deadline already saturated
+by 10+ migration guides. ~13 other events checked (TikTok ToS backlash,
+Android Developer Verification enforcement, US Public Charge rule,
+SaaS/AI pricing hikes, a Google algorithm update, tariff changes, cloud
+outages, OSS relicensing) each ruled out as too old, too diffuse, or
+already deep in a saturated response cycle. Conclusion: the security-
+vendor/media response ecosystem now reacts to major triggers within
+hours, not days — faster than a manual service can plausibly beat.
+
+### Round 4 verdict
+
+**0 of 9 service/content/community candidates and 0 of ~15 scanned
+triggers survived.** Combined with the 11 prior strategies, that's
+**13 distinct discovery angles across 2 business-model classes (software
+and non-software) and 2 time horizons (evergreen and <72h-fresh) — all
+killed.** See `MEMORY.md` for the updated structural read and the
+recommended next lever (TAM-size, not business-model or timing).
