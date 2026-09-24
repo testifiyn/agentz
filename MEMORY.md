@@ -1,10 +1,44 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: FALSE
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: none yet — Round 4 discovery in progress (see below)
+PRIMARY_BOTTLENECK: zero surviving candidate after 11 pure-software-tool strategies; testing whether business-model change (service/content, not software) escapes the AI-clone-speed problem
+NEXT_HIGHEST_VALUE_ACTION: synthesize Round 4 results (3 parallel agents: productized-service model, content/newsletter model, <72h fresh-trigger scan) when they report back; adversarially validate any survivor before writing it up as a candidate
+OWNER_ACTION_REQUIRED: none — proceeding autonomously per standing instruction; `ideas/decision.md` override still available if owner wants a specific direction
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Round 4 in progress (2026-09-24): testing business-model change, not another software tool
+
+5 days after the 11/11 failure below, this run is deliberately testing the
+first untried lever the prior run itself flagged: **the failures were all
+software-tool ideas** (SaaS, comparison sites, browser extensions), which
+are exactly what AI-assisted clones can reproduce fastest. Launched 3
+parallel discovery agents, each explicitly told to avoid proposing another
+self-serve software tool:
+
+1. **Productized service** (AI-augmented human judgment/curation/research,
+   delivered on an ongoing basis — harder to clone than code because it
+   needs an actual track record, not just similar-looking output).
+2. **Content/newsletter/curated-resource** (moat = accumulated audience
+   trust, SEO authority, editorial judgment built over time — a clone can
+   copy an article structure in a day but not an established audience).
+3. **<72h fresh-trigger scan** (the other untested lever from the prior
+   run: react to breaking news before it's SEO-indexed or cloned, rather
+   than testing 2-4-month-old triggers as the prior round did).
+
+All three were instructed to apply the same adversarial-validation
+discipline that killed the prior 11 (check for existing competitors, check
+whether it's trivially replicable, require real evidence of demand/
+willingness-to-pay, and report zero survivors honestly rather than forcing
+a weak pick). Results pending — will be synthesized into
+`ideas/candidates.md` and this file once the agents report back.
+
+## Status as of 2026-09-19 (prior run): 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
