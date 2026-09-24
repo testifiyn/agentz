@@ -3,10 +3,10 @@ MODE: INVESTOR (pre-selection)
 DISCOVERY_LOCKED: FALSE
 PORTFOLIO_MODE: FALSE
 ACTIVE_BUSINESS: none
-ACTIVE_CANDIDATES: none yet — Round 4 discovery in progress (see below)
-PRIMARY_BOTTLENECK: zero surviving candidate after 11 pure-software-tool strategies; testing whether business-model change (service/content, not software) escapes the AI-clone-speed problem
-NEXT_HIGHEST_VALUE_ACTION: awaiting dedicated adversarial-validation pass on the one Round 4 survivor (Medicaid/SNAP policy digest for frontline case managers) — deeper competitor re-check, liability/accuracy risk assessment, monetization realism, execution realism. Will KILL or write up a GO recommendation depending on result.
-OWNER_ACTION_REQUIRED: none yet for research — proceeding autonomously per standing instruction. Flagging in advance: if this candidate survives validation, its liability profile (wrong guidance could cause a real vulnerable person to lose benefits) is materially different from every prior candidate this project has evaluated, and the owner may want to weigh in specifically on that risk before any BUILD approval, even though research/validation itself doesn't require a gate.
+ACTIVE_CANDIDATES: none — 12/12 distinct discovery strategies now killed across 4 business-model axes (software tool, productized service, content/newsletter, fresh-trigger reaction) in 5 days
+PRIMARY_BOTTLENECK: not "which niche" but a structural one, now evidenced from two independent angles — (a) software ideas get AI-clone-raced within 1-12 weeks regardless of complexity, and (b) service/content ideas with a real trust moat require credentials/track-record/institutional backing that a zero-capital, zero-credential, solo AI operator cannot bootstrap fast enough, while ideas fast enough to bootstrap at €0 have no moat and are already commoditized. Genuinely new, unexhausted axes are running out.
+NEXT_HIGHEST_VALUE_ACTION: this is now a decision point worth the owner's input, not another blind discovery round — see "Recommendation for the owner" below. Absent owner input, default is a Round 5 discovery pass explicitly built around whatever real-world credential, audience, network, or domain expertise the owner has (the one lever untested so far, since all research to date has assumed a generic zero-credential operator).
+OWNER_ACTION_REQUIRED: see recommendation below — not a hard blocker (research continues either way), but the owner's input now has unusually high leverage given the credential/trust bottleneck identified independently in Rounds 4's service and content axes.
 
 # Memory
 
@@ -37,7 +37,8 @@ whether it's trivially replicable, require real evidence of demand/
 willingness-to-pay, and report zero survivors honestly rather than forcing
 a weak pick).
 
-**Results (full detail in `ideas/candidates.md`):**
+**Results (full detail in `ideas/candidates.md` and
+`research/medicaid-snap-digest.md`):**
 - Fresh-trigger scan: 0 survivors — confirms rather than escapes the
   pattern; triggers visible enough to search for are already 3-6+ days
   into their response cycle.
@@ -45,19 +46,93 @@ a weak pick).
   by the research agent itself — "services with a real moat take too
   long to bootstrap at €0; services fast enough to bootstrap at €0 have
   no moat and are already commoditized."
-- Content/newsletter: **1 real survivor** — a Medicaid/SNAP
-  policy-change digest for frontline case managers/benefits navigators.
-  Real evidenced gap, real €0 distribution path, real trust-based moat.
-  But flagged with serious risks: weak monetization (audience has no
-  discretionary budget), and — new for this project — genuine
-  liability/accuracy exposure, since wrong guidance here could cause a
-  real vulnerable person to lose benefits, not just a bad review.
+- Content/newsletter: 1 survivor at discovery (a Medicaid/SNAP
+  policy-change digest for frontline case managers), **killed at
+  dedicated adversarial validation**. The competitor gap was real but
+  much smaller than framed (every state already runs an internal
+  bulletin system for its own staff, shrinking the addressable audience
+  to non-agency navigators), liability risk was assessed as a genuine,
+  non-hypothetical kill signal (a wrong effective date could cost a real
+  family their SNAP/Medicaid benefits, irreversibly within a benefit
+  period, with no institutional/insurance backstop behind a solo €0
+  operator), monetization was a hope-based play requiring 6-12+ months
+  of unpaid growth before any sponsor conversation is credible, and a
+  direct institutional precedent (CLINIC's "TIPs") showed the format
+  works specifically because of credentialed institutional backing this
+  project cannot claim. A narrower conditional-GO scope was considered
+  and explicitly rejected for the same reasons at smaller scale.
 
-Dedicated adversarial validation launched on the Medicaid/SNAP candidate,
-explicitly probing (in priority order) a deeper practitioner-specific
-competitor re-check, whether the liability risk is actually manageable at
-€0 with no domain credentials, monetization realism, and execution
-realism. Result pending.
+**All three Round 4 axes are now exhausted, zero survivors.** Combined
+with Round 1-3's 11, this project has tried 12 distinct discovery
+strategies across 4 different business-model axes in 5 days — all killed
+either at discovery screening or adversarial validation.
+
+### The sharper structural read
+
+Two genuinely different failure modes have now been independently
+confirmed:
+1. **Software tools get AI-clone-raced** within 1-12 weeks of visibility,
+   regardless of engineering complexity (Rounds 1-3).
+2. **Service/content models with a real trust moat require credentials,
+   track record, or institutional backing** that a zero-capital,
+   zero-credential, generic solo AI operator cannot bootstrap fast enough
+   — while the service/content ideas that *are* fast enough to bootstrap
+   at €0 turn out to have no moat and are already commoditized (Round 4).
+
+Put together: the constraint that has killed 12/12 candidates is not "no
+good niches exist" — several real, evidenced gaps were found (change-order
+tool, XL Bully insurance, digital nomad visa tracker, security
+questionnaires, Medicaid/SNAP digest). It's that **this project, as
+currently configured (generic, zero-capital, zero-credential, zero
+pre-existing audience/network), lacks the one asset — speed-proof
+differentiation — that separates a defensible business from a
+first-mover-advantage-only one, at exactly the historical moment
+(AI-assisted building/cloning, Sept 2026) when first-mover advantage alone
+evaporates in weeks.**
+
+### Recommendation for the owner's attention
+
+This is worth the owner's input now, more than at any prior point in this
+project's history, for a specific reason: two independent research
+threads this round converged on "credential/track-record/existing-
+audience" as the actual bottleneck. That is exactly the kind of asset a
+real human owner might have and a generic research agent has no way to
+know about or leverage. Concretely, worth the owner sharing if any apply
+(not required — research continues autonomously either way):
+
+1. **Domain expertise or professional credentials** (a licensed
+   profession, a regulated industry background, specialized technical
+   skill) that would let this project credibly enter a trust-gated
+   service niche like the ones killed in Round 4 (security
+   questionnaires, grant writing, compliance consulting).
+2. **An existing audience, community, or network** (a following in some
+   niche, professional contacts, a community the owner is already part
+   of) that would give a content or service business real distribution
+   and trust from day one, rather than needing to build both from zero.
+3. **A specific problem the owner has personally experienced** and wants
+   solved — owner ideas get the same adversarial-validation treatment as
+   agent-discovered ones (per standing project rules), but a
+   personally-motivated idea sometimes carries exactly the kind of
+   insider knowledge that's been missing from these twelve attempts.
+4. **Explicit direction to keep searching within the current
+   constraints** (zero credential, zero audience, zero capital, generic
+   operator) — a legitimate choice, but worth naming explicitly given the
+   evidence that this constraint set has now produced 12/12 kills across
+   4 different business-model axes.
+5. **Explicit direction to accept a marginal candidate deliberately** —
+   several near-misses across all rounds were real-but-thin (the
+   change-order tool, the FAFSA-counselor newsletter noted as a weaker
+   secondary survivor this round) — not picked because the project's
+   discipline is not to force weak ideas through, but a legitimate owner
+   call if they'd rather ship something small and imperfect than keep
+   searching for a clean wedge.
+
+Absent owner input, the default for the next run is a Round 5 discovery
+pass structured around option 4 (continue within current constraints,
+next untested angle likely: hyper-local/single-city services, or a
+physical/offline angle not yet tried, since online is now saturated in
+every axis tested) — logged as the fallback so the project doesn't stall
+waiting on a response.
 
 ## Status as of 2026-09-19 (prior run): 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 

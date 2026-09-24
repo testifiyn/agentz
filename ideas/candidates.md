@@ -367,13 +367,37 @@ fragmented official guidance, but FAFSA only produces meaningful news
 with a recurring scholarship-deadline calendar. Not fully vetted to
 survivor-confidence; noted for later if the primary survivor is killed.
 
-Proceeding to dedicated adversarial validation on the Medicaid/SNAP
-candidate — see `research/medicaid-snap-digest.md` — with explicit focus
-on (a) a deeper competitor re-check beyond this discovery pass, (b)
-whether the liability/accuracy risk is manageable at €0 with a strict
-"curation of official primary sources, with citations, not advice"
-framing, and (c) whether sponsorship monetization is realistic before any
-owner GO/build decision.
+### STATUS UPDATE: Medicaid/SNAP digest KILLED at adversarial validation
+
+Dedicated validation (full detail: `research/medicaid-snap-digest.md`)
+found: (1) the competitor gap is real but much smaller than framed — every
+state Medicaid/SNAP agency already runs a mandatory internal bulletin
+system for its own eligibility staff, so the addressable audience shrinks
+to the non-agency-employed half (nonprofit navigators, CHWs, 211 staff),
+and a direct institutional precedent (CLINIC's "TIPs") shows the format
+works because of institutional/legal backing this project cannot claim;
+(2) liability is a genuine, non-hypothetical kill signal — a wrong
+effective date or state mix-up is plausible, not a tail risk, and the
+downstream harm (a family losing SNAP/Medicaid) is often irreversible
+within a benefit period, falling on people with no cushion, with no
+insurance/institutional backstop behind a solo €0 operator; (3)
+monetization is a hope-based, not evidence-based, play — sponsors targeted
+don't naturally fit this audience, and realistic sponsor interest requires
+1,000-2,500 subscribers first, meaning 6-12+ months of unpaid growth
+before any revenue conversation is credible; (4) full-scope execution
+(50-state weekly coverage, solo, no credentials) isn't sustainable at the
+accuracy bar the topic demands. A narrower conditional-GO scope was
+considered (non-agency audience only, no restated dates/numbers, 3+
+months manual unpaid testing before any code) and explicitly rejected —
+it reduces but doesn't eliminate the liability concern, on top of an
+already-shrunken audience and unproven monetization. **KILLED.**
+
+**All three Round 4 axes are now exhausted with zero survivors that
+clear adversarial validation.** Combined with the 11 killed in Round 1-3,
+this project has now tried 12 distinct discovery strategies across four
+different business-model axes (software tool, productized service,
+content/newsletter, fresh-trigger reaction) in five days, all killed. See
+`MEMORY.md` for the synthesized read and recommended next steps.
 
 ## Summary: 11 discovery strategies tried in one day, zero survivors
 
