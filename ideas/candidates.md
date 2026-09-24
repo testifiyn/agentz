@@ -261,6 +261,120 @@ clone-saturation window... not to months." Recommends the next search
 either target changes too obscure to be publicly countdown-clocked (no
 swarm trigger), or abandon the regulatory-trigger axis entirely.
 
+## Round 4 (2026-09-24) — business-model change: service, content, fresh-trigger
+
+Testing the two untried levers flagged by the 2026-09-19 run's own memory:
+switch away from "software tool" (what AI clones fastest) toward service/
+content models with trust-based moats, and react to genuinely fresh (<72h)
+triggers instead of months-old ones. Three parallel agents.
+
+### Fresh-trigger scan (<72h as of 2026-09-24): 0 survivors
+
+Screened 5 triggers from the last 72 hours: Z.ai/ZCode silent data-
+exfiltration scandal (already covered by existing AI-agent security
+scanners — AgentGuard, SkillSpector, Cisco AI Defense, Beacon — and
+actually >72h old by peak-coverage date), Sora 2 API hard shutdown today
+(6 months' notice, "alternatives" content already indexed for months),
+same-day Anthropic/OpenAI price cuts (no buildable angle, commentary
+only), AuroraStore/GrapheneOS Play Store degradation (ongoing multi-year
+pattern, not fresh, official workaround already exists), Fitbit Web API
+shutdown (migration guides already indexed). **Confirms the pattern
+rather than escaping it**: by the time a trigger is visible enough to
+surface in search, it's typically already 3-6+ days into its response
+cycle. Freshness caveat from the agent: this was one search pass, not
+continuous monitoring — a same-day re-run could differ.
+
+### Productized service model: 0 survivors — new structural finding
+
+Screened 6 service niches with evidenced willingness-to-pay: vendor
+security-questionnaire response (marginal — real pain and pricing, but
+being tool-eaten right now by "vCISO Lite" and gated by needing real
+security credentials this project can't fabricate), off-market SMB deal
+sourcing for search funds (killed — bottleneck is proprietary
+relationship/trust capacity, not research; established boutiques own the
+track record), B2B competitive-intelligence retainers (killed — SMB tier
+already served by AI-synthesized digest products "The Weekly Byte" /
+"Spyglass CI Weekly"; enterprise tier needs a sales cycle and case
+studies a new entrant can't build at €0), grant writing (killed — low end
+tool-eaten, remaining market saturated with track-record-screened
+incumbents), government RFP writing (killed — buyers explicitly weight
+past-performance, e.g. "$6.8B captured, 92% success rate" — a credential
+this project cannot claim), Amazon/Etsy product research (killed — fully
+commoditized Fiverr gig work, trivially replicable by the buyer running a
+prompt themselves).
+
+**Structural finding, stated by the research agent itself: "services with
+a real moat (trust, accreditation, track record) take too long to
+bootstrap at €0; services fast enough to bootstrap at €0 have no moat and
+are already commoditized."** This is a clean bind, not a search failure —
+worth treating as a standing constraint on the service-model axis for
+future rounds, the same way "software gets clone-raced in weeks" is now a
+standing constraint on the tool-model axis.
+
+### Content/newsletter model: 1 real survivor, 1 weaker secondary — ★ candidate for adversarial validation
+
+Killed: digital nomad visa newsletter (Nomad Cloud already has 230k+
+subs plus 4 more competitors — same space the now-deleted nomad-visa-
+tracker candidate already lost to), general AI/dev-tools digest (TLDR AI
+1.25M subs, Rundown AI 2M, Ben's Bites 400K — explicitly described in
+search results as over-saturated), EU AI Act SME compliance newsletter
+(Future of Life Institute already runs a 50k+ subscriber biweekly, 100+
+issues since 2022), tariff/trade-policy tracker for small importers
+(already served by customs-broker and trade-law-firm content with real
+customs expertise this project can't match credibly), SAM.gov government-
+contracting opportunity curation (already an AI-powered daily newsletter
+at 200k+ postings/year, 28k subscribers — also structurally a
+scraper/tool problem, same clone risk as the original 11). Also discarded
+fast: BOI/FinCEN reporting (the regulation was repealed Aug 2026 — the
+information need evaporated) and AI-agent-security content (already
+flooded with generic AI-generated SEO posts, matching the fake-review-
+checker content-farm-flood pattern from Round 1).
+
+**Survivor — Medicaid/SNAP policy-change digest for frontline case
+managers and benefits navigators.** Real, currently poorly-served need:
+major federal eligibility changes landing through 2026 (OBBBA-driven SNAP
+work requirements, Medicaid work requirements effective Dec 31 2026,
+six-month re-verification, non-citizen eligibility restrictions), but
+guidance is scattered across dozens of uncoordinated state agency pages
+plus academic-policy sources (KFF, CBPP) not written for day-to-day
+caseload use — no single accessible, frequently-updated practitioner
+digest surfaced in search. Audience: county eligibility workers, nonprofit
+benefits navigators, community health workers, 211 staff. Distribution at
+€0: r/socialwork, r/CaseManagement, state NASW chapter Facebook groups,
+LinkedIn benefits-navigation groups. Editorial moat: being fast, accurate,
+and consistently right about a confusing multi-state rollout — a
+reputation a clone can't fake overnight.
+
+**Flagged risks the research agent itself raised, and this run agrees are
+serious, not routine:** (1) monetization is weak — this audience has
+no discretionary budget, so revenue would have to come from sponsorship
+(Propel/Providers, findhelp, Unite Us) or foundations, not subscribers;
+(2) **real reputational/liability exposure if curation is wrong on
+something people's actual benefits depend on** — this is a materially
+different risk category than prior candidates (a wrong SaaS review costs
+nothing; wrong SNAP/Medicaid guidance can cause a real vulnerable person
+to lose benefits or misapply for them), and this project has no social-
+services or benefits-law credentials to back the curation; (3) tracking
+50 states solo is a heavy research lift — would need to scope to
+federal-level changes plus a rotating handful of states rather than true
+50-state coverage. The agent's own framing: "a real gap but a grindy,
+low-margin one, not a slam dunk."
+
+**Secondary, weaker survivor — FAFSA/financial-aid newsletter for high
+school counselors** (r/SchoolCounseling, ASCA members): similarly
+fragmented official guidance, but FAFSA only produces meaningful news
+~1-2x/year, so it can't sustain newsletter cadence alone without pairing
+with a recurring scholarship-deadline calendar. Not fully vetted to
+survivor-confidence; noted for later if the primary survivor is killed.
+
+Proceeding to dedicated adversarial validation on the Medicaid/SNAP
+candidate — see `research/medicaid-snap-digest.md` — with explicit focus
+on (a) a deeper competitor re-check beyond this discovery pass, (b)
+whether the liability/accuracy risk is manageable at €0 with a strict
+"curation of official primary sources, with citations, not advice"
+framing, and (c) whether sponsorship monetization is realistic before any
+owner GO/build decision.
+
 ## Summary: 11 discovery strategies tried in one day, zero survivors
 
 Round 1 (3 strategies) + Round 2 (3 strategies) + Round 3 (1 strategy,

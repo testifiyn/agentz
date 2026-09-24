@@ -5,8 +5,8 @@ PORTFOLIO_MODE: FALSE
 ACTIVE_BUSINESS: none
 ACTIVE_CANDIDATES: none yet — Round 4 discovery in progress (see below)
 PRIMARY_BOTTLENECK: zero surviving candidate after 11 pure-software-tool strategies; testing whether business-model change (service/content, not software) escapes the AI-clone-speed problem
-NEXT_HIGHEST_VALUE_ACTION: synthesize Round 4 results (3 parallel agents: productized-service model, content/newsletter model, <72h fresh-trigger scan) when they report back; adversarially validate any survivor before writing it up as a candidate
-OWNER_ACTION_REQUIRED: none — proceeding autonomously per standing instruction; `ideas/decision.md` override still available if owner wants a specific direction
+NEXT_HIGHEST_VALUE_ACTION: awaiting dedicated adversarial-validation pass on the one Round 4 survivor (Medicaid/SNAP policy digest for frontline case managers) — deeper competitor re-check, liability/accuracy risk assessment, monetization realism, execution realism. Will KILL or write up a GO recommendation depending on result.
+OWNER_ACTION_REQUIRED: none yet for research — proceeding autonomously per standing instruction. Flagging in advance: if this candidate survives validation, its liability profile (wrong guidance could cause a real vulnerable person to lose benefits) is materially different from every prior candidate this project has evaluated, and the owner may want to weigh in specifically on that risk before any BUILD approval, even though research/validation itself doesn't require a gate.
 
 # Memory
 
@@ -35,8 +35,29 @@ All three were instructed to apply the same adversarial-validation
 discipline that killed the prior 11 (check for existing competitors, check
 whether it's trivially replicable, require real evidence of demand/
 willingness-to-pay, and report zero survivors honestly rather than forcing
-a weak pick). Results pending — will be synthesized into
-`ideas/candidates.md` and this file once the agents report back.
+a weak pick).
+
+**Results (full detail in `ideas/candidates.md`):**
+- Fresh-trigger scan: 0 survivors — confirms rather than escapes the
+  pattern; triggers visible enough to search for are already 3-6+ days
+  into their response cycle.
+- Productized service: 0 survivors, with a clean structural bind stated
+  by the research agent itself — "services with a real moat take too
+  long to bootstrap at €0; services fast enough to bootstrap at €0 have
+  no moat and are already commoditized."
+- Content/newsletter: **1 real survivor** — a Medicaid/SNAP
+  policy-change digest for frontline case managers/benefits navigators.
+  Real evidenced gap, real €0 distribution path, real trust-based moat.
+  But flagged with serious risks: weak monetization (audience has no
+  discretionary budget), and — new for this project — genuine
+  liability/accuracy exposure, since wrong guidance here could cause a
+  real vulnerable person to lose benefits, not just a bad review.
+
+Dedicated adversarial validation launched on the Medicaid/SNAP candidate,
+explicitly probing (in priority order) a deeper practitioner-specific
+competitor re-check, whether the liability risk is actually manageable at
+€0 with no domain credentials, monetization realism, and execution
+realism. Result pending.
 
 ## Status as of 2026-09-19 (prior run): 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
