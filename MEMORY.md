@@ -4,7 +4,67 @@ CURRENT_PHASE: IDEA_DISCOVERY
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status: 14 discovery strategies tried across two days, zero survivors — but Round 4 found *why*, more precisely
+
+**Update, 2026-09-25 (Round 4):** the two specific redirects this file
+flagged as untested after the 2026-09-19 result were tested today, both
+as negative results, and both sharpen the diagnosis rather than just
+adding to the failure count:
+
+- **Fresh-trigger window (4a): killed cleanly.** Tested against the
+  freshest real triggers available (OpenAI GPT-6 Sol/Luna and Claude
+  Opus 5.5 launches, ~72h old at test time). Found 8+ independent GitHub
+  migration PRs and third-party explainers already live within hours to
+  ~24h of launch — faster saturation than any prior case, including the
+  EU CRA candidate (7+ clones in 8 days) that was previously the
+  sharpest data point. Reason: the population most likely to react fast
+  (developers) is the same population most exposed to the trigger, so
+  there is no structural lag between "trigger breaks" and "an
+  AI-assisted response ships." Recency alone does not open a viable
+  solo-builder window. Full detail: `research/round4-fresh-trigger-window.md`.
+
+- **Service/content business models (4b): 0 survivors, but a genuinely
+  new mechanism identified.** The service-model moat (trust,
+  relationship — not shippable code) *does* hold against a solo
+  competitor racing to clone an idea. But 3 of 4 service candidates
+  tested (e-commerce support-inbox overflow, nonprofit grant-writing,
+  competitive-intelligence digest) instead died to well-funded,
+  VC-backed vertical-AI products that were *already built and marketed
+  by name* at the exact "underserved small customer" segment a solo
+  operator would target — Gorgias's AI Agent inside Shopify itself
+  (60-80% auto-resolution of exactly the ticket types a human overflow
+  service would handle), Grantable marketed explicitly at "nonprofits
+  under $500K budget," KeepTabz marketed explicitly at "the 95% of B2B
+  teams who can't justify Crayon/Klue/Contify." These weren't races we
+  lost — they predate this research. **The "underserved small customer,
+  AI-assisted human does it cheaper" pitch is now itself a crowded,
+  well-capitalized category**, one step behind pure software-cloning but
+  converging on the same result. Content/newsletter candidates failed
+  for the more familiar Round-2 reason: every regulated/professional
+  niche tested already has a live trade-association or trade-press
+  newsletter. Full detail: `research/round4-service-content-models.md`.
+
+**Three concrete, untested threads for a future round** (from 4b's own
+recommendation, not yet tried): (1) a narrower service pivot — a human
+layer configuring/tuning/escalating on top of a store's *existing* AI
+helpdesk, rather than replacing it; (2) service categories structurally
+unattractive to VC-funded vertical AI — physical presence, months-long
+in-person trust, hyper-local or highly bespoke judgment a SaaS company
+has no economic reason to productize; (3) content/curation in a niche
+with **no existing trade association or trade press at all**, i.e. an
+emerging, professionally unorganized audience rather than an established
+vertical — Round 4b only tested niches that already had an organized
+professional body, which reliably had already responded.
+
+None of these three have been tested yet. They are the recommended
+starting point for the next discovery round, rather than repeating
+Rounds 1-4's now-exhausted angles (generic micro-SaaS, comparison sites,
+regulatory-trigger tools, fresh-breaking-news reaction, or
+service/content niches tied to an existing professional vertical).
+
+---
+
+## Prior status (2026-09-19): 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code

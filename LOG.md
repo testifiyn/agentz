@@ -38,3 +38,92 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-25T00:00:00Z — Round 4: testing the two untested redirects, autonomous scheduled run
+
+**Phase at start:** IDEA_DISCOVERY (11/11 failed as of 2026-09-19, no owner input since)
+**Phase at end:** IDEA_DISCOVERY (14/14 failed, sharper structural diagnosis, three new untested threads identified)
+
+**What I did:**
+- Loaded state per the standing protocol: `MEMORY.md`, `LOG.md`,
+  `ideas/candidates.md`, `research/`, `ideas/decision.md`. No owner
+  override set. Six days had passed since the last run with no new
+  input, so rather than repeat the same "brainstorm another SaaS idea"
+  pattern that had already failed 11/11, chose the two specific
+  redirects the prior run's own memory explicitly flagged as untested.
+- Launched two parallel discovery agents:
+  - **4a**: test whether a narrower 24-72h fresh-trigger reaction window
+    exists (vs. the weeks-old triggers tested previously). Used the
+    OpenAI GPT-6 Sol/Luna and Claude Opus 5.5 launches (~72h old) as the
+    sharpest available test case. Result: killed — 8+ independent
+    GitHub responses already live within hours to ~24h, faster
+    saturation than any prior case tested. Wrote
+    `research/round4-fresh-trigger-window.md`.
+  - **4b**: test productized-service and content/newsletter business
+    models, on the thesis that a trust/relationship moat might not be
+    subject to the same code-cloning compression as software products.
+    Screened 10 candidates. Result: 0 survivors, but found a materially
+    new failure mechanism — 3 of 4 service candidates were pre-empted by
+    VC-funded vertical-AI products already built and marketed by name at
+    the exact underserved-small-customer segment being targeted
+    (Gorgias's Shopify AI Agent, Grantable, KeepTabz), predating this
+    research entirely. Content candidates failed via the familiar
+    Round-2 pattern (existing trade press/associations). Wrote
+    `research/round4-service-content-models.md`.
+- Synthesized both results into `MEMORY.md` (replacing the stale
+  "current status" section with an updated one, preserving the prior
+  section as "Prior status" below it) and appended a Round 4 summary to
+  `ideas/candidates.md`.
+- Did not force a pick. 14 independent discovery strategies have now
+  failed; forcing a weak candidate through to manufacture progress would
+  violate this project's explicit standing discipline against exactly
+  that failure mode.
+
+**Evidence discovered:** see the two research files for full citations.
+Headline data points: 8+ GitHub PRs migrating to GPT-6 Sol/Luna within
+24h of a 72h-old launch; Gorgias reports 60-80% AI ticket auto-resolution
+inside Shopify; Grantable and KeepTabz both explicitly market themselves,
+by name, at the exact "underserved small customer" positioning a solo
+service business would use.
+
+**Decision:** Continue in IDEA_DISCOVERY. Do not repeat Rounds 1-4's now
+exhausted angles. Three genuinely untested threads were identified for
+the next round: (1) a human layer configuring/escalating on top of a store's
+*existing* AI helpdesk rather than replacing it, (2) service categories
+structurally unattractive to VC-funded vertical AI (physical presence,
+months-long in-person trust, hyper-local/bespoke judgment), (3)
+content/curation in a niche with no existing trade association or trade
+press at all.
+
+**Files changed:** `research/round4-fresh-trigger-window.md` (new),
+`research/round4-service-content-models.md` (new), `MEMORY.md`,
+`ideas/candidates.md`, `LOG.md`.
+
+**Primary bottleneck:** discovery itself — 14/14 strategies across two
+axes (software products, service/content models) have failed to surface
+a candidate with a durable, evidence-backed moat in the current
+AI-assisted-development environment. The bottleneck is not execution
+speed or research effort; it is that every discoverable opening this
+project can find via search is also discoverable, and already being
+acted on, by better-capitalized or equally-fast actors.
+
+**Next highest-value action:** run a fifth discovery round targeting
+specifically the three untested threads above (not a repeat of Rounds
+1-4's exhausted angles), starting with thread (2) — service categories
+requiring physical presence or months-long in-person trust — since it is
+the most structurally distinct from every angle tried so far and most
+directly targets the mechanism (VC-funded vertical AI has no economic
+reason to build a product for it) that killed 4b's near-miss candidates.
+
+**Owner action required:** none required to continue (standing
+instruction: discovery/kill decisions proceed autonomously). Flagging for
+visibility: 14 consecutive discovery failures is a significant enough
+run to notify on, per the project's own notification guidance
+("important risk," "major pivot recommendation"-adjacent). `ideas/decision.md`
+remains open for an owner override at any time.
+
+**Notification status:** notifying the owner this run, given the scale
+of the negative result and the new structural mechanism found (VC-funded
+vertical AI pre-empting the service/content axis).

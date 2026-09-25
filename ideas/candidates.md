@@ -270,3 +270,47 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-09-25) — testing the two untested redirects from Round 3
+
+Two parallel angles specifically flagged as untested in MEMORY.md after
+the 11/11 result: (4a) a narrower 24-72h fresh-trigger reaction window,
+and (4b) business models where the moat isn't "shipped code first"
+(productized services, content/newsletter). Full detail in
+`research/round4-fresh-trigger-window.md` and
+`research/round4-service-content-models.md`.
+
+**4a verdict: KILL the hypothesis.** Tested against the freshest real
+triggers available (OpenAI GPT-6 Sol/Luna and Claude Opus 5.5 launches,
+~72h old). Found 8+ independent GitHub migration PRs and third-party
+explainers already live within hours to ~24h — faster saturation than
+any prior case. The population most likely to react fast (developers) is
+the same population most exposed to the trigger, so no structural lag
+exists to exploit.
+
+**4b verdict: 0 clean survivors, but a new structural pattern found.**
+10 candidates screened across services (e-commerce support-inbox
+overflow, nonprofit grant-writing, competitive-intelligence digest,
+outsourced SDR, LinkedIn ghostwriting, listing optimization, MCP
+technical writing) and content (tariff newsletter, vet-practice finance
+newsletter, real-estate AI-tools newsletter). The service moat (trust,
+relationship) does hold against code-cloning specifically — but 3 of 4
+service candidates instead died to well-funded, VC-backed vertical-AI
+products *already* built and marketed by name at the exact "underserved
+small customer" segment being targeted (Gorgias's AI Agent inside
+Shopify itself; Grantable marketed at "nonprofits under $500K"; KeepTabz
+marketed at "the 95% who can't afford Crayon/Klue/Contify"). Content
+candidates died to the same Round-2 pattern (an existing trade
+association/press already runs a live newsletter in every regulated/
+professional niche tested).
+
+**Combined verdict: 14 independent discovery strategies now failed
+(11 from Rounds 1-3 + 2 from Round 4).** Three concrete open threads
+identified for a future round, none tried yet: (1) a narrower service
+pivot — "human layer managing/escalating on top of a store's existing AI
+helpdesk" rather than "answer the inbox," (2) service categories
+structurally unattractive to VC-funded vertical AI — physical presence,
+months-long in-person trust, hyper-local/bespoke judgment, (3)
+content/curation in a niche with **no existing trade association or
+trade press at all**, rather than an established professional vertical.
+See `MEMORY.md` for the full synthesis.
