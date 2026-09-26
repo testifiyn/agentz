@@ -38,3 +38,22 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-26T00:00:00Z — Scheduled run: tested the business-model redirect flagged after Round 3
+
+**Phase at start:** IDEA_DISCOVERY (11/11 prior strategies dead, no owner override set)
+**Phase at end:** IDEA_DISCOVERY (20/20 strategies dead — structural finding now extends across business models)
+
+**What I did:**
+- Checked `ideas/decision.md` for an owner override — none set, confirming autonomous operation continues per standing instruction.
+- Since all 11 prior candidates were dead and the prior run's own recommendation had flagged "business-model change" (productized service or content/community, not another software tool) as the one untested option, ran a fresh discovery pass on exactly that axis rather than repeating the exhausted "brainstorm a tool, check if it's taken" pattern.
+- One research agent tested 9 candidates across two families: productized concierge services (genealogy research, M&A-marketplace due diligence, search-fund deal-sourcing, medical-bill/insurance-denial appeal advocacy, grant-writing, vertical expert networks, heir-hunting, unclaimed-property recovery) and paid content/community models (collector/reseller deal-alert curation). **Zero survivors.**
+- The kills revealed two new capture mechanisms not seen in the pure-software rounds — decades-old professional trust moats (genealogy, heir-hunting, expert networks) and network-effect communities with years of head start (deal-alert Discords) — plus a third that directly extends the original diagnosis: AI-native competitors have already commoditized at least one "human service" (medical-bill appeal writing, now priced as low as $3-40/appeal by AI-assisted tools) just as fast as they would clone software, showing that switching business models does not by itself escape the AI-clone-compression problem when the deliverable is a templatable document.
+- Rewrote `MEMORY.md`'s status/structural-read/recommendation sections to fold in this finding, narrow the owner-facing options (two of the four raised after Round 3 are now used up), and set a default next action (narrower sub-niches + watching for genuinely fresh triggers) if no owner input arrives. Appended full Round 4 candidate detail to `ideas/candidates.md`.
+
+**What's next:**
+- Default for the next run: go narrower than headline niches within already-mapped categories, and/or watch for a trigger within 24-72 hours of breaking rather than testing 2-4-month-old ones — both untested in any form so far.
+- Flagged for explicit owner input: whether to relax the remote-only/laptop-testable-at-€0 constraint, since categories requiring physical presence or long-term personal trust were skipped for that reason, not because they're captured.
+- Commit, push, and notify the owner — 20/20 failed across two business-model dimensions is a milestone-level structural finding with a real decision point (constraint relaxation) attached, not routine progress.

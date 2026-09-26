@@ -4,18 +4,23 @@ CURRENT_PHASE: IDEA_DISCOVERY
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status: 20 discovery strategies tried across two sessions, zero survivors — the structural finding now extends to service/content models too
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
 from three earlier runs — ten candidate ideas, all killed or pivoted,
 none approved to build — deleted from `ideas/`, `research/`, `build/`).
-Immediately after the reset, this same run executed three full discovery
-rounds, applying every methodology refinement learned across this
-project's history plus several genuinely new redirections. **All of it
-failed to produce a single surviving candidate.** Full detail per
-candidate is in `ideas/candidates.md`; this section is the synthesized
-read of what that means.
+Immediately after the reset, that session executed three full discovery
+rounds (11 distinct strategies), applying every methodology refinement
+learned across this project's history. All of it failed to produce a
+single surviving candidate. **A follow-up session (2026-09-26) tested
+the one redirection that first session explicitly flagged as untried —
+productized-service and content/community business models instead of
+pure software — across 9 more candidates. That also failed, zero
+survivors, but for reasons that extend rather than escape the original
+diagnosis (see below).** Full detail per candidate is in
+`ideas/candidates.md`; this section is the synthesized read of what it
+all means.
 
 ### What was tried, in order
 
@@ -50,27 +55,65 @@ read of what that means.
   implementations within ~8 days of its deadline going live** — real
   complexity only shifted the clone-saturation window from ~2-3 weeks to
   ~1-2 weeks, not to months.
+- **Round 4** (2026-09-26, 1 agent, deliberately redirected away from
+  software entirely): tested 9 candidates split across productized
+  "concierge" services (genealogy research, buy-side due diligence for
+  online-business acquisitions, search-fund deal-sourcing, medical-bill/
+  insurance-denial appeal advocacy, grant-writing, vertical expert
+  networks, heir-hunting, unclaimed-property recovery) and paid content/
+  community models (collector/reseller deal-alert curation). Zero
+  survivors, via two distinct capture mechanisms:
+  1. **Old-money moat** — several of these "human judgment" niches
+     (genealogy, heir-hunting/probate research, expert networks) are
+     30-90-year-old professions with entrenched trust/credential moats a
+     new solo operator cannot out-compete on reputation alone, AI-assist
+     or not.
+  2. **The service itself gets AI-cloned just as fast as software would**
+     — the sharpest data point: medical-bill appeal-writing is a real,
+     growing pain point, but a wave of AI-native competitors (Claimable
+     at $39.95/appeal, EZAppeal at $3/appeal, free nonprofit tools) has
+     already commoditized it faster and cheaper than a human-only
+     concierge could ever price. Moving from "software artifact" to
+     "service" does not escape the compression problem when the
+     deliverable is itself a templatable document (an appeal letter, a
+     grant proposal, a report) — AI tooling clones that just as readily.
+  The deal-alert-curation candidate also confirmed a third pattern:
+  proven willingness to pay ($6-75/mo paid Discords, 12k-17.7k members)
+  doesn't help when incumbents already have years of head start *and* a
+  network effect (more members → more deal reports → more value), which
+  is a moat type this project hadn't encountered yet in the pure-software
+  rounds.
 
 ### The structural read
 
-Every failure mode across all three rounds traces back to the same root
+Every failure mode across all four rounds traces back to the same root
 cause, just expressed differently by niche: **in September 2026, the
 time between "an opportunity becomes visible" and "someone (often several
 someones, independently, using AI-assisted tooling) has already shipped a
 working response" has compressed to single-digit weeks, and in several
 cases (regulator-published official tools, chamber-built compliance
-tools) the gap never opens at all** because the same AI-assisted
-tooling now lets the *incumbent* or the *regulated body itself* respond
-just as fast as a solo outside builder. This is a continuation and sharp
+tools, AI-native service competitors) the gap never opens at all**
+because the same AI-assisted tooling now lets the *incumbent*, the
+*regulated body itself*, or an *AI-native service provider* respond just
+as fast as a solo outside builder. This is a continuation and sharp
 tightening of the "publicized trigger events get raced on" lesson from
 this project's earlier (now-deleted) history, but the magnitude is
 different in kind, not just degree: it now applies to chronic pain points
 that were previously assumed safer (evergreen calculators, regulated-
 profession compliance needs), to genuinely complex engineering responses
-that were assumed to buy more runway, and to differentiators built around
+that were assumed to buy more runway, to differentiators built around
 "we'll do X continuously, they only did it once" (freshness-as-moat),
-which turned out to already be standard competitive practice, not an open
-wedge, in every niche tested closely enough to check.
+which turned out to already be standard competitive practice, and — as
+of Round 4 — **to the business-model change itself.** Switching from
+software to a productized service does not route around the compression
+problem whenever the service's deliverable is a templatable document or
+process (an appeal, a proposal, a report): that gets AI-cloned by
+competitors at commodity prices just as fast as a SaaS tool would be.
+The two capture mechanisms that *did* hold up in Round 4 — decades-old
+professional trust moats, and network-effect communities with years of
+head start — are not things a new €0 solo operator can manufacture
+quickly either; they're just a different flavor of "already closed,"
+not a route in.
 
 **This is worth being honest about rather than forcing a weak idea
 through to satisfy "make progress every run."** The operating principle
@@ -86,46 +129,54 @@ permission to continue — the project's standing instruction is that
 research/idea/kill decisions don't need a stop-and-ask gate, and future
 runs will keep working autonomously regardless)
 
-Given eleven independent strategies failed in one day, continuing to
-spend agent-hours on "brainstorm + web-search screen" discovery without
-changing the fundamental approach is unlikely to be productive in the
-short term. Worth the owner knowing about and weighing in on if they have
-a preference, next time they check in:
+Twenty independent strategies across two dimensions (software product,
+and now productized service/content) have failed. Continuing to run
+another headline-niche "brainstorm + screen" round on either dimension is
+very unlikely to be productive — that specific approach has now been
+tested to the point of clear diminishing returns. Two of the four options
+raised after Round 3 have effectively been used up (business-model
+change: tried, failed; more discovery rounds on the same pattern: tried
+repeatedly, failed). What's left, worth the owner's input if they have a
+preference next time they check in:
 
-1. **Time-based approach**: rather than exhausting many strategies in one
-   sitting, a future run could deliberately watch for and react to a
-   fresh trigger event within 24-72 hours of it breaking, before it's
-   SEO-indexed or GitHub-cloned — several research agents flagged this as
-   the one lever not really tested today (today's "recent trigger" tests
-   were all 2-4 months old, already indexed). This needs a different
-   operating rhythm (frequent short checks for breaking news in relevant
-   spaces) rather than one-shot deep research.
-2. **Business-model change**: everything tried today was a software
-   product (SaaS tool, static comparison site, browser extension). A
-   productized service, content/newsletter product, or community model
-   was not tested and might face different (possibly more favorable, or
-   possibly worse given the HARD SAFETY BOUNDARY on real outreach)
-   dynamics — worth considering explicitly next round rather than
-   defaulting back to "another tool."
-3. **Owner override**: `ideas/decision.md` remains available if the
-   owner has a specific direction in mind they'd like pursued regardless
-   of what discovery search turns up — the adversarial validation
-   discipline would still apply to protect against building something
+1. **Relax the remote-only/laptop-testable constraint.** Round 4's own
+   research flagged this directly: categories requiring physical
+   presence, on-site inspection, or trust built over months (not
+   discoverable/copyable via a web search in a day) were not deep-dived
+   because they fail the "testable from a laptop at €0" framing this
+   project has used by default — not because they're already captured.
+   This is a scope decision, not a research one: it trades faster €0
+   testing for a plausible way to actually get outside the
+   AI-clone-in-days dynamic. Worth explicit owner sign-off since it's a
+   bigger operating-model shift than picking a different niche.
+2. **Go narrower than headline niches.** Round 4's agent's own
+   suggestion: dig into a specific under-covered sub-segment within an
+   already-mapped category (e.g. a specific diaspora/ethnic-community
+   genealogy specialty, a specific underserved regional search-fund
+   vertical) rather than re-testing category headlines, since headline
+   niches are evidently searched and filled by AI-assisted competitors
+   just as fast in services as in software.
+3. **Time-based/breaking-trigger approach** (carried forward from Round
+   3, still untested): react to a fresh trigger within 24-72 hours of it
+   breaking, before it's indexed — needs a different operating rhythm
+   (frequent short checks) than the one-shot deep-research rounds run so
+   far.
+4. **Owner override**: `ideas/decision.md` remains available if the
+   owner has a specific direction in mind — the adversarial validation
+   discipline still applies to protect against building something
    already captured.
-4. **Accept a marginal candidate deliberately, eyes open**: several
-   near-misses this session were rejected for being merely marginal, not
-   fatally flawed (e.g., the change-order/scope-creep tool from the
-   deleted history had thin-but-real differentiation potential; the
-   OpenAI Assistants-API codemod from Round 2 has a real, if shrinking,
-   underserved audience). None were picked because the project's standing
-   discipline is not to force weak ideas through — but if the owner would
-   rather ship something small and imperfect than keep searching for a
-   clean wedge, that's a legitimate call only they can make.
+5. **Accept a marginal candidate deliberately, eyes open**: no candidate
+   across either round was rejected as merely marginal rather than
+   clearly captured, so this option is weaker now than after Round 3 —
+   there isn't an obvious near-miss sitting in the rejected pool to pick
+   up.
 
-Absent owner input, the default is to keep trying fresh discovery rounds
-in future runs (new day, new triggers, possibly a different time-of-day
-check for very recent breaking news), not to force a pick from today's
-rejected pool.
+Absent owner input, the default for the next run is option 2 (narrower
+sub-niches within already-mapped categories) combined with option 3
+(watching for a genuinely fresh trigger rather than a 2-4-month-old one),
+since those are the two paths not yet tried in any form. Repeating
+another headline-level "new industry, new day" scan on either dimension
+without one of these changes is not a good use of the next run.
 
 ## Capital state
 
@@ -134,9 +185,8 @@ published, no Chrome Web Store submission, no external service accounts.
 
 ## GitHub write access
 
-Confirmed healthy this run — multiple commits reached `origin/main`
-normally (reset commit, Round 1 commit, Round 2 commit all pushed
-successfully).
+Confirmed healthy as of the 2026-09-26 run — commits continue to reach
+the remote normally.
 
 ## Prior-run lessons carried forward informally (from before today's reset, now deleted as files)
 

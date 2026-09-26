@@ -270,3 +270,73 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-09-26) — productized-service and content/community models: 0 survivors
+
+Redirected per Round 3's own recommendation, away from software entirely,
+toward business models where the deliverable is ongoing human judgment
+rather than a shippable artifact. Tested 9 candidates, all killed:
+
+1. **Genealogy research-as-a-service** — mature, stratified market
+   (Legacy Tree Genealogists $3,200-$16,000 packages, ProGenealogists/
+   NEHGS $75-95/hr, a deep $40-60/hr freelancer bench). Killed: trust
+   moat already owned by incumbents with years of reputation.
+2. **Due-diligence-as-a-service for online-business buyers** (Flippa/
+   Acquire.com/Empire Flippers) — FlipAudit already serves this exact
+   niche across all major marketplaces; Flippa itself runs in-house
+   verified-DD for listings >$50k. Killed: named specialist plus the
+   marketplace's own competing offering.
+3. **SMB-acquisition deal-sourcing/curation for search funds** —
+   SMB Deal Hunter ($12-15k Pro program), PrivSource, X5 Deals, plus
+   multiple active newsletters already serving this exact audience.
+   Killed: well-capitalized incumbents, newsletter oversupply.
+4. **Collector/reseller deal-alert curation** (vinyl/sneakers/cards) —
+   real, proven willingness to pay ($6-75/mo paid Discords, 12k-17.7k
+   members: Resell Calendar, Endurance, VintageLab), but incumbents have
+   years of head start plus a network effect (more members → more deal
+   reports → more value). Killed: not a moat a new entrant can replicate.
+5. **Medical-bill/insurance-denial appeal advocacy** — the sharpest kill:
+   a wave of AI-native competitors (Claimable $39.95/appeal, Muni
+   Appeals $20, EZAppeal $3, free nonprofit tools) already commoditized
+   this faster/cheaper than a human-only concierge could price. Direct
+   evidence that "service, not software" does not escape the AI-clone
+   compression problem when the deliverable is a templatable document.
+6. **Grant-writing service** — thousands of Upwork freelancers at
+   $35-150/hr, specialist firms to $195/hr; industry sources flag it as
+   a race-to-the-bottom lead-gen funnel. Killed: commoditized on price.
+7. **Vertical expert networks** (on-demand advisor calls) — dominated by
+   GLG, AlphaSights, Guidepoint, Third Bridge, plus CleverX (8M+
+   verified professionals) at the accessible tier, all actively investing
+   in micro-vertical coverage themselves. Killed: no wedge against firms
+   with existing compliance infrastructure and expert pools.
+8. **Heir-hunting/probate research** (contingency-fee) — a professionally
+   organized industry since 1935 (American Research Bureau), named firms
+   (HeirSearch, ASG Investigations, missingheir.com), DOJ scrutiny on fee
+   practices. Killed: 90-year-old mature industry plus regulatory
+   overhang.
+9. **Unclaimed-property recovery** (contingency-fee) — MissingMoney.com
+   gives a free official lookup across 49 states; established paid
+   "finder" firms (Finders International, STAT Recovery, Phoenix Finders
+   Group) already work the paid-recovery angle nationally. Killed: free
+   official channel plus established paid competitors.
+
+**Pattern:** capture happened via two mechanisms not seen in the
+pure-software rounds — decades-old professional trust moats (genealogy,
+heir-hunting, expert networks), and network-effect communities with
+years of head start (deal-alert curation) — plus one mechanism that
+*is* the same as the software rounds: AI-native competitors cloning a
+templatable service deliverable (appeal letters) just as fast as they'd
+clone software. Untested territory flagged by the research agent:
+niches requiring physical presence or long-term personal trust (not
+laptop/€0-testable in a day) were skipped for constraint reasons, not
+because they're captured — a candidate for relaxing the remote-only
+constraint in a future run if the owner is open to it.
+
+## Summary: 20 discovery strategies across two sessions, zero survivors
+
+11 software-product strategies (2026-09-19) + 9 service/content
+candidates in Round 4 (2026-09-26) = 20 distinct angles tried, all
+killed either at discovery-stage screening or at dedicated adversarial
+validation. See `MEMORY.md` for the full structural read (now spanning
+both software and service/content business models) and recommended next
+steps for the owner's attention.
