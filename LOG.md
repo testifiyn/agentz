@@ -38,3 +38,92 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-27T~06:20Z — Scheduled run: found and fixed a 7-way branch-fragmentation problem instead of adding an 8th duplicate discovery round
+
+**Phase at start:** IDEA_DISCOVERY (this branch's own local view: 11/11 dead, per the entry above)
+**Phase at end:** IDEA_DISCOVERY (unchanged phase, but state now reflects the true combined project history, not just this branch's slice of it)
+
+**What I did:**
+- Per the standing repo-memory protocol (`git pull`, read `MEMORY.md`,
+  `LOG.md`, etc.), fetched all remote branches before starting work and
+  found 7 `claude/cool-bell-*` branches (including this one) all forked
+  from the same commit (`d2459cc`), with `origin/main` also stuck at that
+  same commit. The other 6 branches had each independently run 1-3 more
+  discovery rounds since 2026-09-20, entirely unaware of each other,
+  none merged back. This meant continuing this run's own thread (a 12th,
+  13th, ... discovery round) would have been duplicated effort layered on
+  top of duplicated effort already found in 6 other places.
+- Read each of the other 6 branches' `MEMORY.md` (and, for the two most
+  substantive, their full research/lessons output) to extract every
+  distinct finding: `c46o51` (37/37 dead, a named master legal-risk
+  pattern for "investigate B for A" services, a Fiverr-commoditization
+  pattern), `dqby62` (14/14 dead, "service moat is bimodal" finding),
+  `elqup8` (14/14 dead, fresh-trigger clone-speed sharpened to hours,
+  VC-backed vertical-AI already occupying the "cheap AI service for
+  underserved small customer" niche), `9105ky` (12/12 dead, same
+  bimodal-moat finding independently, plus the first "does the owner have
+  an unfair advantage" suggestion), `rqjf12` (the one branch with a real
+  survivor — a 2e-parents-community hub — paused on an explicit,
+  still-unanswered owner ask filed as GitHub issue #4 on 2026-09-22), and
+  `swg3nx` (13/13 dead, independently proposing the same
+  "deliberately-too-small-for-VC" untested lever `elqup8` also flagged).
+- Consolidated all of this into this branch: created `LESSONS.md` (did
+  not exist here before) with 6 dated master-pattern entries covering
+  every distinct kill mechanism found across all branches; rewrote
+  `MEMORY.md` to the formal state-header format with an explicit
+  "Operational issue" section documenting the branch fragmentation itself
+  as a finding in its own right; added a consolidated-update section to
+  `ideas/candidates.md`; copied `research/2e-parents-community.md` (the
+  one live, un-duplicated candidate) into this branch so it isn't
+  stranded on a branch that may never get read again.
+- Did **not** launch a new discovery round this run. With ~45+
+  independently-run strategies across 4 business-model axes already
+  converging on well-evidenced structural conclusions (see `LESSONS.md`),
+  and one real survivor already sitting on a 5-day-unanswered owner
+  question, spending this run's budget on a redundant Nth round would
+  have been exactly the "activity instead of progress" failure mode this
+  project's own operating principles warn against.
+- Posted a consolidated update to GitHub issue #4 (still open, exactly on
+  point): the combined evidence, a restatement of the original
+  time-commitment ask (now 5 days unanswered), the new
+  unfair-advantage question, and a plain description of the branch-
+  fragmentation problem so the owner (or whoever manages this project's
+  scheduling) can decide whether to merge branches / change how scheduled
+  runs are seeded. Did not open a new issue or comment elsewhere, to
+  avoid notification noise on top of an already-relevant open thread.
+- Could not merge the other 6 branches into `main` or into this branch
+  via git, and did not open a pull request: this run's remit is limited
+  to developing on and pushing to `claude/cool-bell-aq8r7q` only, and
+  standing instruction is not to open a PR unless asked. This is
+  explicitly flagged as owner-actionable in `MEMORY.md` and the issue
+  update, not silently worked around.
+
+**Evidence discovered:** none new (no fresh research this run) — this run's
+contribution was consolidating already-real evidence that was scattered
+and at risk of being lost or redundantly re-derived.
+
+**Decision:** do not kill or promote the 2e-parents-community candidate;
+leave it exactly where the branch that found it left it (AWAITING OWNER
+INPUT), now with the additional context that it is the single survivor
+out of everything tried since the reset.
+
+**Files changed:** `LESSONS.md` (new), `MEMORY.md`, `ideas/candidates.md`,
+`research/2e-parents-community.md` (new, copied), `LOG.md` (this entry).
+
+**Primary bottleneck:** an owner decision (time commitment on issue #4),
+not idea discovery.
+
+**Next highest-value action:** get the owner's answer on issue #4 (and
+ideally the unfair-advantage question in the same reply). If no response
+by the next run, test the one genuinely untested lever (deliberately
+small/hyper-local/physical-presence niches, per `ideas/candidates.md`)
+rather than repeating any of the 4 now-exhausted axes.
+
+**Owner action required:** yes — see issue #4 update and `MEMORY.md`.
+
+**Notification status:** posted a GitHub issue comment (#4); sent a push
+notification given this is a 5-day-old pending decision plus a
+newly-found operational problem affecting how the whole project runs.

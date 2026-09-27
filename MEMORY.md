@@ -1,8 +1,49 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: TRUE (1 live candidate, awaiting owner decision, not agent decision)
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: 2e-parents community hub (`research/2e-parents-community.md`) — genuine evidence-backed gap, NOT killed, blocked purely on whether the owner will commit ~3-5 hrs/week of personal participation (GitHub issue #4, open since 2026-09-22, unanswered as of this update)
+PRIMARY_BOTTLENECK: not idea discovery — an owner decision. ~45+ independent discovery strategies across 7 branches (see "Operational issue" below) have converged on well-evidenced structural reasons why software, content, and generic service models all fail at €0 capital (see `LESSONS.md`). The only axis to produce a real survivor (community-first) cannot be resolved by more agent research; it needs the owner's answer.
+NEXT_HIGHEST_VALUE_ACTION: get the owner's answer on GitHub issue #4 (time-commitment decision) and, ideally in the same reply, whether the owner has any existing audience/credential/network/domain expertise ("unfair advantage") that would change which service/content niches are viable. Absent a response, the next-best action is testing the one genuinely untested discovery lever (deliberately small/hyper-local/physical-presence niches too small for VC-backed vertical AI and too idiosyncratic for Fiverr — see `ideas/candidates.md` consolidated update) rather than repeating any of the 4 now-exhausted axes.
+OWNER_ACTION_REQUIRED: YES — (1) issue #4's time-commitment question, unanswered 5+ days; (2) the unfair-advantage question, asked for the first time in this update; (3) awareness of the branch-fragmentation operational issue below, which only the owner (or whoever manages this project's scheduling) can fix.
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
+
+## Operational issue found this run (2026-09-27): 7 branches diverged from the same commit and ran duplicate discovery in parallel, unmerged
+
+On starting this run, `git fetch` revealed 7 `claude/cool-bell-*` branches
+(including this one) all forked from the same commit (`d2459cc`, the
+"Round 3 also killed" state, which is also where `origin/main` still
+sits). The other 6 branches each independently ran 1-3 more discovery
+rounds (2026-09-20 through 2026-09-26) without any shared memory — none
+were merged back to `main`, and none could see each other's results. Two
+branches redundantly tested nearly identical productized-service
+candidates; four branches independently rediscovered variants of the same
+"service moat is bimodal" conclusion; at least three branches separately
+suggested the same two or three "untested lever" ideas. This is real
+wasted agent-hours: the fragmentation, not any single bad decision, is
+why 45+ strategies were needed to reach a conclusion that convergent
+evidence suggests could have been reached faster with shared state.
+
+This run's own remit is "develop on `claude/cool-bell-aq8r7q`, push there,
+never push to a different branch without explicit permission" — so this
+run cannot itself merge the other 6 branches into `main` or into this one
+via git, and per standing instruction will not open a PR without being
+asked. What this run *did* do: read all 6 other branches' `MEMORY.md`
+files and unique research output, and merged every distinct finding into
+this branch's `LESSONS.md`, `ideas/candidates.md`, and this file, plus
+brought over the one live research file (`research/2e-parents-community.md`)
+that represents real, un-duplicated evidence. This branch is now the most
+complete single record of the project's state, but it is **not**
+`main`, and unless the owner (or whoever configures the scheduled runs
+that create these branches) either merges this branch to `main` or
+changes the scheduling so future runs continue from the latest state
+instead of forking fresh from stale `main`, this exact fragmentation will
+recur on the next scheduled run. Flagged directly to the owner in the
+GitHub issue #4 update posted this run.
 
 ## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 

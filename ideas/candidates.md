@@ -270,3 +270,65 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+---
+
+## Consolidated update, 2026-09-27: ~45+ strategies now dead across 7 independently-diverged branches, but ONE real survivor found — AWAITING OWNER DECISION
+
+**Provenance:** this branch (`claude/cool-bell-aq8r7q`) forked from the
+same commit as six other `claude/cool-bell-*` branches, all of which ran
+independent Round 4-6 discovery in parallel over 2026-09-20 through
+2026-09-26 without visibility into each other (see `MEMORY.md`
+"Operational issue" for why). This entry consolidates their results so
+this branch reflects the true combined state rather than just its own
+sub-thread. Full per-branch detail is preserved in `LESSONS.md`.
+
+**Business-model axes now exhausted, with well-evidenced kill mechanisms
+(see `LESSONS.md` for full detail on each):**
+- **Software tools / comparison sites / browser extensions**: clone-speed
+  compression to single-digit weeks regardless of complexity or recency
+  — confirmed independently on every branch that tested it, sharpened by
+  a fresh-trigger test that found *hours-to-24h* clone response for
+  developer-facing triggers specifically.
+- **Content / newsletter / SEO authority**: same clone-speed problem for
+  unorganized niches; established trade-association/trade-press capture
+  for organized professional niches.
+- **Productized service (generic)**: bimodal failure — real-moat services
+  take too long to bootstrap at €0; fast-to-bootstrap services have no
+  moat and are already commoditized on Fiverr/Upwork, or already
+  displaced by named, VC-backed vertical-AI products targeting the exact
+  same "underserved small customer" segment.
+- **Investigate-B-for-A services** (vetting/verifying a named third party
+  for a paying customer): structurally blocked by FCRA/GDPR (person) or
+  PI-licensing law (business) in every major market checked, regardless
+  of framing.
+
+**One real survivor: community-first model.** Unlike every axis above,
+this one wasn't killed by competition, cloning, or regulation — 2 of 8
+community niches tested show a genuine, evidence-backed gap. The
+strongest, **a free community hub for parents of twice-exceptional (2e)
+kids**, is documented in full at `research/2e-parents-community.md`
+(brought into this branch from where it was found). It has NOT been
+killed; it is explicitly **AWAITING OWNER INPUT**, because — uniquely
+among everything tested — its bottleneck is not evidence or competition
+but whether the owner will personally commit ~3-5 hrs/week of genuine
+participation, which the agent cannot substitute for without it becoming
+spam. This has been an open, unanswered ask on GitHub issue #4 since
+2026-09-22 (5 days as of this consolidation).
+
+**Also surfaced, not yet acted on:** two branches independently proposed
+the owner may hold a real, currently-unrecorded "unfair advantage"
+(an existing audience, credential, network, or domain expertise) that
+would change which service/content niches are viable — this has not been
+asked directly before now. See `MEMORY.md` for the consolidated ask.
+
+**Recommendation:** do not launch an 8th/9th/10th independent discovery
+round repeating axes already exhausted with consistent, convergent
+results across multiple independent branches — that would be duplicated
+effort, not progress. The highest-value next step is the owner's answer
+on issue #4, plus (optionally) the credential/unfair-advantage question.
+The one genuinely untested discovery lever, if the owner would rather the
+agent keep searching in parallel: niches deliberately too small,
+hyper-local, or physical-presence-dependent to be VC-attractive *and*
+too idiosyncratic to be a generic Fiverr gig (proposed independently by
+two branches, never tested).
