@@ -127,3 +127,98 @@ rather than repeating any of the 4 now-exhausted axes.
 **Notification status:** posted a GitHub issue comment (#4); sent a push
 notification given this is a 5-day-old pending decision plus a
 newly-found operational problem affecting how the whole project runs.
+
+---
+
+## 2026-09-28 (scheduled run, branch `claude/cool-bell-pzbxpp`)
+
+**Phase at start:** IDEA_DISCOVERY, PORTFOLIO_MODE (1 live candidate,
+awaiting owner decision — unchanged coming in)
+**Phase at end:** same — no candidate promoted, killed, or newly
+discovered this run; owner decision still pending
+
+**What I did:**
+- Loaded state per protocol: found this run's assigned branch
+  (`claude/cool-bell-pzbxpp`) was itself one of the 7 stale/diverged
+  branches flagged in the 2026-09-27 entry above — its tip was still at
+  the pre-fragmentation commit. Confirmed via `git merge-base
+  --is-ancestor` that `claude/cool-bell-aq8r7q`'s consolidated commit is
+  a direct descendant, and fast-forward-merged onto it (lossless, no
+  rewrite) rather than re-running discovery from stale state or forking
+  yet another disconnected line of work.
+- Checked GitHub issues #1-#4 for any owner reply since the 2026-09-27
+  update: none. Issue #4's time-commitment question remains unanswered
+  6 days on. Given it had already been asked twice (issue body +
+  2026-09-27 comment) with zero new information, judged that a third
+  identical re-ask today would be flooding, not progress — so did not
+  just repeat it.
+- Instead, spent this run's effort making the actual ask cheaper to
+  answer and re-verifying two of the candidate's three flagged "fatal
+  assumptions" (`research/2e-parents-community.md` fatal-assumptions
+  list):
+  - Re-confirmed (fresh search) no dedicated 2e-specific subreddit or
+    larger consolidated free hub exists beyond what was already known —
+    assumption #2 holds.
+  - Re-checked assumption #3 (Haystack pricing/size, cited as
+    willingness-to-pay evidence) and found it was **misattributed**:
+    Haystack ($47/mo) is a community for 2e *adults*, not parents of 2e
+    kids. Corrected this in the research file per the project's Truth
+    Hierarchy discipline rather than letting a wrong data point stand —
+    this is a real weakening of the monetization evidence, not a
+    cosmetic fix. The underlying fragmentation/demand evidence (6+
+    Facebook groups, no consolidated hub) is unaffected.
+  - Designed a bounded, four-week, ~1.5-hrs/week "Listening Sprint"
+    pilot with explicit numeric go/no-go criteria, as a lower-commitment
+    alternative to the original open-ended "~3-5 hrs/week indefinitely"
+    ask — same underlying question (will the owner spend personal time
+    on this) but a much smaller, time-boxed, easier decision to make one
+    way or the other.
+- Did NOT launch a new discovery round on the exhausted software/
+  content/generic-service/investigate-B-for-A axes: per the Discovery
+  Reopening Rule, one live, non-killed candidate already exists, so
+  reopening discovery now would be exactly the "novelty over focus"
+  anti-pattern the project is built to avoid, not genuine progress.
+- Posted one updated GitHub comment on issue #4 with the evidence
+  correction and the pilot proposal (not a repeat of the same
+  open-ended question — genuinely new, actionable content).
+
+**Evidence discovered:** the Haystack willingness-to-pay data point does
+not apply to this candidate's actual customer segment (parents, not 2e
+adults) — a real correction, recorded in the research file rather than
+silently dropped.
+
+**Decision:** candidate status unchanged (AWAITING OWNER INPUT, not
+killed, not promoted) — but the form of the ask changed from an
+open-ended commitment to a bounded, measurable pilot, to make a genuine
+owner answer more likely.
+
+**Files changed:** `research/2e-parents-community.md`, `MEMORY.md`,
+`LOG.md` (this entry). Branch `claude/cool-bell-pzbxpp` fast-forwarded to
+include `LESSONS.md` and `ideas/candidates.md` from the 2026-09-27
+consolidation.
+
+**Primary bottleneck:** unchanged — an owner decision, not idea
+discovery. Also: the wider branch-fragmentation problem (`main` and the
+other branches besides `aq8r7q`/`pzbxpp` are still stale) is only
+partially fixed and needs the owner's attention to fix at the scheduling
+level.
+
+**Next highest-value action:** get the owner's answer on the now-cheaper
+pilot ask. If still no response after a further reasonable interval, the
+next-best independent action (not requiring owner time) is testing the
+one genuinely untested discovery lever — deliberately hyper-local/
+physical-presence niches too small for VC-backed vertical AI and too
+idiosyncratic for Fiverr (see `ideas/candidates.md`) — rather than
+re-testing any of the four already-exhausted axes.
+
+**Owner action required:** yes — same underlying question as before
+(issue #4), now in cheaper/bounded form; plus the unfair-advantage
+question; plus whether to address branch fragmentation at the scheduling
+level.
+
+**Notification status:** posted one GitHub issue comment (#4, substantive
+new content: evidence correction + pilot proposal, not a repeat). Did not
+send a separate push notification — no milestone crossed (candidate
+neither killed nor promoted, no payment/customer event), and the owner
+already has an unanswered open question; a notification without new
+decision-relevant information would be noise.

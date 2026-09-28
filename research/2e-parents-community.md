@@ -1,6 +1,8 @@
 # Candidate: Community hub for parents of twice-exceptional ("2e") kids
 
-**Status: AWAITING OWNER INPUT — not yet in deep validation.**
+**Status: AWAITING OWNER INPUT — not yet in deep validation. See 2026-09-28
+update below for an evidence correction and a lower-commitment pilot
+proposal.**
 
 This candidate came out of Round 4 (2026-09-22), the first round to test a
 community-first model instead of a software-tool or content-authority
@@ -73,8 +75,19 @@ psychoeducational evaluators/advocates (expensive, not community-based).
 
 ## Existing spending
 
-Yes — Haystack's paid model is direct evidence (exact price point not yet
-confirmed; a deep-validation pass should check it).
+**CORRECTED 2026-09-28 — this was wrong.** Fresh research found Julie
+Skolnick's "Haystack" ($47/month, rolling enrollment, private Discord +
+expert interviews + biweekly live Q&A) is a community for 2e **adults**
+(twice-exceptional professionals/retirees/grad students), not for
+*parents* of 2e kids. It does not support "willingness to pay" for this
+candidate and should not have been cited as such. Skolnick does run a
+separate, smaller parent-facing product ("Let's Talk 2e! Parent
+Empowerment Group," a 6-week cohort), but its price and member count are
+not published anywhere findable. **Net effect: existing-spending evidence
+for the parent-community concept specifically is currently unverified,
+not confirmed.** This is a real weakening of the candidate's evidence
+base, not a cosmetic correction — flagging per the project's Truth
+Hierarchy rather than letting a misattributed data point stand.
 
 ## Competitors
 
@@ -168,3 +181,63 @@ introduces a resource commitment (the owner's own weekly time) that no
 prior candidate required and that only the owner can authorize. Bringing
 to the owner's attention now rather than either self-approving or letting
 it sit unflagged.
+
+## 2026-09-28 update: fatal assumptions #2 and #3 re-checked, plus a
+lower-commitment pilot proposal to make the owner's decision easier
+
+The open question on issue #4 (does the owner want to commit ~3-5
+hrs/week indefinitely) has now been open unanswered for 6 days. No more
+agent research can resolve that question — but the size and open-endedness
+of the ask may itself be part of why it's hard to answer. Two things
+happened this run:
+
+**Fatal assumption #2 (no dedicated 2e-specific subreddit/hub missed) —
+CONFIRMED, still holds.** Fresh search found no r/2e, r/2eparenting, or
+r/twiceexceptional subreddit, and no larger consolidated free hub beyond
+what was already known. Two small, org-run, session-based free groups
+exist (REEL2e's monthly "2e Parent Support Groups," GC-SAGE's monthly
+parent/teacher group) — neither is an always-on consolidated hub, so the
+core "fragmentation gap" still stands.
+
+**Fatal assumption #3 (Haystack pricing/size) — CORRECTED, weakens the
+candidate.** See "Existing spending" above. This doesn't kill the
+candidate (the underlying fragmentation problem and the 6+ Facebook
+groups are still real, independently-observed demand signals), but the
+strongest single piece of willingness-to-pay evidence no longer applies to
+this specific customer segment. Deep validation, if it proceeds, should
+independently re-establish willingness-to-pay rather than resting on the
+Haystack data point.
+
+**Proposed lower-commitment alternative: a 4-week "Listening Sprint"
+pilot, instead of an open-ended 3-5 hrs/week commitment up front.**
+
+- **Scope**: engage genuinely in just 2 existing groups (the largest
+  active 2e-specific Facebook group + r/gifted), not all 6+.
+- **Time budget**: ~1.5 hrs/week — read threads, answer 2-3 posts with
+  real expertise or well-curated resources, DM 1-2 people surfacing
+  recurring unmet needs.
+- **Duration**: 4 weeks, fixed end date.
+- **Cost**: €0 (time only).
+- **Go/no-go checkpoint at week 4** — escalate to the full build-out
+  (community platform + ~3-5 hrs/week ongoing) only if ALL of:
+  1. ≥15 genuine two-way conversations across the 4 weeks (not just
+     replies — real back-and-forth).
+  2. ≥5 distinct people spontaneously say something like "I wish there
+     was one place for this" / "is there a dedicated group for just
+     this?" — unprompted.
+  3. The owner actually hits the 1.5 hr/week budget in ≥3 of the 4 weeks
+     (tests whether even the light version is sustainable against real
+     life/work, before asking for 2-3x the time).
+  4. At least 1 person agrees to a short follow-up conversation about
+     what a dedicated space should look like.
+- **A no-go is a useful, cheap answer too**: if the owner can't
+  sustain even 1.5 hrs/week for 4 weeks, that settles the question on
+  execution-capacity grounds without more research, and this candidate
+  can be parked (not necessarily killed — the market gap itself isn't
+  disproven, just the owner's current bandwidth to operate it).
+
+This does not change the fundamental fact that only the owner can decide
+whether to spend any of their own time on this — but it replaces an
+open-ended "~3-5 hrs/week forever, decide now" question with a bounded,
+cheap, four-week experiment with explicit success criteria, which may be
+an easier yes/no to give.

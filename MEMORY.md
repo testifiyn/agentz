@@ -3,16 +3,33 @@ MODE: INVESTOR (pre-selection)
 DISCOVERY_LOCKED: FALSE
 PORTFOLIO_MODE: TRUE (1 live candidate, awaiting owner decision, not agent decision)
 ACTIVE_BUSINESS: none
-ACTIVE_CANDIDATES: 2e-parents community hub (`research/2e-parents-community.md`) — genuine evidence-backed gap, NOT killed, blocked purely on whether the owner will commit ~3-5 hrs/week of personal participation (GitHub issue #4, open since 2026-09-22, unanswered as of this update)
-PRIMARY_BOTTLENECK: not idea discovery — an owner decision. ~45+ independent discovery strategies across 7 branches (see "Operational issue" below) have converged on well-evidenced structural reasons why software, content, and generic service models all fail at €0 capital (see `LESSONS.md`). The only axis to produce a real survivor (community-first) cannot be resolved by more agent research; it needs the owner's answer.
-NEXT_HIGHEST_VALUE_ACTION: get the owner's answer on GitHub issue #4 (time-commitment decision) and, ideally in the same reply, whether the owner has any existing audience/credential/network/domain expertise ("unfair advantage") that would change which service/content niches are viable. Absent a response, the next-best action is testing the one genuinely untested discovery lever (deliberately small/hyper-local/physical-presence niches too small for VC-backed vertical AI and too idiosyncratic for Fiverr — see `ideas/candidates.md` consolidated update) rather than repeating any of the 4 now-exhausted axes.
-OWNER_ACTION_REQUIRED: YES — (1) issue #4's time-commitment question, unanswered 5+ days; (2) the unfair-advantage question, asked for the first time in this update; (3) awareness of the branch-fragmentation operational issue below, which only the owner (or whoever manages this project's scheduling) can fix.
+ACTIVE_CANDIDATES: 2e-parents community hub (`research/2e-parents-community.md`) — genuine evidence-backed gap, NOT killed, blocked purely on whether the owner will commit personal participation time (GitHub issue #4, open since 2026-09-22, unanswered 6 days). 2026-09-28: replaced the blocking question with a cheaper, bounded 4-week pilot proposal (~1.5 hrs/week instead of an open-ended 3-5 hrs/week) — see research file.
+PRIMARY_BOTTLENECK: not idea discovery — an owner decision. ~45+ independent discovery strategies across branches have converged on well-evidenced structural reasons why software, content, and generic service models all fail at €0 capital (see `LESSONS.md`). The only axis to produce a real survivor (community-first) cannot be resolved by more agent research; it needs the owner's answer, which is why this run made that answer cheaper to give rather than re-asking the same open-ended question a third time.
+NEXT_HIGHEST_VALUE_ACTION: get the owner's answer on the now-cheaper pilot ask (GitHub issue #4) — a bounded 4-week/1.5hr-per-week trial with explicit go/no-go metrics, not an open-ended commitment. Also still open: whether the owner has any existing audience/credential/network/domain expertise ("unfair advantage"). Do NOT re-launch discovery on the exhausted software/content/service/investigate-B-for-A axes (Discovery Reopening Rule: one live, non-killed candidate already exists) — the untested hyper-local/physical-presence lever remains available but should wait for the owner's pilot answer rather than starting a second track prematurely.
+OWNER_ACTION_REQUIRED: YES — (1) issue #4's pilot proposal (now easier to answer than the original open-ended ask), unanswered as of this update; (2) the unfair-advantage question; (3) whether to fix the branch-fragmentation operational issue permanently (see below) by changing how scheduled runs are triggered, or authorizing a PR merging this consolidated branch to `main`.
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Operational issue found this run (2026-09-27): 7 branches diverged from the same commit and ran duplicate discovery in parallel, unmerged
+## Operational issue: partially fixed 2026-09-28
+
+This run's assigned branch (`claude/cool-bell-pzbxpp`) was itself one of
+the 7 stale, unmerged branches described below — its own tip was still
+sitting at the pre-fragmentation commit (`d2459cc`). Since
+`claude/cool-bell-aq8r7q`'s consolidated commit is a direct descendant of
+that same point, this run fast-forward-merged `pzbxpp` onto it (a clean,
+lossless fast-forward, not a rewrite) and pushed. So as of this run,
+`pzbxpp` carries the full consolidated record described below. **This
+does not fully fix the underlying problem**: `main` and the other 6
+`claude/cool-bell-*` branches are still stale/diverged, and unless
+scheduled runs are reconfigured to continue from the latest branch state
+(or this consolidated work is merged to `main`), any *new* scheduled run
+that forks fresh from `main` will re-fragment again. Still needs the
+owner's (or whoever configures scheduling's) attention — asked again,
+briefly, in this run's GitHub update rather than repeated at length.
+
+## Operational issue found 2026-09-27 (original write-up, background): 7 branches diverged from the same commit and ran duplicate discovery in parallel, unmerged
 
 On starting this run, `git fetch` revealed 7 `claude/cool-bell-*` branches
 (including this one) all forked from the same commit (`d2459cc`, the
