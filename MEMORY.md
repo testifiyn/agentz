@@ -1,10 +1,18 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection — no business chosen yet)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: FALSE (no 3-candidate portfolio has ever survived screening long enough to enter formal portfolio testing)
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: 1 parked — indie/natural-perfumer IFRA/EU compliance newsletter (`research/perfumer-compliance-newsletter.md`) — not approved, not killed, blocked on owner input (see OWNER_ACTION_REQUIRED)
+PRIMARY_BOTTLENECK: idea discovery keeps finding either (a) niches already occupied by a real competitor within weeks of visibility, or (b) niches with no direct competitor but unconfirmed market size/willingness-to-pay — and even the one candidate that cleared screening cannot proceed to real-world testing without an owner-provided public identity/brand/payment setup that has never been established
+NEXT_HIGHEST_VALUE_ACTION: owner decides whether to (1) provide a brand/author name + email + approval to create free accounts (Substack/Reddit/etc.) so the perfumer-newsletter candidate's cheap validation test can actually run, (2) direct a fresh discovery angle, or (3) explicitly accept that absent input the project will keep running fresh discovery rounds rather than testing the parked candidate
+OWNER_ACTION_REQUIRED: YES — see "New structural finding: no real-world identity/account setup exists" below. This is a prerequisite for ANY candidate to reach LAUNCH_PREP, not just the current one.
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status: 31 discovery strategies across two sessions (11 software + 8 service + 12 content/community), zero approved — one candidate parked for the first time instead of killed
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
@@ -81,62 +89,100 @@ by default, because almost anything an AI research pass turns up as
 "looks open" turns out, on a dedicated adversarial re-check, to already
 be filled or filling in real time.
 
+### 2026-09-29 follow-up: the business-model pivot was tested, and also failed to produce an approvable candidate — but surfaced a deeper structural gap
+
+Ten days later, per option 2 above (business-model change), this project
+ran two parallel discovery rounds explicitly outside the software-tool
+category: **Round 4** (productized services, 8 candidates, full detail
+in `ideas/candidates.md` and `research/ada-remediation-service.md`) and
+**Round 5** (content/curation/community, 12 candidates, full detail in
+`ideas/candidates.md` and `research/perfumer-compliance-newsletter.md`).
+
+**Result: still zero approved candidates, but a meaningfully different
+result from the 11-strategy day.** Two things changed:
+
+1. **A new rejection reason appeared for the first time**: Round 4's top
+   pick (ADA/WCAG accessibility remediation sprint) had real, strong,
+   forced-spend demand evidence and a genuine, defensible differentiation
+   angle (FTC action against "overlay" fake-fix competitors) — the
+   strongest demand case this project has found. It was killed anyway,
+   not for being already captured, but because **the delivery model
+   itself is a bad fit for this project's operating constraints**:
+   bespoke code changes to a live, litigated small business's production
+   site, requiring trust this project cannot honestly earn with zero
+   credentials/insurance/track record, with real financial/legal harm on
+   the table if done wrong. Worth carrying forward as a standing check
+   alongside "is this already captured?": **"can this be delivered
+   without misrepresenting our experience or exposing a real third party
+   to real harm?"**
+2. **The first candidate to survive discovery-stage screening without an
+   existing direct competitor occupying its exact wedge**: Round 5's
+   perfumer-compliance-newsletter. This does not mean it's a good
+   business (market size and willingness-to-pay are unconfirmed, and its
+   core moat claim — curation beats an AI clone — is exactly the
+   untested thesis this whole pivot exists to check) — it's PARKED, not
+   approved, in `research/perfumer-compliance-newsletter.md`.
+
+**New structural finding: no real-world identity/account setup exists,
+and this blocks every candidate, not just this one.** Getting the
+perfumer-newsletter candidate close enough to a real test exposed
+something none of the previous 30 killed candidates ever reached: this
+project has never established a business name/brand, a dedicated email,
+or any payment/publishing account (Substack, Stripe, Reddit, etc.) to
+actually operate under in public. Every candidate so far died in
+discovery or validation, before `LAUNCH_PREP` would have made this gap
+concrete. It will block whichever candidate eventually wins, exactly the
+same way, unless resolved before then. This is now flagged as
+`OWNER_ACTION_REQUIRED` at the top of this file.
+
 ### Recommendation for the owner's attention (not a request for
 permission to continue — the project's standing instruction is that
 research/idea/kill decisions don't need a stop-and-ask gate, and future
 runs will keep working autonomously regardless)
 
-Given eleven independent strategies failed in one day, continuing to
-spend agent-hours on "brainstorm + web-search screen" discovery without
-changing the fundamental approach is unlikely to be productive in the
-short term. Worth the owner knowing about and weighing in on if they have
-a preference, next time they check in:
-
-1. **Time-based approach**: rather than exhausting many strategies in one
-   sitting, a future run could deliberately watch for and react to a
-   fresh trigger event within 24-72 hours of it breaking, before it's
-   SEO-indexed or GitHub-cloned — several research agents flagged this as
-   the one lever not really tested today (today's "recent trigger" tests
-   were all 2-4 months old, already indexed). This needs a different
-   operating rhythm (frequent short checks for breaking news in relevant
-   spaces) rather than one-shot deep research.
-2. **Business-model change**: everything tried today was a software
-   product (SaaS tool, static comparison site, browser extension). A
-   productized service, content/newsletter product, or community model
-   was not tested and might face different (possibly more favorable, or
-   possibly worse given the HARD SAFETY BOUNDARY on real outreach)
-   dynamics — worth considering explicitly next round rather than
-   defaulting back to "another tool."
-3. **Owner override**: `ideas/decision.md` remains available if the
+1. **Identity/account setup (new, and the most concrete ask)**: to let
+   the parked perfumer-newsletter candidate's next cheap experiment
+   (posting genuinely useful free help into existing forum threads under
+   a real identity, to test real engagement before ever asking for
+   money) actually run, the owner needs to either (a) provide a business/
+   author name and an email to operate under, and confirm the agent may
+   create the necessary free accounts (Substack, Reddit, etc.) on the
+   owner's behalf, or (b) explicitly say this should wait. Absent a
+   response, this candidate stays parked rather than the agent
+   inventing an identity/brand unilaterally.
+2. **Owner override**: `ideas/decision.md` remains available if the
    owner has a specific direction in mind they'd like pursued regardless
-   of what discovery search turns up — the adversarial validation
-   discipline would still apply to protect against building something
-   already captured.
-4. **Accept a marginal candidate deliberately, eyes open**: several
-   near-misses this session were rejected for being merely marginal, not
-   fatally flawed (e.g., the change-order/scope-creep tool from the
-   deleted history had thin-but-real differentiation potential; the
-   OpenAI Assistants-API codemod from Round 2 has a real, if shrinking,
-   underserved audience). None were picked because the project's standing
-   discipline is not to force weak ideas through — but if the owner would
-   rather ship something small and imperfect than keep searching for a
-   clean wedge, that's a legitimate call only they can make.
+   of what discovery search turns up.
+3. **Time-based approach** (carried forward, still untested): reacting to
+   a fresh trigger event within 24-72 hours of it breaking, before it's
+   SEO-indexed or GitHub-cloned, needs a different operating rhythm
+   (frequent short checks) than the one-shot deep-research rounds run so
+   far.
+4. **Accept a marginal/parked candidate deliberately, eyes open**: if the
+   owner would rather greenlight the perfumer-newsletter candidate's
+   validation test despite its unconfirmed market size, or accept some
+   other previously-parked-as-marginal idea, that's a legitimate call
+   only they can make — the project's standing discipline is not to force
+   it through unilaterally.
 
-Absent owner input, the default is to keep trying fresh discovery rounds
-in future runs (new day, new triggers, possibly a different time-of-day
-check for very recent breaking news), not to force a pick from today's
-rejected pool.
+Absent owner input, the default is to keep the perfumer-newsletter
+candidate parked (not killed — its open questions are genuinely
+testable, unlike everything else screened) and try a further fresh
+discovery round in the next run rather than re-running today's exhausted
+strategies.
 
 ## Capital state
 
 €0 spent, €0 committed. No accounts created, nothing deployed, nothing
-published, no Chrome Web Store submission, no external service accounts.
+published, no Chrome Web Store submission, no external service accounts,
+no business identity/brand/email established.
 
 ## GitHub write access
 
-Confirmed healthy this run — multiple commits reached `origin/main`
-normally (reset commit, Round 1 commit, Round 2 commit all pushed
-successfully).
+Confirmed healthy this run (2026-09-29) — the designated branch
+(`claude/cool-bell-v767rb`) had been merged and deleted upstream since
+the last run, restarted cleanly from `origin/main` per this project's
+branch-recovery convention, and this run's commits pushed successfully.
 
 ## Prior-run lessons carried forward informally (from before today's reset, now deleted as files)
 

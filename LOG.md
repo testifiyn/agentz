@@ -38,3 +38,33 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-29T06:17:14Z — Business-model pivot (Rounds 4-5), a new rejection reason, and a first parked candidate
+
+**Phase at start:** IDEA_DISCOVERY (10 days idle; standing recommendation from the last run was to either try a time-based trigger-reaction approach or a business-model change, absent owner input — `ideas/decision.md` still had no override)
+**Phase at end:** IDEA_DISCOVERY (1 candidate PARKED, blocked on owner input; still no approved business)
+
+**What I did:**
+- Checked `ideas/decision.md` (still no owner override) and `MEMORY.md`/`LOG.md` for current state per this project's repo-memory discipline.
+- Git housekeeping: this run's designated branch (`claude/cool-bell-v767rb`) had already been merged into `main` and deleted upstream since the last run. Per this project's branch-recovery convention, restarted the branch cleanly from `origin/main` (already identical, no rebasing needed) rather than stacking on stale history.
+- Picked up the prior run's own recommendation #2 (business-model change, untested) rather than re-running exhausted software-tool discovery. Launched two parallel real-web-research discovery agents: one for **productized services** (8 candidates screened), one for **content/curation/community products** (12 candidates screened) — full methodology and per-candidate verdicts in `ideas/candidates.md`.
+- **Round 4 (services)**: top pick was an ADA/WCAG accessibility-remediation "sprint" for small e-commerce businesses that just settled an ADA Title III demand letter. Real, strong, forced-spend demand evidence (8,667 federal filings in 2025, settlements requiring binding remediation commitments) and a genuine differentiation angle (FTC action against "overlay" fake-fix competitors) — the strongest demand case this project has found. **Killed anyway** — first time on execution-feasibility/safety grounds rather than market saturation: the work requires bespoke code changes to a live, litigated small business's production site, by an operator with no credentials, insurance, or track record, where winning trust honestly (without overstating experience) was judged infeasible and the downside of getting it wrong is real financial/legal harm to an already-vulnerable buyer. Full verdict: `research/ada-remediation-service.md`.
+- **Round 5 (content/community)**: 11 of 12 candidates killed because a loved free incumbent or entrenched paid competitor already occupies each niche (Matrixsynth, Forrager, Extraordinary Ability Club, Rewiring America, Set-Aside Alert, and others — full list in `ideas/candidates.md`). One survivor: an indie/natural-perfumer IFRA/EU regulatory-translation newsletter + micro-community — the first candidate across 31 total discovery strategies (both sessions combined) with no direct competitor found occupying its exact wedge. Not approved — market size and willingness-to-pay are unconfirmed, and its core "curation beats an AI clone" moat claim is unverified by design (the exact question this business-model pivot exists to test). **PARKED**, full verdict and reasoning in `research/perfumer-compliance-newsletter.md`.
+- Getting this candidate close enough to a real test surfaced a genuinely new structural gap: this project has never established a business name/brand, dedicated email, or any payment/publishing account (Substack, Stripe, Reddit, etc.) to operate under — every one of the previous 30 killed candidates died before `LAUNCH_PREP` would have made this concrete. Flagged as `OWNER_ACTION_REQUIRED` at the top of `MEMORY.md`, since it will block whichever candidate eventually wins, not just this one.
+- Rewrote `MEMORY.md`'s current-status section (added the standard state-machine header block per this project's own template, which had never actually been filled in before) and appended Round 4/5 detail to `ideas/candidates.md`.
+
+**Evidence discovered:** see `research/ada-remediation-service.md` and `research/perfumer-compliance-newsletter.md` for full citations (FTC accessiBe order, ADA Title III filing counts, Basenotes forum threads spanning 2013-2026, named competitors for both candidates).
+
+**Decision:** Round 4 pick KILLED (execution-feasibility/safety grounds). Round 5 pick PARKED (neither approved nor killed — genuinely open questions, blocked on owner input to proceed).
+
+**Files changed:** `MEMORY.md`, `LOG.md`, `ideas/candidates.md`, `research/ada-remediation-service.md` (new), `research/perfumer-compliance-newsletter.md` (new).
+
+**Primary bottleneck:** discovery keeps finding niches either already captured within weeks, or (this run, for the first time) open on the merits but blocked on a real-world identity/account-setup prerequisite this project has never resolved.
+
+**Next highest-value action:** owner decides whether to provide a brand/author identity + email + account-creation approval so the perfumer-newsletter candidate's free, no-cost forum-engagement test can actually run; absent that, next run tries a further fresh discovery angle (e.g. the still-untested time-based/breaking-trigger approach) rather than re-testing exhausted strategies or inventing a business identity unilaterally.
+
+**Owner action required:** YES — see `MEMORY.md` OWNER_ACTION_REQUIRED. This is a new kind of ask (real-world identity/account setup), not another idea-approval decision.
+
+**Notification status:** notifying owner this run — two new structural findings (a new rejection-reason category, and a first-ever parked candidate blocked on an identity/account-setup gap) meet this project's bar for a meaningful update, not just another kill verdict.

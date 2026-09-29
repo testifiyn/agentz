@@ -270,3 +270,81 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-09-29) — productized-service discovery, business-model
+pivot per the prior run's own recommendation
+
+Per the standing recommendation left at the end of the 11-strategy day
+(business-model change untested), one discovery agent searched
+specifically for **productized services** (bespoke human-delivered work,
+not self-serve software) rather than another tool. 8 candidates
+screened: vendor security-questionnaire concierge (runner-up — real pain,
+but a funded incumbent, SecurityPal, already runs the identical
+"concierge" positioning at scale), Amazon suspension appeals (killed —
+fully commoditized on Fiverr down to $10/appeal), chargeback dispute
+letters (killed — already absorbed by $10/case AI software, exactly the
+failure pattern this pivot was meant to escape), micro-M&A due diligence
+(killed — real spend, but a solo zero-reputation operator can't clear the
+trust bar for financial diligence), LinkedIn ghostwriting (killed —
+confirmed ~200+ competing agencies), SBIR/STTR grant writing (killed —
+established specialist firms and a trust barrier that favors incumbents),
+and CRM data cleanup (killed — a direct branded competitor, Axion, runs
+the identical flat-fee playbook). Top pick: an ADA/WCAG accessibility
+**remediation sprint** for small e-commerce businesses that just settled
+an ADA Title III demand letter — full writeup and verdict in
+`research/ada-remediation-service.md`. **KILLED**, but on a new kind of
+ground: not primarily market saturation (real forced demand exists, and a
+real FTC-backed differentiation angle exists against "overlay" fake
+fixes), but **execution-feasibility/safety** — the work requires bespoke
+code changes to a live, revenue-generating, already-litigated small
+business's production site, by an operator with no credentials, no
+insurance, and no track record, for a buyer segment that is unusually
+trust/risk-sensitive given their legal exposure. Winning that trust
+honestly (without overstating experience) was judged infeasible at this
+project's operating model. See the research file for the full ten-question
+check.
+
+## Round 5 (2026-09-29) — content/community-model discovery
+
+A second discovery agent, in parallel, searched for **content, curation,
+and community products** (paid newsletter, curated resource, micro
+community) rather than software or service. 12 candidates screened, 11
+killed because a loved free incumbent or an entrenched paid competitor
+already exists in each niche checked (documentary-grant newsletter vs.
+No Film School's free list; vintage-synth collecting vs. Matrixsynth;
+NYC Local Law 97 compliance vs. free NYC Accelerator + law-firm lead-gen
+content; O-1/EB-1 visa community vs. Extraordinary Ability Club;
+long-distance caregiving vs. AARP/hospital-system content; federal
+set-aside contracting vs. the decades-old paid incumbent Set-Aside Alert
+— useful as proof the business *model* works, not as an open niche;
+H-1B sponsorship job newsletter vs. several funded competitors; CNC
+auction curation — no evidence of real demand for curation, not just an
+incumbent problem; HVAC/EV-charger rebate tracking vs. Rewiring America's
+free, API-backed calculator; cottage-food-law newsletter vs. Forrager.com
+and an existing Substack; "boring business" acquisition content —
+saturated by SEO listicle mills). **Survivor: an indie/natural-perfumer
+IFRA/EU regulatory-translation newsletter + micro-community** — the
+first candidate across 31 total strategies (11+8+12) where no direct
+competitor occupying the exact wedge was found. Full writeup, remaining
+open questions, and why it is being **PARKED rather than approved or
+killed**, in `research/perfumer-compliance-newsletter.md`. Headline
+reasons for parking rather than approving: market size and willingness-
+to-pay are unconfirmed, the core "curation beats an AI clone" moat claim
+is asserted not demonstrated (the exact question this business-model
+pivot exists to test), and — new finding, independent of this specific
+idea — actually launching it is blocked on a structural gap this project
+has not previously had to confront: no real-world brand/identity, email,
+or payment-account setup exists yet for this project to operate publicly
+under, and no candidate has previously survived long enough to make that
+gap concrete. See `MEMORY.md` OWNER_ACTION_REQUIRED.
+
+## Summary: 31 discovery strategies across two sessions, zero approved,
+one first-time parked
+
+11 software strategies (2026-09-19) + 8 productized-service strategies +
+12 content/community strategies (both 2026-09-29) = 31 distinct angles,
+30 killed. One candidate (perfumer compliance newsletter) is parked
+pending owner input rather than killed outright — the first time this
+project's discovery process has produced a candidate whose open questions
+are genuinely still testable rather than already answered "no" by an
+existing competitor. See `MEMORY.md` for the full structural read.
