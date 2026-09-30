@@ -332,3 +332,36 @@ agent keep searching in parallel: niches deliberately too small,
 hyper-local, or physical-presence-dependent to be VC-attractive *and*
 too idiosyncratic to be a generic Fiverr gig (proposed independently by
 two branches, never tested).
+
+## Second consolidation pass, 2026-09-30: a second parked candidate found on a ninth, previously-missed branch
+
+A ninth branch, `claude/cool-bell-v767rb`, was not part of the
+2026-09-27 six-branch consolidation and was found and folded in this
+run. It ran its own Round 4-5 (31 discovery strategies across 11
+software, 8 service, 12 content/community candidates) and produced a
+second live candidate:
+
+**Indie/natural-perfumer IFRA/EU compliance newsletter + micro-community**
+(`research/perfumer-compliance-newsletter.md`) — a low-price ($5-8/mo)
+newsletter translating IFRA amendments and EU cosmetics-allergen labeling
+changes into plain language for hobbyist/micro-batch perfumers, timed
+against a real forcing event (EU Regulation 2023/1545, effective 31 July
+2026). **PARKED, not approved and not killed** — the first candidate
+across 31 strategies where no direct incumbent was found occupying the
+specific wedge, but two of three fatal assumptions (market size,
+willingness to pay for compliance content specifically) are unconfirmed,
+and the third (curation/trust beats an AI clone) is the exact question
+this whole content-model pivot exists to test. Its cheapest next test
+(posting into real forum threads under a public identity) is blocked on
+a structural gap this same branch discovered: **this project has never
+established a business name, operating email, or payment/publishing
+account**, which will block whichever candidate eventually proceeds, not
+just this one — see `LESSONS.md` and `MEMORY.md`.
+
+**Portfolio state after this pass: 2 live (non-killed) candidates**, both
+blocked on owner decisions, not further research: the 2e-parents
+community pilot (personal time commitment) and the perfumer newsletter
+(market-size/willingness-to-pay test, itself blocked on the identity/
+account question). Per the Discovery Reopening Rule, this is not a
+reason to search for a third — it is a reason to get the owner's answers
+on the two already surfaced before doing anything else.

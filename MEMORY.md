@@ -1,16 +1,47 @@
 CURRENT_PHASE: IDEA_DISCOVERY
 MODE: INVESTOR (pre-selection)
 DISCOVERY_LOCKED: FALSE
-PORTFOLIO_MODE: TRUE (1 live candidate, awaiting owner decision, not agent decision)
+PORTFOLIO_MODE: TRUE (1 live candidate + 1 parked candidate, awaiting owner decisions, not agent decisions)
 ACTIVE_BUSINESS: none
-ACTIVE_CANDIDATES: 2e-parents community hub (`research/2e-parents-community.md`) — genuine evidence-backed gap, NOT killed, blocked purely on whether the owner will commit personal participation time (GitHub issue #4, open since 2026-09-22, unanswered 6 days). 2026-09-28: replaced the blocking question with a cheaper, bounded 4-week pilot proposal (~1.5 hrs/week instead of an open-ended 3-5 hrs/week) — see research file.
-PRIMARY_BOTTLENECK: not idea discovery — an owner decision. ~45+ independent discovery strategies across branches have converged on well-evidenced structural reasons why software, content, and generic service models all fail at €0 capital (see `LESSONS.md`). The only axis to produce a real survivor (community-first) cannot be resolved by more agent research; it needs the owner's answer, which is why this run made that answer cheaper to give rather than re-asking the same open-ended question a third time.
-NEXT_HIGHEST_VALUE_ACTION: get the owner's answer on the now-cheaper pilot ask (GitHub issue #4) — a bounded 4-week/1.5hr-per-week trial with explicit go/no-go metrics, not an open-ended commitment. Also still open: whether the owner has any existing audience/credential/network/domain expertise ("unfair advantage"). Do NOT re-launch discovery on the exhausted software/content/service/investigate-B-for-A axes (Discovery Reopening Rule: one live, non-killed candidate already exists) — the untested hyper-local/physical-presence lever remains available but should wait for the owner's pilot answer rather than starting a second track prematurely.
-OWNER_ACTION_REQUIRED: YES — (1) issue #4's pilot proposal (now easier to answer than the original open-ended ask), unanswered as of this update; (2) the unfair-advantage question; (3) whether to fix the branch-fragmentation operational issue permanently (see below) by changing how scheduled runs are triggered, or authorizing a PR merging this consolidated branch to `main`.
+ACTIVE_CANDIDATES: (1) 2e-parents community hub (`research/2e-parents-community.md`) — genuine evidence-backed gap, NOT killed, blocked purely on whether the owner will commit personal participation time (GitHub issue #4, open since 2026-09-22, unanswered as of 2026-09-30). 2026-09-28: replaced the blocking question with a cheaper, bounded 4-week pilot proposal (~1.5 hrs/week instead of an open-ended 3-5 hrs/week) — see research file. (2) Indie/natural-perfumer IFRA/EU compliance newsletter (`research/perfumer-compliance-newsletter.md`) — PARKED (neither GO nor KILL), found independently on branch `claude/cool-bell-v767rb` and newly folded into this consolidated record on 2026-09-30. First candidate across 31 discovery strategies with no direct incumbent found; two of three fatal assumptions (market size, willingness to pay) remain unconfirmed and untestable without a real-world public identity (see next item).
+PRIMARY_BOTTLENECK: not idea discovery — a set of owner decisions. ~50+ independent discovery strategies across 9 forked branches have converged on well-evidenced structural reasons why software, content, and generic service models all fail at €0 capital, zero-network, zero-identity (see `LESSONS.md`). Nothing left to gain from further generic discovery; every remaining lever needs owner input, not more research.
+NEXT_HIGHEST_VALUE_ACTION: get the owner's answer on any of three cheap, already-posed questions (issue #4): (1) the 4-week/1.5hr-per-week 2e-parents pilot, (2) whether an existing audience/credential/network ("unfair advantage") exists, (3) NEW as of 2026-09-30: whether to provide (or approve agent creation of) a business name/brand, an operating email, and approval to create free accounts (Substack/Reddit/etc.) — discovered via `claude/cool-bell-v767rb` to be a universal blocker that will stop *any* candidate at LAUNCH_PREP, not just the perfumer one. Do NOT re-launch generic discovery (Discovery Reopening Rule: two live, non-killed candidates already exist) — the untested hyper-local/physical-presence lever remains available but should wait for owner answers rather than starting a third track prematurely.
+OWNER_ACTION_REQUIRED: YES — the three questions above, all still open on GitHub issue #4 as of this run (2026-09-30). Also open: whether to fix the branch-fragmentation operational issue permanently by changing how scheduled runs are triggered (each firing still forks a brand-new `claude/cool-bell-*` branch off stale `main` with no shared memory — this run found and folded in a *ninth* previously-invisible branch, `v767rb`, containing a real, previously-unreported finding), or authorizing a PR merging this consolidated branch to `main`.
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
+
+## Second consolidation pass, 2026-09-30: a ninth branch (`v767rb`) found with a real, previously-unreported finding
+
+This run (`claude/cool-bell-1k9wht`) fast-forward-merged the prior
+consolidated state (`claude/cool-bell-pzbxpp`, commit `9f98c44`) cleanly,
+then checked all remaining sibling `claude/cool-bell-*` branches for
+anything not already folded in. Eight of the nine were fully covered by
+the existing consolidation (their unique commits generalized into
+`LESSONS.md` already, or reached the same "0 survivors" conclusion via
+already-recorded mechanisms). One, `claude/cool-bell-v767rb`, was missed
+by the 2026-09-27 consolidation pass (which explicitly said "six other
+branches") and contained two things not recorded anywhere else in this
+repo:
+
+1. **A second parked candidate**: the perfumer-compliance-newsletter
+   idea, now copied into `research/perfumer-compliance-newsletter.md`
+   and added to `ideas/candidates.md`.
+2. **A universal structural blocker, independent of any single
+   candidate**: this project has never established a business name/
+   brand, an operating email, or any payment/publishing account
+   (Substack, Stripe, Reddit, etc.). Every candidate so far has been
+   killed in discovery or validation, before `LAUNCH_PREP` would have
+   made this gap concrete — the perfumer candidate is the first to get
+   close enough to expose it. This will block whichever candidate
+   eventually proceeds (including, at larger scale, the 2e-parents hub
+   if it grows past the initial 4-week pilot, which uses the owner's own
+   existing personal accounts and so is not blocked by this yet).
+
+Both are now folded into this file, `ideas/candidates.md`, and surfaced
+to the owner in a single consolidated GitHub comment rather than as a
+fourth separate ask — see issue #4.
 
 ## Operational issue: partially fixed 2026-09-28
 

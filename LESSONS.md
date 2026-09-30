@@ -195,3 +195,32 @@ itself cannot be made by the agent alone once a candidate clears
 adversarial validation — it requires an explicit owner commitment of
 personal time, surfaced as its own named decision (see `MEMORY.md`
 "Operational issue" and the open owner-facing ask in GitHub issue #4).
+
+---
+
+## 2026-09-26 — No candidate can reach LAUNCH_PREP without a real-world public identity, and this project has never established one
+
+(Found on branch `claude/cool-bell-v767rb`, missed by the 2026-09-27
+six-branch consolidation, folded in 2026-09-30.)
+
+The indie-perfumer compliance-newsletter candidate (see
+`research/perfumer-compliance-newsletter.md`) was the first of 31+
+candidates to survive discovery-stage screening without an incumbent
+already occupying its exact wedge. Getting it that far exposed a gap
+every prior candidate died before reaching: this project has never
+established a business name/brand, a dedicated operating email, or any
+payment/publishing account (Substack, Stripe, Reddit, a Facebook page,
+etc.) to actually operate under in public. Real-world validation of a
+content or software candidate — posting under a consistent identity into
+existing forums/communities, accepting payment, publishing on a
+platform — requires that identity to already exist.
+
+**Implication:** this is a distinct, universal blocker from the
+community-model time-commitment one above — it applies to *every*
+software and content candidate, not just community ones, and it will
+recur candidate after candidate until resolved once, in advance, rather
+than being rediscovered each time a candidate clears validation. Flag it
+to the owner as its own named decision (brand/author name, an email to
+operate under or approval to create one, and approval to create the
+specific free accounts a candidate's validation test needs) rather than
+letting it silently block whichever candidate wins next.

@@ -222,3 +222,88 @@ send a separate push notification — no milestone crossed (candidate
 neither killed nor promoted, no payment/customer event), and the owner
 already has an unanswered open question; a notification without new
 decision-relevant information would be noise.
+
+---
+
+## 2026-09-30T06:20:00Z — Scheduled run: second consolidation pass, one more missed branch found
+
+**Phase at start:** IDEA_DISCOVERY, this session's assigned branch
+(`claude/cool-bell-1k9wht`) still stale at the pre-fragmentation commit
+(`d2459cc`) — one of the two branches (main being the other) that had
+*not* yet received the 2026-09-27/28 consolidation.
+**Phase at end:** IDEA_DISCOVERY, blocked on owner decisions (unchanged
+phase, more complete record).
+
+**What I did:**
+- Loaded state per standing procedure: checked GitHub issue #4 (the
+  standing owner-facing ask) first, found it still open/unanswered, and
+  found it references files (`LESSONS.md`, `research/2e-parents-
+  community.md`) that did not exist on this branch — this branch was
+  stale relative to the project's actual state.
+- Found 9 `claude/cool-bell-*` sibling branches (not 7, as the last
+  consolidation recorded) plus `main`, all still forked from the same
+  `d2459cc` commit except two (`pzbxpp`, `aq8r7q`) that had already
+  self-consolidated the other six. Fast-forward-merged `pzbxpp`
+  (`9f98c44`) onto this branch — a clean, lossless fast-forward, not a
+  rewrite, since this branch had no unique commits of its own.
+- Checked the remaining 8 sibling branches individually against the
+  now-current state for anything not already folded in. 7 were fully
+  covered (their unique commits already generalized into `LESSONS.md`,
+  or reached "0 survivors" via already-recorded mechanisms). One,
+  `claude/cool-bell-v767rb`, was missed by the prior consolidation
+  (which said "six other branches," and v767rb was a seventh/eighth not
+  included) and contained two things recorded nowhere else in this repo:
+  a second parked candidate (indie-perfumer IFRA/EU compliance
+  newsletter, `research/perfumer-compliance-newsletter.md`) and a
+  genuinely new, universal structural finding — this project has never
+  established a business name/brand, operating email, or payment/
+  publishing account, which will block *any* candidate at `LAUNCH_PREP`,
+  not just this one.
+- Folded both into `MEMORY.md`, `LESSONS.md`, and `ideas/candidates.md`,
+  and copied the research file over. Did not re-litigate or re-run any
+  of the 50+ already-exhausted discovery strategies — per the Discovery
+  Reopening Rule, two live (non-killed) candidates already exist, which
+  is a reason to get owner answers, not to search for a third.
+- Posted one consolidated comment to GitHub issue #4: did not repeat the
+  two already-open questions verbatim, but named all three currently
+  open owner decisions together (2e-parents pilot, unfair-advantage,
+  and the new identity/account-setup question) now that they can be
+  answered as one batch, and noted the branch-count correction (9, not
+  7) for the still-unresolved scheduling/fragmentation issue.
+
+**Evidence discovered:** no new market/competitor evidence this run —
+the substantive addition is operational (a missed branch, now folded in)
+and one genuinely new structural finding (the identity/account-setup
+gap) carried over from that branch's own research, not newly generated.
+
+**Decision:** continue holding at IDEA_DISCOVERY / PORTFOLIO_MODE,
+awaiting owner input. Did not launch new discovery — nothing in this
+run's findings changes the standing conclusion that further generic
+discovery is unlikely to be productive, and two strong, non-killed
+candidates already exist and don't need a third to justify focus.
+
+**Files changed:** `MEMORY.md`, `LESSONS.md`, `ideas/candidates.md`,
+new `research/perfumer-compliance-newsletter.md`, this file.
+
+**Primary bottleneck:** unchanged — owner decision, not research.
+
+**Next highest-value action:** get the owner's answer on any of the
+three open questions on issue #4. If a further reasonable interval
+passes with no response, the next-best independent action (not
+requiring owner time) is testing the one genuinely untested discovery
+lever — hyper-local/physical-presence niches too small for VC-backed
+vertical AI and too idiosyncratic for Fiverr — rather than re-testing
+any of the four already-exhausted axes, or re-pinging a fourth time on
+the same unanswered questions.
+
+**Owner action required:** yes — three questions, all on issue #4: (1)
+the bounded 2e-parents pilot, (2) the unfair-advantage question, (3) NEW:
+business identity/account-setup approval. Also still open: the
+branch-fragmentation scheduling fix, or approval for a PR merging this
+consolidated branch to `main`.
+
+**Notification status:** posted one GitHub issue comment (#4) — genuinely
+new content (a previously-unreported branch and finding), not a repeat of
+an unanswered question. Did not send a separate push notification: no
+milestone crossed, and the owner already has open, unanswered questions
+on record — a notification would add noise without new urgency.
