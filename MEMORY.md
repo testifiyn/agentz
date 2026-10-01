@@ -1,10 +1,18 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: FALSE (no candidate has survived long enough to enter a portfolio)
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: none currently alive (12 tried and killed across two sessions; see below)
+PRIMARY_BOTTLENECK: not "which niche" — every killed candidate (12/12) failed because a generic, identity-less, audience-less €0-capital AI agent cannot manufacture a trust or speed advantage that an equally-resourced competitor or the platform/incumbent itself can't match or beat
+NEXT_HIGHEST_VALUE_ACTION: ask the owner whether they have any existing skill, audience, domain expertise, content, or network this project could build around — see "Recommendation" section below. Absent that, next run should default to a fresh discovery round under the explicit constraint of finding an angle where NO pre-existing trust/speed/audience asset is required to compete, since 12/12 candidates needing one have died.
+OWNER_ACTION_REQUIRED: not blocking (standing instruction is research/kill decisions don't need a stop-and-ask gate) but genuinely wanted — see Recommendation section
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status: 12 discovery strategies now killed across two sessions — converging on one root cause, not niche-by-niche bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
@@ -81,51 +89,103 @@ by default, because almost anything an AI research pass turns up as
 "looks open" turns out, on a dedicated adversarial re-check, to already
 be filled or filling in real time.
 
-### Recommendation for the owner's attention (not a request for
+### Round 4 (2026-10-01) — both previously-flagged untested levers now tested, both failed, for an instructive reason
+
+Twelve days after Round 3, this run (the first firing of the daily
+`SUCCESS` trigger to actually reach this session) deliberately tested the
+two levers Round 1-3 flagged as untested, plus a confirmatory third
+strategy. Full detail in `ideas/candidates.md`; summary:
+
+1. **24-72h-fresh trigger scan**: 0 survivors, but the useful result is
+   methodological, not a niche failure. Every lead that looked genuinely
+   fresh had actually had weeks of advance notice, or was already covered
+   within hours by existing always-on monitoring (security vendors, SEO
+   trackers, official vendor calculators). **Generic web search has a
+   1-4 week indexing lag** — by the time an event is findable via the same
+   tooling a competitor would use, it's already been responded to. This
+   lever cannot be executed via periodic manual search sessions; it would
+   need standing infrastructure (continuous RSS/changelog/status-page
+   polling), which this project has not built.
+2. **Fresh community-pain scan**: 0 verifiable survivors, but this
+   session's egress proxy blocks direct access to reddit.com,
+   news.ycombinator.com, and hn.algolia.com, so the scan relied on
+   search-indexed secondary coverage rather than live raw threads — a
+   real blind spot, not a confirmed-empty result.
+3. **Content/service business model**: found one genuinely different
+   kind of candidate (a buy-side due-diligence service for sub-$150k
+   online-business acquisitions, trust-moat-based rather than
+   speed-moat-based) — the first non-software idea this project has
+   tested. Killed on dedicated adversarial validation
+   (`research/micro-acquisition-due-diligence.md`): the claimed price gap
+   is actually densely populated ($297 automated tool, $500-2,500
+   marketplace-native features, $1,900-5,000 branded specialists), plus a
+   live competitor already building the identical concept.
+
+### The sharper finding: 12/12 killed candidates share one root cause
+
+Software candidates (11) died because being first to spot a gap stopped
+being a moat once equally AI-tooled competitors could clone the solution
+just as fast. The one service candidate died for a related but distinct
+reason: every surviving competitor in that space had something this
+project's starting position cannot manufacture from scratch — a named
+founder's public track record, a vetted-marketplace brand, or
+platform-native distribution. **The common thread: a generic,
+identity-less, audience-less €0-capital AI agent starting from nothing has
+no way to build a trust or speed advantage that an equally-resourced
+competitor, or the platform/incumbent itself, can't match or beat.** This
+is not a claim that no business is possible — it's a claim that this
+project's current starting conditions (no owner-supplied skill, audience,
+domain credential, or existing asset; pure cold-start; agent-only
+execution) are the actual constraint, more than which niche gets picked.
+
+## Recommendation for the owner's attention (not a request for
 permission to continue — the project's standing instruction is that
 research/idea/kill decisions don't need a stop-and-ask gate, and future
 runs will keep working autonomously regardless)
 
-Given eleven independent strategies failed in one day, continuing to
-spend agent-hours on "brainstorm + web-search screen" discovery without
-changing the fundamental approach is unlikely to be productive in the
-short term. Worth the owner knowing about and weighing in on if they have
-a preference, next time they check in:
+Both of the two levers flagged after Round 1-3 have now been tried and
+have failed, for reasons that point at the same underlying constraint
+rather than "wrong niche, try another." Worth the owner knowing about and
+weighing in on, next time they check in:
 
-1. **Time-based approach**: rather than exhausting many strategies in one
-   sitting, a future run could deliberately watch for and react to a
-   fresh trigger event within 24-72 hours of it breaking, before it's
-   SEO-indexed or GitHub-cloned — several research agents flagged this as
-   the one lever not really tested today (today's "recent trigger" tests
-   were all 2-4 months old, already indexed). This needs a different
-   operating rhythm (frequent short checks for breaking news in relevant
-   spaces) rather than one-shot deep research.
-2. **Business-model change**: everything tried today was a software
-   product (SaaS tool, static comparison site, browser extension). A
-   productized service, content/newsletter product, or community model
-   was not tested and might face different (possibly more favorable, or
-   possibly worse given the HARD SAFETY BOUNDARY on real outreach)
-   dynamics — worth considering explicitly next round rather than
-   defaulting back to "another tool."
-3. **Owner override**: `ideas/decision.md` remains available if the
+1. **The one lever most likely to actually change the outcome: owner-
+   supplied asset.** If the owner has any existing skill, professional
+   credential, audience (even a small one), domain expertise, content
+   they've already created, or network/community they're part of, that is
+   exactly the kind of asset every competitor who beat this project's 12
+   killed candidates had and this project's cold-start position doesn't.
+   A business built on top of an owner-supplied asset would not need to
+   win a speed race or a trust race from zero. This is worth a direct
+   answer from the owner rather than more generic discovery rounds.
+2. **Standing infrastructure for the trigger-watching lever**: if the
+   owner wants Strategy A's angle (react within 24-72h) tried properly,
+   it needs a continuously-running, free watcher (e.g. a GitHub Actions
+   cron job polling a curated list of changelogs/status pages/RSS feeds
+   every few hours) rather than a once-a-day point-in-time search session
+   — building that is itself a cheap (€0), reversible, two-way-door
+   engineering investment this project could make without owner approval,
+   but it's a nontrivial time investment for a lever that, even if it
+   works, only buys a head start measured in days against competitors who
+   could build the same watcher.
+3. **Environment limitation**: this session's network proxy blocks direct
+   access to reddit.com, news.ycombinator.com, and hn.algolia.com, which
+   degraded exactly the community-pain-scanning strategy the owner's own
+   prior guidance asked to be tried. Enabling direct access to these (or
+   an equivalent API) would make that lever testable properly next time.
+4. **Owner override**: `ideas/decision.md` remains available if the
    owner has a specific direction in mind they'd like pursued regardless
    of what discovery search turns up — the adversarial validation
    discipline would still apply to protect against building something
    already captured.
-4. **Accept a marginal candidate deliberately, eyes open**: several
-   near-misses this session were rejected for being merely marginal, not
-   fatally flawed (e.g., the change-order/scope-creep tool from the
-   deleted history had thin-but-real differentiation potential; the
-   OpenAI Assistants-API codemod from Round 2 has a real, if shrinking,
-   underserved audience). None were picked because the project's standing
-   discipline is not to force weak ideas through — but if the owner would
-   rather ship something small and imperfect than keep searching for a
-   clean wedge, that's a legitimate call only they can make.
+5. **Accept a marginal candidate deliberately, eyes open**: unchanged from
+   before — several near-misses across both sessions were marginal, not
+   fatally flawed, and remain available if the owner would rather ship
+   something small and imperfect than keep searching for a clean wedge.
 
-Absent owner input, the default is to keep trying fresh discovery rounds
-in future runs (new day, new triggers, possibly a different time-of-day
-check for very recent breaking news), not to force a pick from today's
-rejected pool.
+Absent owner input, the default next run is a fresh discovery round
+explicitly constrained to angles that don't require a pre-existing trust/
+speed/audience asset to compete — since every candidate that did require
+one has now died regardless of niche.
 
 ## Capital state
 

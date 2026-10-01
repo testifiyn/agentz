@@ -270,3 +270,90 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-10-01) — testing the two levers Round 1-3 flagged as untested
+
+Twelve days after Round 3, this run deliberately tested the two specific
+untested levers `MEMORY.md` had flagged for "next time": (1) react to
+triggers within 24-72h of breaking, before SEO-indexing/cloning, and (2) a
+non-software business model (content/service) where the moat isn't "built
+it first." A fourth, confirmatory strategy (fresh community-pain scanning)
+ran in parallel. Four agents in total; all four strategies again produced
+zero surviving candidates, but with a materially different and more
+useful kind of result than Round 1-3's "already captured" pattern.
+
+### Strategy A — 24-72h-fresh trigger scan: 0 survivors, methodology itself disproven
+
+Checked 7 candidate triggers genuinely active in the exact Sept 28-Oct 1
+window (Apple's EU commission restructuring effective literally Oct 1;
+Gemini 2.0 Flash deprecation; OpenAI Sora 2 API shutdown; Chrome MV2
+removal; the chalk/debug/ansi-styles npm supply-chain attack; WordPress
+plugin CVEs; several smaller leads). Every one that looked genuinely fresh
+turned out, on inspection, to have had weeks of advance notice (Apple's
+change was announced Aug 18, six weeks early) or to already be covered
+within hours by existing always-on monitoring infrastructure (security
+vendors like Aikido/Socket.dev, SEO trackers like MozCast, official
+vendor-published calculators). **Meta-finding, more important than any
+single kill:** generic web search has an effective indexing/aggregation
+lag of roughly 1-4 weeks for "recent" queries, so by the time an event is
+findable via the same search tooling a competitor would use, it has
+already been covered. The "literally last 24-72 hours" lever is real in
+principle but cannot be executed via periodic manual search sessions — it
+would require standing infrastructure (RSS/changelog/status-page polling
+running continuously), which a once-a-day agent run doing point-in-time
+search cannot outpace. This lever is not "tried and failed," it's "the
+wrong tool for this lever" — see `MEMORY.md` for the resulting
+recommendation.
+
+### Strategy B — fresh community-pain scan (confirmatory): 0 verifiable survivors
+
+Checked 9 candidate pain points from the same window (iOS 26 battery
+drain, TikTok Shop US policy changes, Amazon Price History expansion,
+Global Payments' new merchant fee, Etsy/LinkedIn/YouTube creator-policy
+backlash, a Google ranking-volatility event, Chrome MV2, two AI-tool
+quality complaints). All were either already covered by existing
+vendors/consultants, too evergreen to count as a fresh spike, or not
+shaped as a product a solo €0 builder could serve. **Important caveat the
+agent itself flagged:** this session's egress proxy blocks direct fetches
+to reddit.com, news.ycombinator.com, and hn.algolia.com, so the scan relied
+on search-engine-indexed secondary coverage of forum sentiment rather than
+live raw threads — a real blind spot. Treat this result as "nothing
+verifiable," not "proven empty." Worth asking the owner whether direct
+network access to these specific sources could be enabled, since the
+project's own standing recommendation (test fresh community pain) is
+exactly what this limitation degrades.
+
+### Strategy C — content/service business model test: 1 candidate found, killed on dedicated adversarial pass
+
+Identified "buy-side due-diligence service for micro-acquisitions"
+($300-900 flat-fee human-verified reports for buyers of sub-$150k online
+businesses on Flippa/Acquire.com-style marketplaces) as a structurally
+different kind of candidate — the first non-software, trust-moat-based
+idea this project has tested. A dedicated adversarial validation pass
+(Strategy D, run immediately after) killed it: the claimed price gap
+between $199 generic checks and $1M+ enterprise firms doesn't exist —
+it's populated at $297 (automated/ProofCap), $500-2,500
+(Flippa/Acquire.com's own native, partly-free due-diligence features),
+$1,900-2,900 (WebAcquisition, a branded specialist with a founder's public
+200+-deal track record), and $3k-5k (DueDilio). A live Indie Hackers
+competitor is already building the identical concept. Full validation:
+`research/micro-acquisition-due-diligence.md`. A second candidate
+(small-importer tariff/HTS classification advisory) was rejected by the
+discovery agent itself before validation, for requiring trade-compliance
+expertise the operator doesn't have.
+
+### The sharper structural finding from Round 4
+
+Every one of the 12 candidates now killed across this project's history
+(11 software + this 1 service) fails for variants of the same root cause:
+**a generic, identity-less, audience-less €0-capital AI agent starting
+from nothing has no way to manufacture a trust or speed advantage that an
+equally-resourced competitor, or the platform/incumbent itself, cannot
+match or beat.** Software candidates lost the speed race because
+competitors have the same AI tooling. The one service candidate tested
+lost the trust race because every surviving competitor had a named
+founder's public track record, a vetted-marketplace brand, or
+platform-native distribution — assets this project's starting position
+cannot create from scratch, only receive from the owner (an existing
+skill, audience, domain expertise, or network) or build slowly over
+months. See `MEMORY.md` for the recommendation this produces.

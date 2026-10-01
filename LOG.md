@@ -38,3 +38,33 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-10-01T06:xx:00Z — Scheduled daily run: both previously-flagged untested levers tested, both killed; root cause sharpened
+
+**Phase at start:** IDEA_DISCOVERY (12 days since last run; this is the first firing of the daily `SUCCESS` trigger to actually reach this session since the 2026-09-19 reset)
+**Phase at end:** IDEA_DISCOVERY (12th candidate killed; no owner override found in `ideas/decision.md`)
+
+**What I did:**
+- Loaded state per the standing protocol: `MEMORY.md`, `LOG.md`, `ideas/candidates.md`, `ideas/decision.md` (no override set), `research/`. Identified the bottleneck: zero surviving candidates, with two specific untested levers flagged for "next time" — (1) react to triggers within 24-72h of breaking, before SEO-indexing/cloning, and (2) a non-software business model where the moat isn't "built it first."
+- Ran 3 parallel research agents in the background, each required to adversarially self-check before reporting a survivor: Strategy A (24-72h-fresh trigger scan), Strategy B (fresh community-pain scan, confirmatory), Strategy C (content/service business-model test).
+- Strategy A: 0 survivors across 7 checked triggers (Apple's EU commission restructuring, Gemini 2.0 Flash deprecation, Sora 2 API shutdown, Chrome MV2 removal, the chalk/debug npm supply-chain attack, WordPress CVEs, others) — but surfaced a methodological meta-finding: generic web search has a 1-4 week indexing lag, so the "literally last 24-72h" lever can't be executed via periodic manual search, only via standing infrastructure (continuous RSS/changelog/status-page polling) this project hasn't built.
+- Strategy B: 0 verifiable survivors across 9 checked pain points (iOS 26 battery drain, TikTok Shop policy changes, Amazon Price History expansion, Global Payments merchant fee, Etsy/LinkedIn/YouTube creator-policy backlash, others) — flagged a real tooling limitation: this session's egress proxy blocks direct access to reddit.com/news.ycombinator.com/hn.algolia.com, so the scan relied on search-indexed secondary coverage, not live raw threads.
+- Strategy C found a structurally different candidate — a buy-side due-diligence service for sub-$150k online-business acquisitions (trust-moat, not speed-moat) — the first non-software idea tested in this project's history. Ran a 4th agent (Strategy D) to adversarially validate it specifically.
+- Strategy D killed it: the claimed price gap between $199 generic checks and $1M+ enterprise firms doesn't exist — populated at $297 (automated/ProofCap), $500-2,500 (Flippa/Acquire.com's own native due-diligence features), $1,900-2,900 (WebAcquisition, branded specialist with a founder's public 200+-deal track record), $3k-5k (DueDilio) — plus a live Indie Hackers competitor already building the identical concept. Wrote `research/micro-acquisition-due-diligence.md`.
+- Synthesized the sharper structural finding across all 12 killed candidates (11 software + this 1 service): every one fails because a generic, identity-less, audience-less €0-capital AI agent starting from nothing cannot manufacture a trust or speed advantage that an equally-resourced competitor or the platform/incumbent itself can't match or beat. Updated `MEMORY.md`'s header fields and recommendation section accordingly, and `ideas/candidates.md` with the full Round 4 detail.
+
+**Evidence discovered:** Full per-strategy detail in `ideas/candidates.md` Round 4 section; full adversarial validation in `research/micro-acquisition-due-diligence.md`.
+
+**Decision:** Kill the micro-acquisition due-diligence candidate. No candidate currently alive. Do not force a pick.
+
+**Files changed:** `MEMORY.md`, `LOG.md`, `ideas/candidates.md`, `research/micro-acquisition-due-diligence.md`.
+
+**Primary bottleneck:** Not niche selection — the project's cold-start position (no owner-supplied skill, audience, credential, or existing asset) is the actual constraint 12/12 killed candidates ran into.
+
+**Next highest-value action:** Ask the owner directly whether they have any existing skill, audience, domain expertise, content, or network this project could build around — see `MEMORY.md` Recommendation section. Absent owner input, next run defaults to a fresh discovery round explicitly constrained to angles that don't require a pre-existing trust/speed/audience asset to compete.
+
+**Owner action required:** Not blocking, but genuinely wanted — three specific questions raised in `MEMORY.md` (owner-supplied asset; whether to invest in standing trigger-watch infrastructure; whether to request direct network access to Reddit/HN to fix a scan blind spot).
+
+**Notification status:** Notifying owner now — this is a milestone (second consecutive full-session zero-survivor result, now with a sharpened root-cause finding and a direct, answerable question for the owner), not routine activity.
