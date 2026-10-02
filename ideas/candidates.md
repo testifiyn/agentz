@@ -270,3 +270,94 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-10-02) — testing the untested axis: content/community and AI-delivered service models
+
+Two weeks after the Round 1-3 reset, deliberately tested the two business
+models flagged but not yet tried in the prior recommendation: a
+content/newsletter/community business and an AI-delivered productized
+service (bespoke per-customer output, not self-serve code) — on the
+hypothesis that a moat built on sustained human/AI judgment and
+relationship/trust, rather than a copyable artifact, might resist the
+AI-assisted clone-speed problem that killed all 11 prior software-tool
+strategies.
+
+### Content/newsletter/community axis: 1 marginal survivor of 9 tested, killed on validation
+
+Tested and killed at discovery stage: SMB tariff/trade-compliance
+newsletter (saturated, scraper-replicable), DIY visa/immigration-tracking
+newsletter (saturated by both a human-expert and an AI-native
+competitor), government-contracting set-aside newsletter (decades-old
+incumbent, Set-Aside Alert), nonprofit/creator grants-curation newsletter
+(proven model but saturated, data too scrapable), independent-scholar
+funding newsletter (audience too small/poor, free nonprofits already
+serve it), freelance-illustrator AI-disruption newsletter (saturated
+generic commentary), voice-actor AI-cloning newsletter (covered by
+entertainment trade press), audiobook-narrator ACX-policy newsletter
+(covered by Publishers Weekly + existing blogs), parent/IEP
+special-education-advocacy community (saturated paid communities + free
+federal centers + ethically risky fit for a non-credentialed AI operator
+serving a vulnerable population).
+
+**Survivor, then killed on dedicated validation — translator/interpreter
+AI-disruption intelligence newsletter.** Real, strong problem evidence
+(documented 60-80% income collapses, an active 6+ page ProZ.com forum
+thread of sustained community anger). Proposed differentiator: crowdsource
+agency-reputation/AI-training-job-detection and real rate data, a layer
+assumed not publicly scrapable. **Adversarial validation killed it**:
+ProZ.com is already building the exact missing piece (expanding its live
+Community Rates tool with rate-by-task-type categories, per a ProZ staff
+member's confirmed response in the same forum thread) on top of an
+existing userbase and trust graph; informal crowdsourcing of the same
+data already exists in parallel (Reddit, forum threads, third-party
+blacklist sites); the defamation/liability risk is demonstrably real even
+for the well-resourced incumbent (a ProZ thread literally asks "Are
+negative Blue Board postings defamatory?"); and the target population's
+collapsing income undercuts willingness to pay for a new subscription.
+Full detail: `research/translator-industry-newsletter.md`.
+
+### AI-delivered productized-service axis: 1 marginal survivor of 9 tested, killed without separate validation
+
+Tested and killed at discovery stage: FDD red-flag report for
+franchisees (already cloned 3x over — FranchiseIQ, ClearlyFDD,
+VetMyFranchise, plus a free tool), commercial-lease red-flag review
+(already cloned — BizLeaseCheck, LeaseCheck, Bryckel), HOA/condo
+resale-document red-flag report (already cloned by GoverningDocs, trained
+on 1,900+ HOA document sets), CIM/deal-screening memo for search-fund
+acquirers (Anthropic's own published skill pack already gives this away
+free), GovCon bid/no-bid intelligence (saturated — WinBidIQ, AcornBids,
+Sweetspot, BidSense, FedScout), nonprofit grant discovery/writing
+(saturated — Instrumentl, Granted AI, FreeWill, Grant Frog, GrantExec,
+Vee, Aidy), China supplier due-diligence (the valuable step is
+non-AI-automatable labor an existing industry already does — SGS, QIMA,
+InTouch), small-importer tariff/HS-code advisory (overlaps the already-
+killed regulatory-compliance category, real liability for an unlicensed
+solo operator). Cross-cutting finding: DoNotPay's $193k FTC settlement
+over "AI lawyer" claims is concrete regulatory precedent that AI-delivered
+advice-flavored services draw real enforcement attention — reinforces the
+liability flag on every document-interpretation candidate in this axis.
+
+**Survivor — long-distance caregiver's eldercare options dossier.**
+Real problem evidence (geriatric care managers charge $100-250/hr for
+exactly this research), but the research agent's own verdict was
+"marginal," flagging three compounding risks: weak-to-moderate clone
+resistance (a well-funded eldercare-AI entrant could replicate it in
+weeks; a partial competitor, an Apify-based nursing-home-report scraper,
+already exists), real liability exposure serving a vulnerable population
+with no E&O coverage as an unaccountable solo AI operator (the same
+deliberate kill criterion already applied to the IEP-advocacy candidate
+above), and a reported mismatch with the AI-only delivery premise
+(crisis-stage customers reportedly want a phone call, not a PDF).
+**Killed without a separate validation pass** — per this project's
+standing discipline against forcing a weak candidate through, three
+independent structural risks stacked on an unvalidated willingness-to-pay
+assumption from a cold/anonymous source did not clear the bar for further
+investment. Full detail: `research/eldercare-dossier-service.md`.
+
+### Round 4 verdict
+
+**0 of 2 tested axes produced a surviving candidate.** The project has
+now tried 13 distinct discovery strategies across three different business
+models (self-serve software tools, content/community, AI-delivered
+service) in two weeks, all killed. See `MEMORY.md` for the updated
+structural read and the owner's options going forward.

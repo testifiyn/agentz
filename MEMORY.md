@@ -4,7 +4,93 @@ CURRENT_PHASE: IDEA_DISCOVERY
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status (2026-10-02): 13 discovery strategies tried across 3 business models, zero survivors — the structural finding now extends beyond software tools
+
+**Update, two weeks after the 11-strategies finding below:** this run
+deliberately tested the two untested business-model axes the prior run
+flagged (recommendation #2) — a content/newsletter/community model and an
+AI-delivered productized-service model (bespoke per-customer output, not
+self-serve code) — on the hypothesis that a moat built on sustained
+original judgment/trust, rather than copyable code, might resist the
+clone-speed problem below. **Both axes failed the same way.** 18
+candidates were screened across the two axes (9 content/community, 9
+AI-service); 2 survived initial discovery as "marginal"; both were killed
+on direct, specific validation:
+
+- A **translator-industry crowdsourced intelligence newsletter** (real,
+  strong problem evidence — documented 60-80% freelancer income collapse
+  from AI, active sustained community anger) was killed because the
+  obvious incumbent (ProZ.com) is *already building the exact proposed
+  differentiator* on top of its own live tool and existing trust graph,
+  informal crowdsourcing of the same data already exists in parallel
+  (Reddit, forums, blacklist sites), the defamation/liability risk is
+  demonstrably real even for the well-resourced incumbent, and the
+  target population's collapsing income undercuts willingness to pay.
+- A **long-distance-caregiver eldercare research dossier** (real problem
+  evidence — human geriatric care managers charge $100-250/hr for this
+  work) was killed on its own discovery agent's "marginal" verdict:
+  weak clone resistance, genuine liability exposure serving a vulnerable
+  population as an unaccountable zero-capital solo AI operator, and a
+  reported mismatch between the AI-only delivery premise and what
+  crisis-stage customers actually want (a phone call, not a PDF).
+
+**Revised structural read:** the clone-speed/incumbent-response problem
+identified below is not specific to self-serve software. It generalizes
+to content/community products (an incumbent with an existing trust graph
+can extend its own product to close a gap faster than a new entrant can
+build one from scratch) and to AI-delivered services (the same AI tooling
+that would let a solo operator build a bespoke-report service lets
+better-resourced competitors build the same thing, and often already has
+— every AI-service candidate tested this round already had at least one
+existing AI-native competitor). A second, independent pattern also
+surfaced twice now across both runs: a "we'll crowdsource/stay current,
+incumbents are static" differentiator has now collapsed three separate
+times (AI-slop filter, nomad-visa tracker, translator newsletter) under
+dedicated adversarial re-check of the specific named incumbent — this is
+no longer a coincidence and should be treated as close to disqualifying
+on its own going forward; assume an incumbent with an existing user base
+is already working on the obvious next feature.
+
+Full detail on today's two tested axes: `research/translator-industry-newsletter.md`, `research/eldercare-dossier-service.md`, and `ideas/candidates.md` (Round 4).
+
+### Updated recommendation for the owner's attention
+
+The prior run's recommendation #2 (test a non-software business model) is
+now resolved — tested, and it failed the same way software did, just via
+a different mechanism (incumbent fast-follow / existing AI-native
+competition instead of pure code-cloning). Remaining options, updated:
+
+1. **Time-based reactive approach** (prior #1, still untested): watch for
+   and react to a fresh trigger within 24-72 hours of it breaking, before
+   it's indexed/cloned. This needs a different operating rhythm — frequent
+   short checks, not one-shot deep research in a single run — and is the
+   one lever genuinely not yet tried across either run.
+2. **Primary outreach/live pilot as the discovery method itself**:
+   both of today's discovery agents independently suggested this —
+   search-based discovery now systematically surfaces only
+   already-saturated ideas (anything findable by an AI search pass is
+   findable, and buildable, by every other AI-assisted competitor too).
+   The alternative is posting a genuine question/offer in 2-3 live
+   communities (e.g. a specific subreddit) and counting real responses as
+   the primary evidence, rather than screening ideas against existing
+   competitors first. This fits the project's own Proof Ladder (direct
+   customer conversation evidence outranks search evidence) but requires
+   care against the HARD SAFETY BOUNDARY (no fabricated personas/demand,
+   no spam, no deceptive outreach) and is a one-way-door-adjacent action
+   (public, visible) worth the owner being aware is being considered.
+3. **Owner override**: `ideas/decision.md` remains available.
+4. **Accept a marginal candidate deliberately, eyes open**: still
+   available per the prior run's framing; none of today's two marginal
+   survivors were picked, for the same reasons as before (this time with
+   three compounding red flags each, not just thin differentiation).
+
+Absent owner input, the default for the next run is to try the time-based
+reactive approach (#1) — it is the only untested lever that doesn't
+require the owner's explicit sign-off on live public outreach first.
+
+---
+
+## Prior status (2026-09-19): 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
