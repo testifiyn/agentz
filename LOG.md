@@ -38,3 +38,82 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-10-03T06:20:00Z — Scheduled autonomous run: Round 4, both flagged "untested levers" falsified, best marginal candidate killed
+
+**Phase at start:** IDEA_DISCOVERY (11/11 prior strategies killed, per
+2026-09-19 entries above; two specific untested levers flagged for a
+future run: fast-trigger-reaction, and a different business model)
+**Phase at end:** IDEA_DISCOVERY (15/15 strategies killed; both flagged
+levers now tested and falsified; owner input now genuinely useful)
+
+**What I did:**
+- Scheduled/automated firing (no live user input this run). Loaded
+  repo memory per standing protocol: `git status`/`log`, `MEMORY.md`,
+  `LOG.md`, `ideas/candidates.md`, `ideas/decision.md` (still unset —
+  no owner override), `research/`, `build/`, `growth/`.
+- Identified the primary bottleneck: idea discovery, with two specific
+  untested levers already named in `MEMORY.md` from the prior run.
+  Launched 2 parallel research agents to test them directly: (a)
+  productized-service / content-newsletter / community business
+  models (not another software tool) — screened 24 niches, 0
+  survivors; (b) very-fresh (7-14 day window) trigger events — found
+  11 real triggers, all already filled, several within days of
+  *announcement* by standing automated tracker infrastructure
+  (agentdeals.dev, costbench.com, codex.danielvaughan.com,
+  beancount.io) that pre-empts the 24-72h reaction window entirely.
+- Rather than leave the project's own best previously-flagged marginal
+  candidate (change-order/scope-creep tool, from Round 1) as an
+  untested "maybe," ran a dedicated deep-adversarial-validation agent
+  on it. **Killed**: six live, 2026-launched standalone competitors
+  (Addenly/ScopeDash, StayInScope, Uncreep, ScopeGuard Pro, Boundly,
+  ScopeSlip) already occupy the exact wedge proposed.
+- With all three of those done, ran one more genuinely new axis (not a
+  repeat of anything killed so far): non-English general-consumer/
+  small-business niches (DE/FR/IT/PL/NL/ES), searched in-language —
+  as opposed to Round 2's non-English *regulated-profession* niches.
+  10 niches screened, 0 survivors, with a structural explanation
+  specific to this axis (decades-old national comparison portals +
+  EU-wide regulatory pre-emption + a trust barrier a non-local €0
+  builder can't overcome quickly).
+- Wrote up all four rounds in full in `ideas/candidates.md` ("Round 4"
+  section) and rewrote `MEMORY.md`'s status/recommendation section:
+  explicitly flagged that two of the four previously-listed owner-facing
+  options (fast-reaction, business-model change) are now falsified by
+  evidence, not just untested, and that the marginal-candidate option
+  is now also closed. Set a concrete, non-vague next action for future
+  autonomous runs absent owner input: stop varying the discovery *axis*
+  (15/15 failed across every axis tried) and instead try a different
+  discovery *method* — mining existing paid-product review/complaint
+  data for an underserved segment within an already-proven-to-pay
+  category, rather than brainstorming a new niche from a blank page.
+
+**Decision:** No candidate survived. No phase change (still
+IDEA_DISCOVERY — nothing reached PORTFOLIO_SELECTION). Did not force a
+weak idea through to manufacture progress; recorded the structural
+result honestly instead, per the project's own standing discipline.
+
+**Files changed:** `ideas/candidates.md` (Round 4 section appended),
+`MEMORY.md` (status/recommendation rewritten, header fields added),
+`LOG.md` (this entry).
+
+**Primary bottleneck:** idea discovery — autonomous levers available to
+a €0, AI-only, no-local-presence operator are now largely exhausted;
+genuinely new input (an owner-supplied lead, or a different discovery
+*method* rather than axis) is the highest-value unlock.
+
+**Next highest-value action:** check `ideas/decision.md` first on every
+future run. Absent an override, the next autonomous attempt should be
+the review-mining method described above (start from proven payment
+behavior, not a blank-page brainstorm) — not another cosmetic variation
+on brainstorm-then-screen.
+
+**Owner action required:** yes, non-blocking — see `MEMORY.md`
+recommendation section. Notifying the owner now since this closes out
+two explicitly-flagged open questions from the last check-in and leaves
+genuinely few autonomous options remaining.
+
+**Notification status:** owner notified via push notification after
+this entry is committed and pushed.

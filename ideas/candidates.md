@@ -270,3 +270,192 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-10-03) — three new axes + one deep validation, 0 survivors
+
+Scheduled autonomous run, two weeks after the Round 1-3 work above. Per
+the prior recommendation's own menu of untested levers, this run tested
+the two specific ones flagged as untested ("react to a trigger within
+24-72h" and "a different business model"), deep-validated the single
+strongest previously-flagged marginal candidate (the owner-discretion
+option), and — once all three of those also failed — tried one genuinely
+new axis (non-English general-consumer niches) rather than repeating any
+exhausted strategy. All four returned zero survivors.
+
+### 4a. Productized-service / content-newsletter / community models: 0/24 survivors
+
+Tested the theory that a different *business model* (not another software
+tool) might face different clone-speed dynamics, since the prior 11
+strategies' failure mode was specifically "AI-assisted builders clone
+software fast." Screened 24 niches:
+
+**Productized services (14, all saturated):** cold-email deliverability
+audits (Folderly, Inboxable et al.), ASO audits (dozens of freelancers +
+AI tools), G2/Capterra review-generation (G2 sells this itself), Google
+Business Profile optimization (saturated agency staple), GDPR
+cookie-consent "done for you" (CookieYes/Osano/Usercentrics + full-service
+options), LinkedIn ghostwriting for B2B founders (7+ named agencies,
+$4,999-8,500/mo, transparent pricing), technical-docs audits (Fiverr
+freelancers + a YC-backed AI-native agency), podcast repurposing
+(Podcast Motor, Recast Studio, Audiolabs), resume/LinkedIn optimization
+for the 2026 tech-layoff wave (real pain, but market already flooded —
+tens of thousands rewrote in the same week), Shopify speed/CRO audits
+(The4 and others, 7yrs active), Amazon suspension-reinstatement services
+(AMZ Sellers Attorney et al., standardized $1,500-2,300 flat fee), digital
+executor / post-death account cleanup (old 2011-era tools are dead, but
+re-filled by an insurer-backed startup, Empathy, serving "tens of
+millions of policyholders" — a second-generation incumbent, not an open
+gap), Airbnb licensing paperwork help (Airbnb's own official partner,
+Rocket Lawyer, already covers it), medical-bill negotiation (Dispute,
+Goodbill, Resolve, Dollar For et al., standardized 18-25%-of-savings fee
+model), small-HOA admin outsourcing (mature regional-management-company
+industry already covers ~90%), UK cladding/Building Safety Act
+remediation help (mooted by the law itself, which now caps/excludes
+leaseholder costs), small-business "debanking" help (resolved by an
+April-2026 UK 90-day-notice rule + a free nonprofit advice line that
+helped 35,900 businesses in 2025), UK lost-pension tracing (free official
+government service + free/low-cost private competitors), UK public-sector
+tender/bid-writing (20-year incumbent with 93%-win-rate claims + abundant
+Fiverr freelancers).
+
+**Content/newsletter (3, all saturated):** EU AI Act compliance digest
+(multiple live, current trackers already exist — firstaimovers.com,
+trooper.ai, sota.io), micro-SaaS acquisition deal-flow newsletter ("Acquire
+& Operate," skalingventures Substack, microns.io, Acquire.com's own
+alerting), non-dilutive grant-funding newsletter for climate/deep-tech
+(CTVC, Down to Zero, OpenGrants, plus a funded AI-powered platform).
+
+**Community/marketplace (2, all saturated):** fractional-CFO/exec curated
+job board (Fractional Jobs, Fractionus, Go Fractional with 7,000+ profiles
+and $10M+ facilitated, GrowTal), paid mastermind/accountability community
+for bootstrapped founders (MicroConf pods, Indie Hackers, WIP, Founders
+Network, GrowthMentor spanning free to $25k-100k/yr).
+
+**New structural finding:** the clone-speed compression isn't specific to
+AI code generation — it recurs for services and content via a different
+mechanism (liquid gig-labor marketplaces — Fiverr/Upwork/Contra — and a
+saturated newsletter/creator economy). Every one of the 14 service
+candidates had a live, current Fiverr/Upwork gig listing found during the
+check. Two sharper sub-patterns: (a) "an old tool in this space died" is
+not evidence of an open niche — in the one case tested (digital estate
+planning), the market had simply moved to a better-funded second-generation
+incumbent; (b) several candidates were being resolved by the regulator
+itself in the same timeframe (UK cladding costs, UK debanking notice
+period) — the same "regulator closes its own gap" pattern as Round 1's
+XL Bully and Round 3's EUDR findings, now confirmed a third and fourth
+time.
+
+### 4b. Very-fresh trigger events (last 7-14 days, 2026-09-20 to 2026-10-03): 0 survivors
+
+Tested the one lever flagged as never actually tried: reacting within
+24-72h of a trigger breaking, before SEO-indexing/cloning catches up.
+Found 11 real triggers in-window (OpenAI GPT-4-era model retirement
+effective Oct 23; AWS Proton retirement Oct 7; Google Cloud Translation
+Hub shutdown Sept 20; Structurizr Cloud EOL Sept 30; NJ ABC-test
+independent-contractor rule effective Oct 1; CT employee-monitoring
+notice law effective Oct 1; several narrower dev-infra/API deprecations;
+a handful of consumer-app shutdowns and pricing-backlash events). **Every
+one was already filled**, most within days of being *announced* rather
+than days of taking *effect*.
+
+**Critical finding, sharper than the axis this was meant to test:**
+standing, continuously-operating tracker infrastructure
+(agentdeals.dev's shutdown/free-tier trackers, costbench.com's
+day-dated pricing-change changelog, codex.danielvaughan.com's recurring
+per-model-sunset migration-checklist posts, beancount.io's
+multi-language auto-translated compliance-blog mill) now covers this
+entire axis *continuously*, pre-empting discovery itself, not just
+pre-empting the build. The CT law was covered within 2 weeks of
+*adoption* — 4.5 months before its effective date. There is no 24-72h
+window left to exploit for anything visible enough to be found by a
+research pass; the content-farm/tracker layer now runs at
+announcement-speed, not effective-date-speed. This explicitly falsifies
+the "react fast" lever that the prior recommendation had flagged as
+untested.
+
+### 4c. Deep validation of the strongest marginal candidate (change-order/scope-creep tool): KILL
+
+The prior recommendation named "accept a marginal candidate deliberately"
+as a legitimate owner-discretion option and pointed at this project's own
+best unvalidated near-miss (Round 1: real $76k/yr quantified pain per
+Ignition's research, real Gumroad-kit willingness-to-pay signal, but only
+available bundled into $17-52/mo CRMs). Rather than leave it as an
+untested "maybe," it was adversarially deep-validated on the theory that
+a cheap, standalone, no-CRM-migration wedge might survive even though the
+bundled version doesn't.
+
+**Killed outright at the first check.** At least six live,
+launched-in-2026 standalone micro-SaaS tools already occupy exactly this
+wedge: Addenly/ScopeDash (forward a client email, get a drafted change
+order), StayInScope, Uncreep ($29 lifetime deal), ScopeGuard
+Pro/2/3 ($9 early-access), Boundly (built by a solo Nairobi founder after
+personally losing $15K to unbilled scope creep — free/$19/$49 tiers),
+ScopeSlip. Several use language almost identical to this candidate's
+brief, confirming other solo/AI-assisted builders ran the same
+opportunity-scan and already shipped, months ago. The Gumroad "kits" that
+signaled willingness-to-pay were confirmed to be static template
+downloads, not live tools — that specific gap (template exists, no
+interactive tool) is exactly what these six have since filled. None show
+strong traction (2026-vintage, pre-revenue-ish, $9-29 pricing,
+single-to-double-digit Product Hunt upvotes) — a crowded, no-clear-winner
+field, not a dominant incumbent — but per the project's own standing
+discipline, weak incumbents is not the same as an open wedge, and this
+was not rounded up to a CONDITIONAL. **This was the single most
+promising pre-existing candidate in the project's entire history, and it
+does not survive 2026-dated adversarial re-validation.**
+
+### 4d. Non-English general-consumer/small-business niches: 0/10 survivors, axis likely structurally closed
+
+One genuinely new axis (not a repeat of Round 2's non-English
+*regulated-profession* B2B tools): everyday consumer and small-business
+pain points in German, French, Italian, Polish, Dutch, and Spanish
+markets, searched in-language. Screened 10 niches: German dynamic
+electricity tariffs (dominated by 15+ year incumbent comparison portals
+Verivox/Check24/test.de), free XRechnung/ZUGFeRD e-invoicing for tiny
+businesses (a free no-signup tool, kostenlose-erechnung.de, already does
+it), German Nebenkostenabrechnung (utility-statement) error-checking
+(saturated: Nebenkostenpro, Mineko, Yourxpert, plus free Verbraucherzentrale
+guides), German Pflegegrad application help (free government-mandated
+Pflegeberatung counseling pre-empts it by law), German Kleinanzeigen
+scam/fair-price detection (covered by bank/consumer-body guides; also a
+hard trust sell), French subscription-cancellation help (the 2023
+"résiliation en trois clics" law makes companies solve this themselves),
+Italian elderly energy-telemarketing-scam protection (a June 2026 law
+bans the underlying practice; also a fatal trust paradox — a foreign
+anonymous tool "protecting" elderly people from unfamiliar callers looks
+exactly like the scam), Polish "sankcja kredytu darmowego" consumer-credit
+claims (a mature cottage industry of law firms/claims platforms), Dutch
+elderly-focused energy-switching help (dominated by entrenched portals;
+the real gap-filler is family members, not a tool), Spanish bank-account
+switching (an EU directive already makes the receiving bank legally
+responsible for the whole switch, free, within ~12-13 days).
+
+**Assessment: this axis looks structurally closed, not just unlucky.**
+The scarcity theory ("fewer AI-agent builders scan non-English markets")
+doesn't hold for consumer finance/utilities/bureaucracy, because the
+relevant competition there isn't other solo AI builders — it's
+15-25-year-old, heavily capitalized national comparison portals and
+government/quasi-government consumer bodies that predate the AI-agent
+era entirely. Worse, EU-wide consumer-protection directives (payment-
+account portability, easy cancellation, telemarketing consent) recurred
+across three different countries in this single round, meaning
+"country-specific" consumer pain in the EU is disproportionately likely
+to already have an EU-wide regulatory fix baked in. And in the pain
+points with the clearest evidenced severity (elderly scam targeting,
+healthcare bureaucracy, credit disputes), trust is the explicit
+bottleneck — the one thing a €0, non-local, non-native-speaking AI-only
+builder structurally cannot manufacture quickly.
+
+## Running total: 15 independent discovery strategies, zero survivors
+
+11 (pre-2026-10-03, see above) + 4 today (service/content/community,
+fast-trigger-reaction, non-English general-consumer, plus the one deep
+validation of the best pre-existing marginal candidate) = 15. Both
+untested levers named in the prior recommendation (fast-reaction,
+different business model) are now tested and falsified; the single best
+marginal candidate from the project's history is now tested and killed;
+and the newest axis tried (non-English consumer markets) looks
+structurally closed for reasons specific to that axis (incumbent national
+portals + regulatory pre-emption + trust barriers), not just one more
+unlucky roll. See `MEMORY.md` for the full updated recommendation to the
+owner.

@@ -1,10 +1,118 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection, skeptical)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: TRUE (no portfolio populated — zero surviving candidates)
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: none (15/15 tested, all killed)
+PRIMARY_BOTTLENECK: idea discovery itself — every autonomous discovery lever available to a €0, AI-only, no-local-presence operator has now been tried and has failed; the remaining levers require owner input
+NEXT_HIGHEST_VALUE_ACTION: check `ideas/decision.md` for an owner override/lead at the start of every future run; absent one, do NOT repeat brainstorm-a-niche-then-web-screen discovery (15/15 failed, clear diminishing returns) — instead try a genuinely different discovery *method*: mine existing paid-product review/complaint data (app-store reviews, G2/Capterra 1-3★ reviews, Reddit complaints about a specific named incumbent) for an underserved sub-segment within a category that already has proven payment behavior, rather than brainstorming a new niche from a blank page. See "Recommendation for the owner's attention" below for the full menu.
+OWNER_ACTION_REQUIRED: YES — see recommendation below. Not blocking (autonomous work continues regardless, per standing instruction), but genuinely useful input is now scarce without it.
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status (updated 2026-10-03): 15 discovery strategies tried, zero survivors — both previously-"untested" levers now falsified, the best marginal candidate now killed
+
+A scheduled autonomous run on 2026-10-03 (two weeks after the Round 1-3
+work below) picked up this file's own prior recommendation and tested it
+directly: the two specific levers flagged as "not really tested" (react
+to a trigger within 24-72h; try a different business model) were each
+given a dedicated, rigorous discovery round, and the single best
+previously-flagged marginal candidate (the change-order/scope-creep tool)
+was deep-validated rather than left as an untested "maybe." All three
+returned zero survivors. A fourth, genuinely new axis (non-English
+general-consumer niches, as opposed to Round 2's non-English
+*regulated-profession* niches) was then tried rather than repeating
+anything already killed — also zero survivors, and this time with a
+structural explanation specific to that axis (entrenched national
+comparison portals + EU-wide regulatory pre-emption + a trust barrier
+that a non-local €0 builder cannot overcome quickly).
+
+**Full detail for all four of today's rounds is in `ideas/candidates.md`**
+under "Round 4 (2026-10-03)". Headline results:
+
+- **Productized-service / content / community models (24 niches, 0
+  survivors):** the clone-speed compression found in the original 11
+  software-focused strategies recurs here via a different mechanism —
+  liquid gig-labor marketplaces (Fiverr/Upwork/Contra) and a saturated
+  creator/newsletter economy, not AI code generation. Every service
+  candidate had a live competing gig listing; "an old tool died" (digital
+  estate planning) just meant the market moved to a better-funded
+  second-generation incumbent, not that a gap opened.
+- **Very-fresh (7-14 day) trigger events (11 triggers found, 0
+  unfilled):** standing automated tracker infrastructure
+  (agentdeals.dev, costbench.com, codex.danielvaughan.com,
+  beancount.io) now covers this axis *continuously* and pre-empts
+  discovery itself — one law was covered within 2 weeks of adoption,
+  4.5 months before its effective date. There is no exploitable 24-72h
+  window left for anything visible enough to be found by a research
+  pass.
+- **Deep validation of the scope-creep tool — KILL:** six live,
+  2026-launched standalone competitors (Addenly/ScopeDash, StayInScope,
+  Uncreep, ScopeGuard Pro, Boundly, ScopeSlip) already occupy the exact
+  wedge this candidate proposed, several built by solo founders who
+  evidently ran the same opportunity-scan and shipped months ago. This
+  was the strongest pre-existing candidate in the project's history and
+  it does not survive 2026-dated re-validation.
+- **Non-English general-consumer niches (10 niches across 6 markets, 0
+  survivors):** looks structurally closed, not just unlucky — the
+  relevant competition in consumer finance/utilities/bureaucracy is
+  decades-old national comparison portals and government consumer
+  bodies, not other AI-agent builders, and EU-wide directives
+  pre-emptively solve a lot of "country-specific" consumer pain by
+  forcing the regulated party to fix it.
+
+### What this changes about the standing recommendation
+
+The prior version of this file (below, preserved for continuity) listed
+four options for the owner: (1) react faster to fresh triggers, (2) try
+a different business model, (3) owner override via `ideas/decision.md`,
+(4) accept a marginal candidate deliberately. **Options 1, 2, and 4 have
+now all been tested and have failed** — this is new evidence, not a
+restatement. Only option 3 remains fully live, plus one new idea
+surfaced by today's research agents: the discovery *method* itself
+(brainstorm a plausible niche from a blank page, then web-search-screen
+it) may be the limiting factor, independent of which axis it's applied
+to, because anything compact enough to brainstorm and describe in a
+sentence is — across 15 independent tries spanning software, services,
+content, community, fast-reaction, and three language/market
+combinations — also compact enough for the global AI-agent economy, the
+gig-labor economy, or a decades-old incumbent to have already filled.
+
+### Recommendation for the owner's attention (not a request for
+permission to continue — research/idea/kill decisions still don't need a
+stop-and-ask gate, and future runs will keep working autonomously
+regardless)
+
+1. **Owner override or lead** (`ideas/decision.md`, still unset): the
+   single highest-leverage thing the owner can supply right now is
+   something an AI-only, no-local-presence, €0-capital operator
+   structurally cannot generate on its own — a specific relationship,
+   a specific local market or community the owner has real access to,
+   or a specific idea they want pursued regardless of what discovery
+   search turns up (adversarial validation would still apply, to avoid
+   building something already captured).
+2. **A different discovery *method*, not just a different axis**: start
+   from evidence of *existing proven payment behavior* (app-store
+   reviews, G2/Capterra 1-3★ reviews, Reddit complaints naming a
+   specific incumbent product) and look for an underserved segment
+   within an already-validated category, rather than brainstorming a
+   niche from scratch and checking if it's taken. This inverts the
+   search order to start near the top of the project's own proof
+   ladder (people already pay for something adjacent) instead of the
+   bottom (a plausible-sounding pain point). Not yet tried in any of
+   the 15 strategies to date — planned as the next autonomous attempt
+   absent owner input, per `NEXT_HIGHEST_VALUE_ACTION` above.
+3. **Accept that pure brainstorm-and-screen discovery may be close to
+   exhausted for this operator's structural constraints** (AI-only, €0,
+   no local presence, English-fluent-but-not-native in other markets).
+   Fifteen straight zero-survivor results across every axis tried is
+   strong, convergent evidence, not an unlucky streak — worth the owner
+   weighing in on whether to keep varying the axis, switch the method
+   (option 2), or supply a lead (option 1).
+
+## Prior status (2026-09-19, preserved for continuity): 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
