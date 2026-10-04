@@ -38,3 +38,374 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-09-27T~06:20Z — Scheduled run: found and fixed a 7-way branch-fragmentation problem instead of adding an 8th duplicate discovery round
+
+**Phase at start:** IDEA_DISCOVERY (this branch's own local view: 11/11 dead, per the entry above)
+**Phase at end:** IDEA_DISCOVERY (unchanged phase, but state now reflects the true combined project history, not just this branch's slice of it)
+
+**What I did:**
+- Per the standing repo-memory protocol (`git pull`, read `MEMORY.md`,
+  `LOG.md`, etc.), fetched all remote branches before starting work and
+  found 7 `claude/cool-bell-*` branches (including this one) all forked
+  from the same commit (`d2459cc`), with `origin/main` also stuck at that
+  same commit. The other 6 branches had each independently run 1-3 more
+  discovery rounds since 2026-09-20, entirely unaware of each other,
+  none merged back. This meant continuing this run's own thread (a 12th,
+  13th, ... discovery round) would have been duplicated effort layered on
+  top of duplicated effort already found in 6 other places.
+- Read each of the other 6 branches' `MEMORY.md` (and, for the two most
+  substantive, their full research/lessons output) to extract every
+  distinct finding: `c46o51` (37/37 dead, a named master legal-risk
+  pattern for "investigate B for A" services, a Fiverr-commoditization
+  pattern), `dqby62` (14/14 dead, "service moat is bimodal" finding),
+  `elqup8` (14/14 dead, fresh-trigger clone-speed sharpened to hours,
+  VC-backed vertical-AI already occupying the "cheap AI service for
+  underserved small customer" niche), `9105ky` (12/12 dead, same
+  bimodal-moat finding independently, plus the first "does the owner have
+  an unfair advantage" suggestion), `rqjf12` (the one branch with a real
+  survivor — a 2e-parents-community hub — paused on an explicit,
+  still-unanswered owner ask filed as GitHub issue #4 on 2026-09-22), and
+  `swg3nx` (13/13 dead, independently proposing the same
+  "deliberately-too-small-for-VC" untested lever `elqup8` also flagged).
+- Consolidated all of this into this branch: created `LESSONS.md` (did
+  not exist here before) with 6 dated master-pattern entries covering
+  every distinct kill mechanism found across all branches; rewrote
+  `MEMORY.md` to the formal state-header format with an explicit
+  "Operational issue" section documenting the branch fragmentation itself
+  as a finding in its own right; added a consolidated-update section to
+  `ideas/candidates.md`; copied `research/2e-parents-community.md` (the
+  one live, un-duplicated candidate) into this branch so it isn't
+  stranded on a branch that may never get read again.
+- Did **not** launch a new discovery round this run. With ~45+
+  independently-run strategies across 4 business-model axes already
+  converging on well-evidenced structural conclusions (see `LESSONS.md`),
+  and one real survivor already sitting on a 5-day-unanswered owner
+  question, spending this run's budget on a redundant Nth round would
+  have been exactly the "activity instead of progress" failure mode this
+  project's own operating principles warn against.
+- Posted a consolidated update to GitHub issue #4 (still open, exactly on
+  point): the combined evidence, a restatement of the original
+  time-commitment ask (now 5 days unanswered), the new
+  unfair-advantage question, and a plain description of the branch-
+  fragmentation problem so the owner (or whoever manages this project's
+  scheduling) can decide whether to merge branches / change how scheduled
+  runs are seeded. Did not open a new issue or comment elsewhere, to
+  avoid notification noise on top of an already-relevant open thread.
+- Could not merge the other 6 branches into `main` or into this branch
+  via git, and did not open a pull request: this run's remit is limited
+  to developing on and pushing to `claude/cool-bell-aq8r7q` only, and
+  standing instruction is not to open a PR unless asked. This is
+  explicitly flagged as owner-actionable in `MEMORY.md` and the issue
+  update, not silently worked around.
+
+**Evidence discovered:** none new (no fresh research this run) — this run's
+contribution was consolidating already-real evidence that was scattered
+and at risk of being lost or redundantly re-derived.
+
+**Decision:** do not kill or promote the 2e-parents-community candidate;
+leave it exactly where the branch that found it left it (AWAITING OWNER
+INPUT), now with the additional context that it is the single survivor
+out of everything tried since the reset.
+
+**Files changed:** `LESSONS.md` (new), `MEMORY.md`, `ideas/candidates.md`,
+`research/2e-parents-community.md` (new, copied), `LOG.md` (this entry).
+
+**Primary bottleneck:** an owner decision (time commitment on issue #4),
+not idea discovery.
+
+**Next highest-value action:** get the owner's answer on issue #4 (and
+ideally the unfair-advantage question in the same reply). If no response
+by the next run, test the one genuinely untested lever (deliberately
+small/hyper-local/physical-presence niches, per `ideas/candidates.md`)
+rather than repeating any of the 4 now-exhausted axes.
+
+**Owner action required:** yes — see issue #4 update and `MEMORY.md`.
+
+**Notification status:** posted a GitHub issue comment (#4); sent a push
+notification given this is a 5-day-old pending decision plus a
+newly-found operational problem affecting how the whole project runs.
+
+---
+
+## 2026-09-28 (scheduled run, branch `claude/cool-bell-pzbxpp`)
+
+**Phase at start:** IDEA_DISCOVERY, PORTFOLIO_MODE (1 live candidate,
+awaiting owner decision — unchanged coming in)
+**Phase at end:** same — no candidate promoted, killed, or newly
+discovered this run; owner decision still pending
+
+**What I did:**
+- Loaded state per protocol: found this run's assigned branch
+  (`claude/cool-bell-pzbxpp`) was itself one of the 7 stale/diverged
+  branches flagged in the 2026-09-27 entry above — its tip was still at
+  the pre-fragmentation commit. Confirmed via `git merge-base
+  --is-ancestor` that `claude/cool-bell-aq8r7q`'s consolidated commit is
+  a direct descendant, and fast-forward-merged onto it (lossless, no
+  rewrite) rather than re-running discovery from stale state or forking
+  yet another disconnected line of work.
+- Checked GitHub issues #1-#4 for any owner reply since the 2026-09-27
+  update: none. Issue #4's time-commitment question remains unanswered
+  6 days on. Given it had already been asked twice (issue body +
+  2026-09-27 comment) with zero new information, judged that a third
+  identical re-ask today would be flooding, not progress — so did not
+  just repeat it.
+- Instead, spent this run's effort making the actual ask cheaper to
+  answer and re-verifying two of the candidate's three flagged "fatal
+  assumptions" (`research/2e-parents-community.md` fatal-assumptions
+  list):
+  - Re-confirmed (fresh search) no dedicated 2e-specific subreddit or
+    larger consolidated free hub exists beyond what was already known —
+    assumption #2 holds.
+  - Re-checked assumption #3 (Haystack pricing/size, cited as
+    willingness-to-pay evidence) and found it was **misattributed**:
+    Haystack ($47/mo) is a community for 2e *adults*, not parents of 2e
+    kids. Corrected this in the research file per the project's Truth
+    Hierarchy discipline rather than letting a wrong data point stand —
+    this is a real weakening of the monetization evidence, not a
+    cosmetic fix. The underlying fragmentation/demand evidence (6+
+    Facebook groups, no consolidated hub) is unaffected.
+  - Designed a bounded, four-week, ~1.5-hrs/week "Listening Sprint"
+    pilot with explicit numeric go/no-go criteria, as a lower-commitment
+    alternative to the original open-ended "~3-5 hrs/week indefinitely"
+    ask — same underlying question (will the owner spend personal time
+    on this) but a much smaller, time-boxed, easier decision to make one
+    way or the other.
+- Did NOT launch a new discovery round on the exhausted software/
+  content/generic-service/investigate-B-for-A axes: per the Discovery
+  Reopening Rule, one live, non-killed candidate already exists, so
+  reopening discovery now would be exactly the "novelty over focus"
+  anti-pattern the project is built to avoid, not genuine progress.
+- Posted one updated GitHub comment on issue #4 with the evidence
+  correction and the pilot proposal (not a repeat of the same
+  open-ended question — genuinely new, actionable content).
+
+**Evidence discovered:** the Haystack willingness-to-pay data point does
+not apply to this candidate's actual customer segment (parents, not 2e
+adults) — a real correction, recorded in the research file rather than
+silently dropped.
+
+**Decision:** candidate status unchanged (AWAITING OWNER INPUT, not
+killed, not promoted) — but the form of the ask changed from an
+open-ended commitment to a bounded, measurable pilot, to make a genuine
+owner answer more likely.
+
+**Files changed:** `research/2e-parents-community.md`, `MEMORY.md`,
+`LOG.md` (this entry). Branch `claude/cool-bell-pzbxpp` fast-forwarded to
+include `LESSONS.md` and `ideas/candidates.md` from the 2026-09-27
+consolidation.
+
+**Primary bottleneck:** unchanged — an owner decision, not idea
+discovery. Also: the wider branch-fragmentation problem (`main` and the
+other branches besides `aq8r7q`/`pzbxpp` are still stale) is only
+partially fixed and needs the owner's attention to fix at the scheduling
+level.
+
+**Next highest-value action:** get the owner's answer on the now-cheaper
+pilot ask. If still no response after a further reasonable interval, the
+next-best independent action (not requiring owner time) is testing the
+one genuinely untested discovery lever — deliberately hyper-local/
+physical-presence niches too small for VC-backed vertical AI and too
+idiosyncratic for Fiverr (see `ideas/candidates.md`) — rather than
+re-testing any of the four already-exhausted axes.
+
+**Owner action required:** yes — same underlying question as before
+(issue #4), now in cheaper/bounded form; plus the unfair-advantage
+question; plus whether to address branch fragmentation at the scheduling
+level.
+
+**Notification status:** posted one GitHub issue comment (#4, substantive
+new content: evidence correction + pilot proposal, not a repeat). Did not
+send a separate push notification — no milestone crossed (candidate
+neither killed nor promoted, no payment/customer event), and the owner
+already has an unanswered open question; a notification without new
+decision-relevant information would be noise.
+
+---
+
+## 2026-09-30T06:20:00Z — Scheduled run: second consolidation pass, one more missed branch found
+
+**Phase at start:** IDEA_DISCOVERY, this session's assigned branch
+(`claude/cool-bell-1k9wht`) still stale at the pre-fragmentation commit
+(`d2459cc`) — one of the two branches (main being the other) that had
+*not* yet received the 2026-09-27/28 consolidation.
+**Phase at end:** IDEA_DISCOVERY, blocked on owner decisions (unchanged
+phase, more complete record).
+
+**What I did:**
+- Loaded state per standing procedure: checked GitHub issue #4 (the
+  standing owner-facing ask) first, found it still open/unanswered, and
+  found it references files (`LESSONS.md`, `research/2e-parents-
+  community.md`) that did not exist on this branch — this branch was
+  stale relative to the project's actual state.
+- Found 9 `claude/cool-bell-*` sibling branches (not 7, as the last
+  consolidation recorded) plus `main`, all still forked from the same
+  `d2459cc` commit except two (`pzbxpp`, `aq8r7q`) that had already
+  self-consolidated the other six. Fast-forward-merged `pzbxpp`
+  (`9f98c44`) onto this branch — a clean, lossless fast-forward, not a
+  rewrite, since this branch had no unique commits of its own.
+- Checked the remaining 8 sibling branches individually against the
+  now-current state for anything not already folded in. 7 were fully
+  covered (their unique commits already generalized into `LESSONS.md`,
+  or reached "0 survivors" via already-recorded mechanisms). One,
+  `claude/cool-bell-v767rb`, was missed by the prior consolidation
+  (which said "six other branches," and v767rb was a seventh/eighth not
+  included) and contained two things recorded nowhere else in this repo:
+  a second parked candidate (indie-perfumer IFRA/EU compliance
+  newsletter, `research/perfumer-compliance-newsletter.md`) and a
+  genuinely new, universal structural finding — this project has never
+  established a business name/brand, operating email, or payment/
+  publishing account, which will block *any* candidate at `LAUNCH_PREP`,
+  not just this one.
+- Folded both into `MEMORY.md`, `LESSONS.md`, and `ideas/candidates.md`,
+  and copied the research file over. Did not re-litigate or re-run any
+  of the 50+ already-exhausted discovery strategies — per the Discovery
+  Reopening Rule, two live (non-killed) candidates already exist, which
+  is a reason to get owner answers, not to search for a third.
+- Posted one consolidated comment to GitHub issue #4: did not repeat the
+  two already-open questions verbatim, but named all three currently
+  open owner decisions together (2e-parents pilot, unfair-advantage,
+  and the new identity/account-setup question) now that they can be
+  answered as one batch, and noted the branch-count correction (9, not
+  7) for the still-unresolved scheduling/fragmentation issue.
+
+**Evidence discovered:** no new market/competitor evidence this run —
+the substantive addition is operational (a missed branch, now folded in)
+and one genuinely new structural finding (the identity/account-setup
+gap) carried over from that branch's own research, not newly generated.
+
+**Decision:** continue holding at IDEA_DISCOVERY / PORTFOLIO_MODE,
+awaiting owner input. Did not launch new discovery — nothing in this
+run's findings changes the standing conclusion that further generic
+discovery is unlikely to be productive, and two strong, non-killed
+candidates already exist and don't need a third to justify focus.
+
+**Files changed:** `MEMORY.md`, `LESSONS.md`, `ideas/candidates.md`,
+new `research/perfumer-compliance-newsletter.md`, this file.
+
+**Primary bottleneck:** unchanged — owner decision, not research.
+
+**Next highest-value action:** get the owner's answer on any of the
+three open questions on issue #4. If a further reasonable interval
+passes with no response, the next-best independent action (not
+requiring owner time) is testing the one genuinely untested discovery
+lever — hyper-local/physical-presence niches too small for VC-backed
+vertical AI and too idiosyncratic for Fiverr — rather than re-testing
+any of the four already-exhausted axes, or re-pinging a fourth time on
+the same unanswered questions.
+
+**Owner action required:** yes — three questions, all on issue #4: (1)
+the bounded 2e-parents pilot, (2) the unfair-advantage question, (3) NEW:
+business identity/account-setup approval. Also still open: the
+branch-fragmentation scheduling fix, or approval for a PR merging this
+consolidated branch to `main`.
+
+**Notification status:** posted one GitHub issue comment (#4) — genuinely
+new content (a previously-unreported branch and finding), not a repeat of
+an unanswered question. Did not send a separate push notification: no
+milestone crossed, and the owner already has open, unanswered questions
+on record — a notification would add noise without new urgency.
+
+---
+
+## 2026-10-04T06:16:00Z — Fourth consolidation pass + branch-fragmentation root cause found
+
+**Phase at start:** IDEA_DISCOVERY, believed consolidated as of 2026-09-30
+(2 live parked candidates, 9 known forked branches)
+**Phase at end:** IDEA_DISCOVERY, discovery explicitly paused pending
+owner input; 15 forked branches found and folded in; fragmentation bug
+root-caused
+
+**What I did:**
+- `git fetch --prune` found six branches beyond the nine known at the last
+  consolidation: `claude/cool-bell-oc9440` (2026-10-01), `-qesscu`
+  (2026-10-02), `-sbiqz0` (2026-10-03) ran independent discovery unaware
+  of the 2026-09-30 state; the other three (`rqjf12`, `swg3nx`, `v767rb`)
+  were already covered. Read all three new branches' `MEMORY.md` diffs
+  and research output in full.
+- Checked GitHub issue #4 (open since 2026-09-22) and confirmed all three
+  prior "owner update" comments on it (2026-09-27, -28, -30) were posted
+  under the owner's account by prior agent sessions, not genuine owner
+  replies — the thread has had zero real human input in two weeks. Also
+  checked for any other open issues/overrides: none found;
+  `ideas/decision.md` still unset.
+- Folded the three new branches' findings into `LESSONS.md` (five new
+  dated entries: search-indexing lag defeating the trigger-watching
+  lever; a fourth confirmation of the trust-moat-bimodal service pattern;
+  incumbent-fast-follow generalizing to content/AI-service models and the
+  "we'll stay current" differentiator now collapsing a third time;
+  gig-marketplace/creator-economy clone-speed plus non-English
+  general-consumer niches closing; and the scope-creep tool's final kill
+  — six live 2026 competitors now occupy that wedge, so it can no longer
+  be offered as a fallback). Copied the three branches' research files
+  (`micro-acquisition-due-diligence.md`, `translator-industry-newsletter.md`,
+  `eldercare-dossier-service.md`) into `research/`. Appended a
+  consolidation section to `ideas/candidates.md` and rewrote `MEMORY.md`'s
+  top block and added a "Third consolidation pass" narrative section.
+- **Root-caused the branch-fragmentation bug** rather than re-flagging it
+  a fifth time: read this account's scheduled Routines directly via
+  `list_triggers`/`get_trigger` and found the daily "SUCCESS" trigger has
+  `persist_session: false` — every firing starts a brand-new session,
+  which the harness assigns a fresh branch forked from `main`'s current
+  tip, and `main` has not moved since 2026-09-19 because nothing has ever
+  merged back into it. Checked `update_trigger`'s schema: it cannot
+  change `persist_session`, so this project's own tools cannot self-heal
+  it. Did not attempt to push this consolidated branch to `main` — this
+  task's standing rule is never to push to a different branch without
+  explicit permission, and that permission has already been asked for
+  three times (2026-09-27, -28, -30) with no reply, so a fourth ask alone
+  adds nothing.
+- Posted one consolidated GitHub comment on issue #4 batching all four
+  pending owner decisions (2e-parents pilot, unfair-advantage question,
+  business-identity approval, and the trigger/branch-fix decision) into a
+  single, shorter ask instead of a fifth separate monologue. Sent a direct
+  push notification as well, since three successive GitHub-comment-only
+  asks have gone unanswered for two weeks and this is exactly the kind of
+  situation (a real decision blocking real progress, going stale) worth
+  surfacing more directly rather than adding a fourth quiet comment to a
+  thread with no reply.
+- Deliberately ran **no new discovery** this session. Three more
+  independent rounds since the last consolidation (by branches unaware
+  of it) produced zero new survivors on top of the existing ~15 rounds /
+  70+ strategies — per the project's own Discovery Reopening Rule, with
+  two live candidates already parked, a 16th round adds confirmatory
+  evidence at best and makes the fragmentation worse at worst.
+
+**Evidence discovered:** no new business evidence (all three
+newly-found branches' discovery reached "0 survivors," consistent with
+and generalizing the existing structural pattern). The only new finding
+of substance is operational: the `persist_session: false` root cause of
+the branch-fragmentation bug.
+
+**Decision made:** consolidate, don't discover. Pause further discovery
+until the owner answers the batched questions. Do not push to `main`
+without explicit permission.
+
+**Files changed:** `LESSONS.md` (5 new entries), `MEMORY.md` (top block
+rewritten, new consolidation section added), `ideas/candidates.md` (new
+consolidation section), `LOG.md` (this entry), plus 3 new research files
+copied from the newly-found branches.
+
+**Primary bottleneck:** owner decisions (4, batched) + the
+`persist_session: false` scheduling bug, which only the owner (or
+whoever has dashboard access to this account's Routines) can fix.
+
+**Next highest-value action:** get the owner's answer on the batched ask.
+Absent that, the next-best independent action is still the untested
+hyper-local/physical-presence lever (not the two queued discovery
+*methods* from `LESSONS.md`'s 2026-10-03 entry, which are bigger
+departures better started with the owner aware) — but only after
+confirming, at the start of that future run, that no answer has arrived
+and that no 16th/17th branch has appeared that also needs folding in
+first.
+
+**Owner action required:** YES — four items, batched into one GitHub
+comment (issue #4) and one push notification this run.
+
+**Notification status:** posted one consolidated GitHub comment on issue
+#4 and sent one push notification. This supersedes rather than repeats
+the three prior unanswered comments — it names all four open questions
+in one place and adds the trigger diagnosis, rather than re-asking any
+one of them alone a fourth time.

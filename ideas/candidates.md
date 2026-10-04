@@ -270,3 +270,135 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+---
+
+## Consolidated update, 2026-09-27: ~45+ strategies now dead across 7 independently-diverged branches, but ONE real survivor found — AWAITING OWNER DECISION
+
+**Provenance:** this branch (`claude/cool-bell-aq8r7q`) forked from the
+same commit as six other `claude/cool-bell-*` branches, all of which ran
+independent Round 4-6 discovery in parallel over 2026-09-20 through
+2026-09-26 without visibility into each other (see `MEMORY.md`
+"Operational issue" for why). This entry consolidates their results so
+this branch reflects the true combined state rather than just its own
+sub-thread. Full per-branch detail is preserved in `LESSONS.md`.
+
+**Business-model axes now exhausted, with well-evidenced kill mechanisms
+(see `LESSONS.md` for full detail on each):**
+- **Software tools / comparison sites / browser extensions**: clone-speed
+  compression to single-digit weeks regardless of complexity or recency
+  — confirmed independently on every branch that tested it, sharpened by
+  a fresh-trigger test that found *hours-to-24h* clone response for
+  developer-facing triggers specifically.
+- **Content / newsletter / SEO authority**: same clone-speed problem for
+  unorganized niches; established trade-association/trade-press capture
+  for organized professional niches.
+- **Productized service (generic)**: bimodal failure — real-moat services
+  take too long to bootstrap at €0; fast-to-bootstrap services have no
+  moat and are already commoditized on Fiverr/Upwork, or already
+  displaced by named, VC-backed vertical-AI products targeting the exact
+  same "underserved small customer" segment.
+- **Investigate-B-for-A services** (vetting/verifying a named third party
+  for a paying customer): structurally blocked by FCRA/GDPR (person) or
+  PI-licensing law (business) in every major market checked, regardless
+  of framing.
+
+**One real survivor: community-first model.** Unlike every axis above,
+this one wasn't killed by competition, cloning, or regulation — 2 of 8
+community niches tested show a genuine, evidence-backed gap. The
+strongest, **a free community hub for parents of twice-exceptional (2e)
+kids**, is documented in full at `research/2e-parents-community.md`
+(brought into this branch from where it was found). It has NOT been
+killed; it is explicitly **AWAITING OWNER INPUT**, because — uniquely
+among everything tested — its bottleneck is not evidence or competition
+but whether the owner will personally commit ~3-5 hrs/week of genuine
+participation, which the agent cannot substitute for without it becoming
+spam. This has been an open, unanswered ask on GitHub issue #4 since
+2026-09-22 (5 days as of this consolidation).
+
+**Also surfaced, not yet acted on:** two branches independently proposed
+the owner may hold a real, currently-unrecorded "unfair advantage"
+(an existing audience, credential, network, or domain expertise) that
+would change which service/content niches are viable — this has not been
+asked directly before now. See `MEMORY.md` for the consolidated ask.
+
+**Recommendation:** do not launch an 8th/9th/10th independent discovery
+round repeating axes already exhausted with consistent, convergent
+results across multiple independent branches — that would be duplicated
+effort, not progress. The highest-value next step is the owner's answer
+on issue #4, plus (optionally) the credential/unfair-advantage question.
+The one genuinely untested discovery lever, if the owner would rather the
+agent keep searching in parallel: niches deliberately too small,
+hyper-local, or physical-presence-dependent to be VC-attractive *and*
+too idiosyncratic to be a generic Fiverr gig (proposed independently by
+two branches, never tested).
+
+## Second consolidation pass, 2026-09-30: a second parked candidate found on a ninth, previously-missed branch
+
+A ninth branch, `claude/cool-bell-v767rb`, was not part of the
+2026-09-27 six-branch consolidation and was found and folded in this
+run. It ran its own Round 4-5 (31 discovery strategies across 11
+software, 8 service, 12 content/community candidates) and produced a
+second live candidate:
+
+**Indie/natural-perfumer IFRA/EU compliance newsletter + micro-community**
+(`research/perfumer-compliance-newsletter.md`) — a low-price ($5-8/mo)
+newsletter translating IFRA amendments and EU cosmetics-allergen labeling
+changes into plain language for hobbyist/micro-batch perfumers, timed
+against a real forcing event (EU Regulation 2023/1545, effective 31 July
+2026). **PARKED, not approved and not killed** — the first candidate
+across 31 strategies where no direct incumbent was found occupying the
+specific wedge, but two of three fatal assumptions (market size,
+willingness to pay for compliance content specifically) are unconfirmed,
+and the third (curation/trust beats an AI clone) is the exact question
+this whole content-model pivot exists to test. Its cheapest next test
+(posting into real forum threads under a public identity) is blocked on
+a structural gap this same branch discovered: **this project has never
+established a business name, operating email, or payment/publishing
+account**, which will block whichever candidate eventually proceeds, not
+just this one — see `LESSONS.md` and `MEMORY.md`.
+
+**Portfolio state after this pass: 2 live (non-killed) candidates**, both
+blocked on owner decisions, not further research: the 2e-parents
+community pilot (personal time commitment) and the perfumer newsletter
+(market-size/willingness-to-pay test, itself blocked on the identity/
+account question). Per the Discovery Reopening Rule, this is not a
+reason to search for a third — it is a reason to get the owner's answers
+on the two already surfaced before doing anything else.
+
+## Third consolidation pass, 2026-10-04: three more unconsolidated branches folded in, zero new survivors, one standing fallback now killed
+
+Three further branches (`claude/cool-bell-oc9440`, `-qesscu`, `-sbiqz0`,
+firing 2026-10-01 through 2026-10-03) each independently ran more
+discovery without visibility into the 2026-09-27/30 consolidation above.
+None found a new survivor. Full mechanism detail is in `LESSONS.md`
+(2026-10-01 through 2026-10-04 entries); summary of what was tested:
+
+- **`oc9440`**: a 24-72h-fresh-trigger scan (0 survivors — generic web
+  search has a 1-4 week indexing lag that defeats this lever as executed);
+  a buy-side micro-acquisition due-diligence service (killed — price gap
+  already densely populated, see `research/micro-acquisition-due-diligence.md`).
+- **`qesscu`**: a translator-industry crowdsourced newsletter (killed —
+  ProZ.com already building the exact differentiator, see
+  `research/translator-industry-newsletter.md`) and an eldercare
+  long-distance-caregiver dossier service (killed — liability + delivery
+  mismatch, see `research/eldercare-dossier-service.md`).
+- **`sbiqz0`**: 24 service/content/community niches (0 survivors — gig
+  marketplaces and the creator economy reproduce the clone-speed problem
+  without needing AI code generation) and 10 non-English
+  general-consumer niches across 6 markets (0 survivors — decades-old
+  national comparison portals + EU regulatory pre-emption). Also
+  deep-re-validated the project's single longest-standing "marginal,
+  available as a fallback" candidate, the change-order/scope-creep tool:
+  **now definitively KILLED** — six live, 2026-launched standalone
+  competitors (Addenly/ScopeDash, StayInScope, Uncreep, ScopeGuard Pro,
+  Boundly, ScopeSlip) occupy the exact wedge. This should no longer be
+  listed as an available fallback in any future recommendation.
+
+**Portfolio state unchanged: still 2 live (non-killed) candidates**, both
+still blocked purely on owner decisions. No new discovery was launched
+this pass — per the Discovery Reopening Rule, consolidating already-run
+(but previously invisible) work and getting the owner's answer on the
+two existing candidates is the correct next step, not a 16th independent
+round. See `MEMORY.md` for the batched owner ask and the branch-
+fragmentation root-cause diagnosis.

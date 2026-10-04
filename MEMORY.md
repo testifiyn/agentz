@@ -1,8 +1,150 @@
-CURRENT_PHASE: IDEA_DISCOVERY
+CURRENT_PHASE: IDEA_DISCOVERY (discovery paused — do not launch new rounds; see PRIMARY_BOTTLENECK)
+MODE: INVESTOR (pre-selection)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: TRUE (2 live parked candidates, awaiting owner decisions, not agent decisions)
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: (1) 2e-parents community hub (`research/2e-parents-community.md`) — genuine evidence-backed gap, NOT killed, blocked purely on whether the owner will commit personal participation time. A cheaper bounded 4-week pilot (~1.5 hrs/week) has been proposed since 2026-09-28. (2) Indie/natural-perfumer IFRA/EU compliance newsletter (`research/perfumer-compliance-newsletter.md`) — PARKED (neither GO nor KILL); two of three fatal assumptions (market size, willingness to pay) remain unconfirmed and untestable without a real-world public identity. Everything else tried — 15+ independent discovery rounds, 70+ distinct strategies across software, content, community, and service models — is confirmed KILLED; see `LESSONS.md` for mechanisms. The scope-creep/change-order tool (long-listed as an available "marginal fallback") is now also definitively KILLED (six live 2026 competitors found 2026-10-03) and should no longer be offered as a fallback option.
+PRIMARY_BOTTLENECK: two things, both owner-side, not research-side. (1) Four pending owner decisions, all still open on GitHub issue #4 (opened 2026-09-22, three unanswered agent follow-ups since): the 2e-parents pilot go/no-go, an "unfair advantage" question (existing audience/credential/network), approval for a business name/email/accounts, and whether/how to fix item (2). (2) **Root-caused this run**: the daily "SUCCESS" scheduled trigger fires with `persist_session: false`, so every single firing starts a brand-new session, which gets assigned a brand-new git branch forked from `main`'s current tip by the harness — and since nothing has ever merged back to `main`, every new session still forks from the 2026-09-19 state. This is the actual mechanical cause of the repeated branch-fragmentation bug (15 diverged branches found this run, up from 9 on 2026-09-30) — not bad luck, not any one session's fault. Full diagnosis in `LESSONS.md`'s final entry.
+NEXT_HIGHEST_VALUE_ACTION: get the owner's answer on the four pending questions (batched into one clear ask, posted 2026-10-04). No further discovery should run until they're resolved (Discovery Reopening Rule: two live candidates already exist — a 16th branch running a 16th independent round would just make the fragmentation worse, not better). If/when discovery does reopen, two untested *methods* (not just axes) are queued in `LESSONS.md`'s 2026-10-03 entry: review-mining existing paid-category complaints, and live-pilot-as-discovery.
+OWNER_ACTION_REQUIRED: YES — four items, see above, all batched into one GitHub comment and a direct notification this run so they don't require re-reading five prior update threads.
 
 # Memory
 
 This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
+
+## Third consolidation pass, 2026-10-04: found and folded in three more unconsolidated branches, root-caused the fragmentation bug, batched all pending owner questions into one ask
+
+On starting this run (`claude/cool-bell-fy1q6a`), `git fetch --prune`
+found **fifteen** `claude/cool-bell-*` branches total, not the nine the
+2026-09-30 consolidation knew about. Three more (`claude/cool-bell-oc9440`,
+2026-10-01; `-qesscu`, 2026-10-02; `-sbiqz0`, 2026-10-03) had each
+independently forked from the same stale `d2459cc` commit after the
+2026-09-30 consolidation and run further discovery, unaware the
+consolidation — or the two live parked candidates it protects under the
+Discovery Reopening Rule — existed. None found a new survivor; all
+reached "0 survivors" via mechanisms that generalize the existing
+`LESSONS.md` record (gig-marketplace/creator-economy clone-speed,
+search-indexing lag defeating the trigger-watching lever, incumbent
+fast-follow extending to content/AI-service models, non-English
+*general-consumer* niches closing the same way regulated-profession ones
+already had). One did produce a real, if unwelcome, update: a
+2026-dated re-validation found the project's longest-standing "marginal,
+available as a fallback" candidate (change-order/scope-creep tool) now
+has six live competitors and is genuinely dead, not marginal. All of
+this is folded into `LESSONS.md` (new entries, 2026-10-01 through
+2026-10-04) and `ideas/candidates.md` rather than re-stated here.
+
+**The branch-fragmentation bug itself was root-caused this run, not just
+re-flagged.** Reading the account's scheduled Routines directly
+(`list_triggers`/`get_trigger`, not inferred from git history) found the
+daily "SUCCESS" trigger is configured with `persist_session: false` —
+every firing starts a brand-new session, which the harness assigns a
+brand-new branch forked from `main`'s current tip, and `main` has not
+moved since 2026-09-19 because nothing has ever merged back into it. This
+is the exact, complete mechanical explanation for all fifteen branches.
+`update_trigger` (the only tool this project has to modify the Routine)
+does not expose a `persist_session` field, so this cannot be fixed from
+inside the repo — it needs either an owner-side change to the Routine
+(recreating it with session persistence, likely only available from a
+dashboard) or explicit owner permission for some future session to merge
+a consolidated branch into `main` periodically. Full diagnosis in
+`LESSONS.md`'s final entry. **This run did not attempt to push to `main`**
+— the designated-branch rule for this task says never to push to a
+different branch without explicit permission, and that permission has
+been asked for three times already (2026-09-27, -28, -30) without a
+reply, so a fourth ask alone would add no information. Instead, this run
+batched all four pending owner decisions (the three from before, plus
+this bug's fix) into a single, shorter GitHub comment and triggered a
+direct push notification, since three successive GitHub-comment-only
+asks have gone unanswered for two weeks.
+
+**No new discovery was run this session** — consolidating existing,
+scattered evidence and getting unambiguous owner input on the two live
+candidates is higher-value than a sixteenth independent round, per the
+Discovery Reopening Rule and per the plain fact that three more rounds
+run exactly that way since the last consolidation produced zero new
+survivors.
+
+## Second consolidation pass, 2026-09-30: a ninth branch (`v767rb`) found with a real, previously-unreported finding
+
+This run (`claude/cool-bell-1k9wht`) fast-forward-merged the prior
+consolidated state (`claude/cool-bell-pzbxpp`, commit `9f98c44`) cleanly,
+then checked all remaining sibling `claude/cool-bell-*` branches for
+anything not already folded in. Eight of the nine were fully covered by
+the existing consolidation (their unique commits generalized into
+`LESSONS.md` already, or reached the same "0 survivors" conclusion via
+already-recorded mechanisms). One, `claude/cool-bell-v767rb`, was missed
+by the 2026-09-27 consolidation pass (which explicitly said "six other
+branches") and contained two things not recorded anywhere else in this
+repo:
+
+1. **A second parked candidate**: the perfumer-compliance-newsletter
+   idea, now copied into `research/perfumer-compliance-newsletter.md`
+   and added to `ideas/candidates.md`.
+2. **A universal structural blocker, independent of any single
+   candidate**: this project has never established a business name/
+   brand, an operating email, or any payment/publishing account
+   (Substack, Stripe, Reddit, etc.). Every candidate so far has been
+   killed in discovery or validation, before `LAUNCH_PREP` would have
+   made this gap concrete — the perfumer candidate is the first to get
+   close enough to expose it. This will block whichever candidate
+   eventually proceeds (including, at larger scale, the 2e-parents hub
+   if it grows past the initial 4-week pilot, which uses the owner's own
+   existing personal accounts and so is not blocked by this yet).
+
+Both are now folded into this file, `ideas/candidates.md`, and surfaced
+to the owner in a single consolidated GitHub comment rather than as a
+fourth separate ask — see issue #4.
+
+## Operational issue: partially fixed 2026-09-28
+
+This run's assigned branch (`claude/cool-bell-pzbxpp`) was itself one of
+the 7 stale, unmerged branches described below — its own tip was still
+sitting at the pre-fragmentation commit (`d2459cc`). Since
+`claude/cool-bell-aq8r7q`'s consolidated commit is a direct descendant of
+that same point, this run fast-forward-merged `pzbxpp` onto it (a clean,
+lossless fast-forward, not a rewrite) and pushed. So as of this run,
+`pzbxpp` carries the full consolidated record described below. **This
+does not fully fix the underlying problem**: `main` and the other 6
+`claude/cool-bell-*` branches are still stale/diverged, and unless
+scheduled runs are reconfigured to continue from the latest branch state
+(or this consolidated work is merged to `main`), any *new* scheduled run
+that forks fresh from `main` will re-fragment again. Still needs the
+owner's (or whoever configures scheduling's) attention — asked again,
+briefly, in this run's GitHub update rather than repeated at length.
+
+## Operational issue found 2026-09-27 (original write-up, background): 7 branches diverged from the same commit and ran duplicate discovery in parallel, unmerged
+
+On starting this run, `git fetch` revealed 7 `claude/cool-bell-*` branches
+(including this one) all forked from the same commit (`d2459cc`, the
+"Round 3 also killed" state, which is also where `origin/main` still
+sits). The other 6 branches each independently ran 1-3 more discovery
+rounds (2026-09-20 through 2026-09-26) without any shared memory — none
+were merged back to `main`, and none could see each other's results. Two
+branches redundantly tested nearly identical productized-service
+candidates; four branches independently rediscovered variants of the same
+"service moat is bimodal" conclusion; at least three branches separately
+suggested the same two or three "untested lever" ideas. This is real
+wasted agent-hours: the fragmentation, not any single bad decision, is
+why 45+ strategies were needed to reach a conclusion that convergent
+evidence suggests could have been reached faster with shared state.
+
+This run's own remit is "develop on `claude/cool-bell-aq8r7q`, push there,
+never push to a different branch without explicit permission" — so this
+run cannot itself merge the other 6 branches into `main` or into this one
+via git, and per standing instruction will not open a PR without being
+asked. What this run *did* do: read all 6 other branches' `MEMORY.md`
+files and unique research output, and merged every distinct finding into
+this branch's `LESSONS.md`, `ideas/candidates.md`, and this file, plus
+brought over the one live research file (`research/2e-parents-community.md`)
+that represents real, un-duplicated evidence. This branch is now the most
+complete single record of the project's state, but it is **not**
+`main`, and unless the owner (or whoever configures the scheduled runs
+that create these branches) either merges this branch to `main` or
+changes the scheduling so future runs continue from the latest state
+instead of forking fresh from stale `main`, this exact fragmentation will
+recur on the next scheduled run. Flagged directly to the owner in the
+GitHub issue #4 update posted this run.
 
 ## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
 
