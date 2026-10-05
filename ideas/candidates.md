@@ -270,3 +270,51 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-10-05) — productized-service and content/community axes: 0 survivors
+
+16 days after Round 3 with no owner override given, this run tested the
+two axes Round 3 explicitly flagged as untested: (a) a productized
+micro-service, (b) a content/community model — deliberately different in
+shape from the 11 "build a software tool" strategies in Rounds 1-3. Full
+detail in `research/round4-service-content.md`.
+
+**(a) Service candidates, all KILL:** EAA accessibility audits (commodity,
+Fiverr gigs from $499, micro-enterprises legally exempt anyway); CRA
+readiness docs for small vendors (the reachable segment — WordPress
+plugins — already served free by Patchstack's EU-built mVDP and OpenSSF
+templates); EU-marketplace listing localization (already a built-in
+feature of seller tooling); GitHub Actions CI-cost audits (the pricing
+trigger mostly evaporated, and specialists already sell cheaper runners
+directly).
+
+**(b) Content/community candidates, all KILL:** AI-model-deprecation
+calendar (4+ existing trackers); EAA fines-by-country tracker (already
+free vendor lead-gen from AVIXA/clym.io/testparty.ai/others); OSS
+funding-deadline tracker (already covered, and the audience can't pay
+anyway). Headwind confirmed and sharper than assumed: Ahrefs (Feb 2026)
+measured top-result CTR 58% lower when an AI Overview shows (up from
+34.5% in 2025); Seer Interactive measured informational organic CTR
+falling 61% (1.76%→0.61%). Any pure-information content play has no
+traffic to build on even before checking competitors.
+
+**New structural knowledge beyond the clone-speed finding:** for services,
+the capture window is filled by *people* (Fiverr/Upwork gigs, agencies) and
+*institutions* (free foundation/incumbent resources) within the same
+1-3 weeks, and the deeper blocker is that compliance-adjacent buyers pay
+for a credible, accountable counterparty — reviews, a track record, shared
+liability — which an anonymous AI-run seller account cannot offer regardless
+of work quality. For content, the organic-search channel (the only one
+available with zero external accounts) is the same channel AI Overviews are
+cutting, and incumbents already hold the rankings tested.
+
+**One unvalidated lead, not a survivor:** paid maintenance/bounty work on
+open-source projects (via Algora, Opire) — the one framing found where
+proof of work is public via GitHub commit history rather than gated behind
+a reviews system. Whether an unestablished contributor can actually win
+funded bounties against established maintainers was not tested.
+
+**Running total: 18 distinct discovery strategies across 3 business-model
+shapes (software tool, productized service, content/community), zero
+survivors.** See `MEMORY.md` for the updated structural read and the
+decision this raises for the owner.

@@ -1,10 +1,18 @@
 CURRENT_PHASE: IDEA_DISCOVERY
+MODE: INVESTOR (pre-selection — no business chosen yet)
+DISCOVERY_LOCKED: FALSE
+PORTFOLIO_MODE: FALSE
+ACTIVE_BUSINESS: none
+ACTIVE_CANDIDATES: none (0 of 18 tested strategies survived adversarial validation)
+PRIMARY_BOTTLENECK: no discovery strategy across 3 business-model shapes (software tool, productized service, content/community) has produced a candidate that survives adversarial validation at €0 capital with no existing audience/accounts/track record
+NEXT_HIGHEST_VALUE_ACTION: owner decision needed on how to proceed (see "Decision for the owner" below) before spending more agent-hours on undirected discovery rounds 5+; if no owner input arrives, the one unvalidated lead (open-source bounty/maintenance work, see Round 4) is the next thing to test, since it's the only framing found that doesn't route through either the clone-speed trap or the trust-deficit trap
+OWNER_ACTION_REQUIRED: yes — see "Decision for the owner" below
 
 # Memory
 
-This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history.
+This file is the current-truth summary of the autonomous business-building project running in this repo. It is rewritten each run to reflect the current state, not just appended to — see `LOG.md` for the append-only history. See `LESSONS.md` for the reusable, non-overwritten lessons behind this summary.
 
-## Current status: 11 discovery strategies tried in one day, zero survivors — a structural finding, not bad luck
+## Current status: 18 discovery strategies tried across 2 sessions (16 days apart), zero survivors — a structural finding, not bad luck
 
 **Repo was reset to a clean slate on 2026-09-19 at the owner's explicit
 request** (all prior idea candidates, validation reports, and MVP code
@@ -81,51 +89,55 @@ by default, because almost anything an AI research pass turns up as
 "looks open" turns out, on a dedicated adversarial re-check, to already
 be filled or filling in real time.
 
-### Recommendation for the owner's attention (not a request for
-permission to continue — the project's standing instruction is that
-research/idea/kill decisions don't need a stop-and-ask gate, and future
-runs will keep working autonomously regardless)
+### Decision for the owner's attention
 
-Given eleven independent strategies failed in one day, continuing to
-spend agent-hours on "brainstorm + web-search screen" discovery without
-changing the fundamental approach is unlikely to be productive in the
-short term. Worth the owner knowing about and weighing in on if they have
-a preference, next time they check in:
+Round 4 (2026-10-05, this run) deliberately tested the two axes Round 3
+flagged as untested — productized micro-service, content/community — to
+check whether the Round 1-3 clone-speed finding was specific to software
+tools. **It wasn't.** Services die to a trust/credibility deficit on the
+same 1-3 week timescale (see `LESSONS.md`); content dies to organic
+search being both already-ranked by incumbents and actively shrinking
+(AI Overviews cutting informational CTR 58-61%). Full detail:
+`research/round4-service-content.md`.
 
-1. **Time-based approach**: rather than exhausting many strategies in one
-   sitting, a future run could deliberately watch for and react to a
-   fresh trigger event within 24-72 hours of it breaking, before it's
-   SEO-indexed or GitHub-cloned — several research agents flagged this as
-   the one lever not really tested today (today's "recent trigger" tests
-   were all 2-4 months old, already indexed). This needs a different
-   operating rhythm (frequent short checks for breaking news in relevant
-   spaces) rather than one-shot deep research.
-2. **Business-model change**: everything tried today was a software
-   product (SaaS tool, static comparison site, browser extension). A
-   productized service, content/newsletter product, or community model
-   was not tested and might face different (possibly more favorable, or
-   possibly worse given the HARD SAFETY BOUNDARY on real outreach)
-   dynamics — worth considering explicitly next round rather than
-   defaulting back to "another tool."
-3. **Owner override**: `ideas/decision.md` remains available if the
-   owner has a specific direction in mind they'd like pursued regardless
-   of what discovery search turns up — the adversarial validation
-   discipline would still apply to protect against building something
-   already captured.
-4. **Accept a marginal candidate deliberately, eyes open**: several
-   near-misses this session were rejected for being merely marginal, not
-   fatally flawed (e.g., the change-order/scope-creep tool from the
-   deleted history had thin-but-real differentiation potential; the
-   OpenAI Assistants-API codemod from Round 2 has a real, if shrinking,
-   underserved audience). None were picked because the project's standing
-   discipline is not to force weak ideas through — but if the owner would
+**18 distinct strategies across 3 business-model shapes, zero survivors,
+is no longer "keep trying new ideas" territory.** The project's own
+anti-busywork rule (never do more brainstorm-and-screen discovery than
+needed to make a real decision) now points toward surfacing a decision
+rather than running a Round 5 identical in shape to Rounds 1-4. Four
+concrete paths, so the owner can pick rather than just "weigh in":
+
+1. **Let the one unvalidated lead be tested next**: paid
+   maintenance/bounty work on open-source projects (via Algora, Opire) —
+   the only framing found where proof-of-work is public via GitHub commit
+   history rather than gated behind a reviews system, which may sidestep
+   the trust-deficit problem. Unknown: whether an unestablished
+   contributor can actually win funded bounties against established
+   maintainers. This is the default if the owner gives no other
+   direction, since it's the one lead not yet disproven and costs €0 to
+   investigate further.
+2. **Owner-fronted trust**: pick a service candidate (e.g., CRA/EAA
+   compliance drafting) where the *owner's own real identity and track
+   record* stands behind the work, with the AI doing research/drafting
+   behind the scenes. This directly removes the trust-deficit blocker
+   found in Round 4, but requires the owner's active, ongoing
+   participation (identity, time, accepting liability for compliance
+   advice) — a materially bigger ask than pure autonomous operation, and
+   a decision only the owner can make.
+3. **Owner override**: `ideas/decision.md` remains available for a
+   specific direction regardless of what discovery turns up — adversarial
+   validation would still apply.
+4. **Accept a marginal candidate deliberately, eyes open**: as in the
+   Round 3 writeup — several near-misses across all 4 rounds were
+   rejected for being marginal, not fatally flawed. If the owner would
    rather ship something small and imperfect than keep searching for a
-   clean wedge, that's a legitimate call only they can make.
+   clean €0/no-track-record wedge, that's a legitimate call only they can
+   make.
 
-Absent owner input, the default is to keep trying fresh discovery rounds
-in future runs (new day, new triggers, possibly a different time-of-day
-check for very recent breaking news), not to force a pick from today's
-rejected pool.
+Absent owner input, the next run defaults to option 1 (testing the
+bounty-work lead) rather than another from-scratch brainstorm round,
+since repeating Rounds 1-4's shape without a new lever has a well-evidenced
+expected result by now.
 
 ## Capital state
 
@@ -134,9 +146,18 @@ published, no Chrome Web Store submission, no external service accounts.
 
 ## GitHub write access
 
-Confirmed healthy this run — multiple commits reached `origin/main`
-normally (reset commit, Round 1 commit, Round 2 commit all pushed
-successfully).
+Confirmed healthy. This run also confirmed, via `ListConnectors`, that
+this session has **zero MCP connectors available** — no email, no social,
+no payment, no ad-account access. GitHub (push + Pages hosting) is the
+only account-backed capability this agent has natively; every other
+distribution/monetization channel in any surviving future candidate will
+need the owner to create and hold the account. This isn't a new blocker —
+`AWAITING_BUILD_APPROVAL`/launch-prep already assumed owner involvement at
+that stage — but it's now a confirmed fact, not an assumption, and it's
+part of why the trust-deficit finding in Round 4 binds as hard as it does
+(an anonymous AI-run seller account has no path to the reviews/identity
+compliance buyers require, and the owner would need to front that
+themselves per option 2 above).
 
 ## Prior-run lessons carried forward informally (from before today's reset, now deleted as files)
 
