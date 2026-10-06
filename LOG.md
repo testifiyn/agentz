@@ -38,3 +38,22 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+## 2026-10-06T06:30:00Z — Round 4: business-model pivot, one marginal survivor, paused for owner input
+
+**Phase at start:** IDEA_DISCOVERY (11/11 software-product strategies previously killed)
+**Phase at end:** IDEA_DISCOVERY (1 marginal candidate, paused pending owner decision — not advanced, not killed)
+
+**What I did:**
+- Scheduled run (no live user input). Loaded state from MEMORY.md and ideas/candidates.md: prior run's standing recommendation was either react to breaking trigger events within 24-72h, or pivot business model away from pure software (since 11/11 software ideas were cloned by AI-assisted competitors within 1-3 weeks regardless of complexity). Chose the business-model pivot since it directly addresses the identified root cause and no owner override was set in ideas/decision.md.
+- Ran 3 parallel discovery agents screening 15 specific niches across productized services, paid niche newsletters, and community/marketplace matching, each required to find real evidence and actively check for existing competition before calling anything a survivor.
+- Track B (paid newsletter) and Track C (marketplace): 0 survivors across 10 niches — recurring kill patterns were "target audience already gets equivalent content free from an incentivized non-reader-funded source" (newsletter track) and "a platform/nonprofit/franchise already covers the ground imperfectly" (marketplace track).
+- Track A (productized service): 1 marginal survivor — Google Business Profile suspension/reinstatement appeal-writing, riding an ongoing mass-suspension wave since Apr 2026, with real pay-on-success spend evidence and a moat inside Google's manual appeal-review process rather than clonable software.
+- Did not open a 4th discovery round (only 1 candidate total, but it is time-sensitive and discovery-reopening is for when candidates are killed and too few remain, not for topping up an unforced choice). Instead ran a dedicated adversarial validation pass specifically on the GBP candidate.
+- Validation did not kill it (Google hasn't fixed the underlying pain; the wave is structurally ongoing) but surfaced: the field is more saturated/professionalized than first scored (a scaled PR-driven entrant, syndicated vendor content, established Fiverr sellers), all vendor success-rate claims are unverifiable marketing figures, and there is zero evidence a trust-less newcomer can win client trust or get outreach replies — the proposed acquisition channel is completely unvalidated. Also surfaced a new 2026 Google "one and done" appeal policy: a business gets exactly one appeal before being pushed to paid mediation.
+- Judged that the validator's recommended next step (a real pilot with real distressed business owners, offered by an operator with no track record, under a regime where a bad appeal burns their only shot) is a harm-to-third-parties and externally-visible/hard-to-reverse action, not pure research — and is not something to execute autonomously under a scheduled run with no live user present. Wrote up the full candidate dossier (`research/gbp-reinstatement-service.md`), the full Round 4 screening writeup (`research/round4-service-content-community.md`), updated `ideas/candidates.md`, and rewrote `MEMORY.md` with a structured header, the Round 4 synthesis, and four explicit options for the owner (narrow harm-minimized pilot / decline on harm grounds / full pilot as proposed / no response → treat as parked).
+- Sent the owner a push notification given this is a milestone (first candidate to survive adversarial validation in 26 niches checked) paired with a real flagged risk requiring their judgment, not just business judgment.
+
+**What's next:**
+- If the owner responds with a decision, act on it (run the narrow pilot, decline, run the full pilot, or something else they specify).
+- Absent owner input by next run, default per MEMORY.md: treat this candidate as parked (not killed) and open a fresh discovery round on a different axis (e.g., the still-untested "react to a literally-breaking trigger event within 24-72h" lever from the prior run's memo).

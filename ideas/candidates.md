@@ -270,3 +270,46 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-10-06) — business-model pivot: service / content / community
+
+Per the prior recommendation, tested whether moving off pure software
+(where AI-assisted clones consistently ship within 1-3 weeks) to a
+productized-service, paid-content, or community-marketplace model would
+produce a candidate with a durable, non-clonable moat. Three parallel
+agents screened 15 specific niches total. Full detail in
+`research/round4-service-content-community.md`.
+
+**Track A (productized service): 1 marginal survivor** — Google Business
+Profile suspension/reinstatement appeal-writing, riding an ongoing mass
+GBP-suspension wave (since ~27 Apr 2026). Real pay-on-success spend
+evidence ($250-800/case), genuine human-judgment requirement (Google's
+appeal review is manual, non-API, frequently-changing), moat sits inside
+Google's own process rather than in clonable code. Flagged risks: Google
+could keep closing the DIY-appeal gap itself (same pattern that killed the
+nomad-visa-tracker candidate), established decade-old incumbents
+(Whitespark, SterlingSky, et al.), pay-on-success cash-flow lag.
+
+**Track B (paid niche newsletter): 0 survivors** across 5 niches —
+shadow-fleet shipping intel, business-jet market intel, HOA/condo-
+insurance briefing, semiconductor export-control compliance, P&C agent
+hard-market intel. Recurring kill pattern distinct from the software
+rounds: in 2 of 5 cases, the target audience already gets equivalent
+content free from a law firm, trade association, or advertiser with its
+own incentive to give it away — a reader-paid product has to beat free,
+not fill a gap.
+
+**Track C (community/marketplace): 0 clean survivors** across 5 pairs —
+semi-retired tradespeople/homeowners (least-bad, but TaskRabbit/Thumbtack/
+Angi/Handyman Connection/Nextdoor already cover the ground imperfectly),
+autism-respite care (CareYaya already runs this exact free model),
+durable-medical-equipment reuse (mature nonprofit ecosystem), retired-
+engineer mentoring (SCORE already free), diaspora home-cooked meals
+(not pursued — an operations business, not a matching play).
+
+**Decision:** did not open a 4th discovery round. One marginal,
+time-sensitive candidate survived 15 checks — sent to dedicated
+adversarial validation (re-verifying current competition, whether Google
+has further patched self-serve appeals, and realistic close rates) before
+deciding whether to write a go/no-go candidate dossier for owner review.
+See `MEMORY.md` for the validation outcome.
