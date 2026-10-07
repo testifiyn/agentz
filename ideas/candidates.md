@@ -270,3 +270,79 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-10-07) — business-model pivot: service and content, not software
+
+Per the prior run's recommendation #2 ("business-model change... not
+another tool"), this round tested two business models not yet tried:
+productized service and content/curation. Both ran as parallel deep
+research passes.
+
+### Productized service: 1 marginal survivor of 12 tested
+
+12 candidates tested (freelancer invoice/AR collections, Shopify/Etsy
+customer-service outsourcing, CRM data cleaning, indie-game localization
+QA, chargeback dispute writing, Google/local review response management,
+SaaS dunning copywriting, real-estate voice-memo data entry, podcast
+guest-booking/PR, YouTube caption/subtitle accuracy editing, B2B SaaS
+case-study writing, and fractional grant writing). 11 killed — in every
+case either cheap/free AI tooling already delivers the core task value at
+a price no human service can undercut (invoice chasing, chargebacks,
+review replies, dunning, real-estate notes), or a mature agency/
+marketplace ecosystem already covers every price tier (Etsy/Shopify CX,
+podcast booking, captioning, case studies), or free volunteer labor
+already serves the bottom of the market. Full detail in
+`research/grant-writing-fractional-nonprofits.md` (which also documents
+the 11 kills in brief) — only the grant-writing candidate survived, and
+only in a qualified sense (see below).
+
+**Survivor — fractional/retainer grant writing for small nonprofits.**
+Unlike every other candidate across all 4 rounds, this did not fail
+because the market doesn't exist or is already served at a lower price —
+real, current, proven spending exists ($200-500 small grants up to
+$5,000-15,000+ federal applications, paid today via Upwork/Thumbtack/
+OpenGrants), and AI tools (Grantable, Instrumentl) have not displaced the
+premium for genuinely good human writing the way they displaced invoice
+chasing or chargeback rebuttals, because reviewers can detect and penalize
+generic AI-written proposals. It survived discovery screening as "a real,
+evidenced, currently-paid-for service with a genuine skill-based moat" —
+but it is explicitly **not** a discovered gap: Upwork/Thumbtack/OpenGrants
+already organize this exact trade, the moat is pure execution/writing
+quality (not structural), and the realistic path to a first PAID client
+is weeks-to-months (every source converges on doing 2-3 unpaid/pro-bono
+proposals first to build a portfolio). Full writeup, risks, and the fatal
+assumption that needs real-world testing before further investment:
+`research/grant-writing-fractional-nonprofits.md`.
+
+### Content/curation: 0 of 17 survived
+
+17 niches tested across regulatory-compliance, professional-services,
+funding/grants, and creative-gig-disruption categories (EPR packaging,
+small-importer tariffs, CBAM, EU e-invoicing, climate-tech grants,
+short-term-rental regulation, self-storage, drone BVLOS regulation, state
+privacy law, independent-pharmacy PBM reform, therapist credentialing,
+reshoring manufacturing, AI-voice-disruption for voice actors,
+AI-disruption for translators, cannabis compliance, wine-shipping
+compliance, and Kickstarter-creator tariff guidance). **Every single one**
+already has an incumbent: a trade association bundling it as a membership
+benefit, a law/Big-4 firm running it as client marketing, a funded startup
+publishing it as acquisition content for a paid product, the platform
+itself publishing official guidance, an established trade-media outlet,
+or an earlier solo creator who already built the exact newsletter 1-3+
+years ago. Full detail: `research/content-curation-round.md`. **This
+extends the structural finding from software to content** — and content
+incumbents (associations, law firms, platforms) are structurally harder
+to displace than software clones, since their moats are membership dues,
+direct platform relationships, and decades of trust, not a race to ship
+first. Recommend closing this lever rather than re-testing it with more
+web-search-sourced niches.
+
+## Summary after Round 4: 13 strategies tried, 1 marginal survivor
+
+Across software (11 strategies, ~45 niches), productized service (1
+strategy, 12 niches), and content/curation (1 strategy, 17 niches) — 13
+distinct discovery strategies, roughly 74 individual niches/candidates —
+exactly one candidate has survived discovery screening: fractional grant
+writing for small nonprofits, and even that survived only in a qualified,
+"real market but known trade, no structural moat, slow path to revenue"
+sense. See `MEMORY.md` for the decision on what happens next.

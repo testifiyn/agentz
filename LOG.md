@@ -38,3 +38,32 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-10-07T00:00:00Z (scheduled run) — Business-model pivot: service + content, 1 marginal survivor
+
+**Phase at start:** IDEA_DISCOVERY (11/11 strategies killed, awaiting a fresh angle per prior run's own recommendation menu)
+**Phase at end:** DEEP_VALIDATION (one marginal candidate; not yet BUSINESS_MODE)
+
+**What I did:**
+- Loaded full repo state per the standing protocol (MEMORY.md, LOG.md, ideas/candidates.md, ideas/decision.md — no owner override present). Identified the primary bottleneck: 11 straight software-product discovery strategies had failed, and the prior run's own recommendation #2 (try a different business model — service or content, not another tool) was the one lever explicitly flagged as untested.
+- Launched two parallel deep-research agents, each briefed on the full prior failure pattern and instructed to apply the same adversarial discipline (real evidence required, honest "0 survivors" is an acceptable result) to a different business model:
+  - **Productized service** (human does recurring manual work, fixed scope/price): tested 12 candidates (freelancer AR chasing, Etsy/Shopify CX outsourcing, CRM data cleaning, game localization QA, chargeback dispute writing, review-response management, SaaS dunning copywriting, real-estate voice-memo data entry, podcast booking/PR, YouTube caption editing, B2B case-study writing, fractional grant writing). 11 killed (cheap/free AI tooling already owns the task, or a mature agency/marketplace ecosystem already covers every price tier, or free volunteer labor serves the bottom). **1 marginal survivor: fractional/retainer grant writing for small nonprofits** — real proven demand ($200-15,000+ per proposal, paid today via Upwork/Thumbtack/OpenGrants), and unlike the killed candidates, AI tooling hasn't collapsed the price floor here because reviewers penalize generic AI-written proposals. Written up in full, including explicit weaknesses (no structural moat, slow weeks-to-months path to first paid client, known/populated trade not a discovered gap), in `research/grant-writing-fractional-nonprofits.md`.
+  - **Content/curation** (newsletter/curated resource): tested 17 niches across regulatory compliance, professional services, funding/grants, and creative-gig disruption. **0 survivors** — every single niche already has an incumbent (trade association, law/Big-4 firm, funded startup, the platform itself, trade media, or an earlier solo creator), and these incumbents' moats (membership dues, platform relationships, decades of trust) proved harder to displace than a clonable SaaS feature. Full detail in `research/content-curation-round.md`, which recommends closing this lever rather than re-testing with more web-search-sourced niches.
+- Updated `ideas/candidates.md` with full detail on both rounds (Round 4).
+- Rewrote `MEMORY.md`: set `CURRENT_PHASE: DEEP_VALIDATION`, documented the 13-strategies/74-niches/1-survivor state, named the real bottleneck (an execution/skill question — can the operator write a genuinely competitive grant proposal — not a market question, and not resolvable by more desk research), flagged a methodology refinement for future rounds (an existing competitor should sharpen the differentiation question rather than automatically kill a candidate, since proven spend is a green flag per the project's own evidence hierarchy), and laid out three explicit options for the owner (test the fatal assumption directly via a real draft proposal — requires the owner's direct involvement since this agent cannot ethically impersonate a human grant-writing service; try the still-untested reactive 24-72h-trigger discovery rhythm via `/loop`; or an owner override) while stating the default (prepare real-world test materials for the grant-writing assumption) absent further input.
+
+**Evidence discovered:** 13 cumulative discovery strategies, ~74 individual candidates, exactly 1 marginal survivor with proven demand but no structural moat and a slow path to first revenue.
+
+**Decision made:** Do not force the grant-writing survivor into BUSINESS_MODE and do not run a 14th low-expected-value desk-research round. Hold at DEEP_VALIDATION, prepare the cheapest real test of the one assumption that actually matters (execution skill, not demand), and surface the decision point to the owner since the next real step requires their direct participation (standing behind client-facing work under their own name).
+
+**Files changed:** `MEMORY.md` (rewritten), `LOG.md` (this entry), `ideas/candidates.md` (Round 4 appended), `research/grant-writing-fractional-nonprofits.md` (new), `research/content-curation-round.md` (new).
+
+**Primary bottleneck:** Whether the operator can produce a genuinely competitive grant proposal — an execution question only the owner can resolve, not a market-research question.
+
+**Next highest-value action:** Prepare real-world test materials (a sample grant-proposal draft against a real, currently-open opportunity) for the owner to review/use, while awaiting owner direction on which of the three flagged options to pursue.
+
+**Owner action required:** Yes — flagged in `MEMORY.md` under "Decision point for the owner."
+
+**Notification status:** Notifying owner this run given the scale of the finding (13 strategies, a genuine inflection point) per the project's OWNER NOTIFICATIONS guidance.
