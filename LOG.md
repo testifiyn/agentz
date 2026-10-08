@@ -38,3 +38,69 @@ Append-only. Newest entries at the bottom. Never edit or delete past entries.
 **What's next:**
 - Absent owner input, next run tries a fresh discovery round with new-day triggers rather than re-running today's already-exhausted strategies.
 - Commit, push, and notify the owner — this is a significant structural finding (11/11 failed) worth surfacing, not just another kill verdict.
+
+---
+
+## 2026-10-08T06:19:00Z — Scheduled run: Round 4, the two untested axes
+
+**Phase at start:** IDEA_DISCOVERY (11/11 strategies failed as of the last session)
+**Phase at end:** IDEA_DISCOVERY (now ~15/15 failed; one new methodology lesson extracted)
+
+**What I did:**
+- Fired automatically by a scheduled trigger (no live owner input this
+  run). Loaded `MEMORY.md`, `LOG.md`, `ideas/candidates.md`,
+  `ideas/decision.md` (still no owner override set) per the standing
+  repo-memory protocol before doing any work.
+- Launched 2 parallel discovery agents on the two axes the prior
+  session's `MEMORY.md` flagged as untested: (a) a non-software business
+  model (service/newsletter/community instead of another tool), and
+  (b) low-visibility/obscure regulatory niches not countdown-clocked or
+  SEO-indexed (the "no swarm trigger" lever a Round 3 research agent had
+  explicitly recommended).
+- **Axis (a) result**: 8 candidates tested, all died — tariff newsletter,
+  DTC price-monitoring service, nonprofit grant-alerts, AI-translation
+  micro-service, EU AI Act compliance-doc service, paid community,
+  pay-per-question research service, elder-care concierge. Confirms the
+  saturation problem is about trigger-visibility, not about software vs.
+  service/content wrapper.
+- **Axis (b) result**: 5 candidates tested, 4 died at discovery, 1
+  provisional survivor (EU Machinery Regulation 2023/1230 SME compliance
+  documentation tooling — hard deadline 20 Jan 2027, no SaaS competitor
+  found in an English-language search). Committed Round 4 discovery
+  findings to `ideas/candidates.md` and pushed, since this was a natural
+  checkpoint before spending more effort on validation.
+- Launched a dedicated adversarial-validation agent on the one survivor,
+  specifically instructed to re-check competitors in German and Italian
+  (machinery manufacturing concentrates there), probe the liability/trust
+  question for safety-critical legal documentation, and test market size
+  and €0 distribution feasibility.
+- **Validation result: KILLED.** The "no competitor" premise was false —
+  a multilingual search found a live, AI-built, actively-marketed direct
+  competitor (CE-Copilot, €119/mo, full workflow coverage including the
+  exact AI/cybersecurity-documentation delta that was the floated
+  differentiator) plus three decades-old incumbents (Safexpert, Docufy,
+  CEM4) with established enterprise/SME customer bases. Wrote full
+  verdict to `research/eu-machinery-regulation-compliance-tool.md`.
+- Extracted the reusable lesson to a new `LESSONS.md` file (first entry
+  in that file): discovery-stage competitor searches must be
+  multilingual from the first pass for any EU-wide or country-
+  concentrated niche, not deferred to a validation step that might not
+  think to check — this run only caught the false premise because
+  validation happened to be explicitly instructed to search in other
+  languages.
+- Rewrote `MEMORY.md` to reflect current state: ~15 distinct strategies
+  across two sessions, zero surviving candidates, the new methodology
+  lesson, and an updated decision point for the owner (narrowed to 3 live
+  options now that the business-model axis is also exhausted: untested
+  time-based <72h trigger-reaction, owner override, or deliberately
+  accepting a marginal candidate).
+
+**What's next:**
+- Absent owner input, the next run should try the time-based (<72h
+  fresh-trigger) axis — the one lever not yet tested across either
+  session — and must build multilingual competitor search into the
+  discovery pass itself from the start, not only at validation.
+- Commit, push, and notify the owner: two full sessions, ~15 strategies,
+  zero survivors, plus a methodology fix (multilingual search) that
+  changes how every future discovery round should be run — worth
+  surfacing as a real decision point, not just another kill verdict.

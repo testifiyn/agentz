@@ -361,3 +361,29 @@ validation on exactly these two questions (plus a non-English competitor
 re-check, since machinery manufacturing concentrates in Germany/Italy and
 an English-only search could have missed a German/Italian-language
 tool) before any build commitment. See `research/eu-machinery-regulation-compliance-tool.md`.
+
+## STATUS UPDATE: EU Machinery Regulation candidate KILLED
+
+Adversarial validation confirmed the exact risk flagged above: the
+"no competitor" premise was false. A multilingual search (German/Italian,
+not just English) found a live, AI-built, actively-marketed direct
+competitor (CE-Copilot, ce-copilot.de, €119/mo, full workflow coverage
+including the regulation's AI/cybersecurity documentation delta that was
+the candidate's intended differentiator), plus three decades-old
+established incumbents (Safexpert, Docufy, CEM4) already serving this
+niche with real enterprise/SME customers. The trust/liability concern
+turned out not to be a blocker — self-serve compliance software is
+already normalized in this market — but that just means incumbents have
+already closed the trust gap too, leaving no wedge. Full report:
+`research/eu-machinery-regulation-compliance-tool.md`. Reusable
+methodology lesson extracted to `LESSONS.md`: discovery-stage competitor
+searches must be multilingual from the first pass for any EU-wide or
+country-concentrated niche, not deferred to validation.
+
+**Round 4 final tally: 13 candidates tested across 2 axes (8 service/
+content-model, 5 obscure-niche), 1 provisional survivor, 0 confirmed
+survivors after validation.** Combined with Rounds 1-3 (11 strategies,
+0 survivors), this project has now tried roughly 15 distinct discovery
+angles across two work sessions with zero candidates surviving to a GO
+recommendation. See `MEMORY.md` for the full structural read and the
+decision point this now presents for the owner's attention.
