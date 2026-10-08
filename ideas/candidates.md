@@ -270,3 +270,94 @@ distinct angles tried today alone, all killed either at discovery-stage
 screening or at dedicated adversarial validation. See `MEMORY.md` for the
 full structural read and recommended next steps for the owner's
 attention.
+
+## Round 4 (2026-10-08) — the two untested axes from the Round 1-3 recommendation
+
+Memory flagged two axes not yet tried: (a) a non-software business model
+(service/newsletter/community instead of another tool), and (b) targeting
+changes too obscure to be publicly countdown-clocked (no AI-clone swarm
+trigger). Ran one discovery agent per axis.
+
+### Axis (a) — service/content/community model: 0 survivors, 8 tested
+
+Tested: tariff/customs intelligence newsletter for small importers (dies —
+a newsletter with the identical pitch, "Tariff Tracker," is already live,
+plus free law-firm newsletters and paid HS-classification SaaS covering
+the same buyer); done-for-you price-monitoring for DTC brands (dies —
+dominated by €9.99/mo self-serve tools, no evidence anyone will pay a
+premium for a managed version); grant-alert service for nonprofits (dies
+hard — GrantWatch/GrantGopher/GrantStation/SeeGrant have run this exact
+model since as early as 2008, commoditizing the free Grants.gov API);
+AI-cheapened translation micro-service for indie devs/authors (dies —
+Alconost/Localizedirect/Andovar already sell AI-MTPE at $0.04-0.14/word,
+and Babelcube has run zero-upfront revenue-share book translation since
+2014); EU AI Act compliance-documentation service (dies, most interesting
+near-miss — a swarm of AI-generator tools, ComplianceAgent/AI ComplyKit/
+SetAIComply/ComplyAI, appeared within months of the Act's deadline, the
+exact clone-speed pattern that killed 11 software ideas, just applied to
+a service/document wrapper instead of a tool — confirms the pattern is
+about trigger-visibility, not about software vs. service); paid niche
+community/membership (dies for lack of verifiable evidence of any
+bootstrapped paid community with real reported revenue, plus a
+founder-guide warning that communities typically take 6-18 months of free
+value-building before monetization — incompatible with fast €0
+validation); pay-per-question micro-research service (dies — Statista's
+"Ask Statista" and Infoquest already run this exact model at a trust/brand
+level a solo operator can't match); elder-care navigator/concierge service
+(dies despite real pain — Envoy raised $3M for the same remote-concierge
+model, and Ianacare/Gentle Care Navigator are increasingly offered free as
+employer benefits, undercutting a direct-to-family paid offering).
+**Conclusion: the non-software-model axis does not escape the saturation
+problem, it just relocates it from tools to newsletters/generators/
+concierge platforms.**
+
+### Axis (b) — obscure/low-visibility niches: 1 survivor, 4 killed
+
+Tested 5 candidates tied to genuinely obscure (not newsworthy/SEO-indexed)
+regulatory changes: UK Pensions Dashboards small-scheme readiness (dies on
+timing — the only in-scope cohort's deadline, 31 Oct 2026, has effectively
+already passed by the research date); Italy RUNTS/RASD obligations for
+amateur sports clubs (dies — registration is actually optional/
+disadvantageous, real deadlines already passed, and TeamSystem already
+claims 3,000+ sports-club customers for this work); US lay-guardian/
+conservator court financial accounting (dies on distribution — real
+chronic pain confirmed via forum evidence, but an incumbent, Societal
+Systems, already runs bank-feed-linked guardian/judge portals in multiple
+counties, sometimes free to the guardian, and the buyer is reachable only
+one-at-a-time via probate-attorney/court referral, state by state — not
+€0-scalable); UK standardised service-charge accounts for self-managed
+RMC/RTM companies (near-miss, not a survivor — the regulatory format
+itself is still unfinalized, genuinely obscure, but a named UK startup,
+"Block Manager Technology," was already found explicitly targeting this
+exact persona even before the final rules publish, so the discoverability
+edge is already gone — flagged as a watch-item for if/when the final
+format publishes).
+
+**Survivor — EU Machinery Regulation (2023/1230) SME documentation/
+compliance tool.** Hard cutover 20 Jan 2027 (confirmed by SGS/Festo/TÜV
+sources, no transition period), newly requiring documentation for
+embedded software, AI functions, and cybersecurity of safety-related
+control systems, and for the first time explicitly permitting fully
+digital technical files. Deliberate search for a software competitor
+found only consultancy pages (SGS, TÜV, Conformance) and static €75
+document templates (Euronorm), plus one near-dead experimental tool
+(an Apify actor, 0.0 rating, 1 monthly user) — no real productized
+competitor, unusual for a regulatory-deadline niche this far into the
+compression pattern seen elsewhere. The topic has essentially no public
+SEO/forum visibility (no "best tools for Machinery Regulation 2027"
+listicles, no Reddit/HN threads), which is the genuine signature this
+axis was searching for. **Flagged risk, not yet resolved:** the buyer
+(compliance/EHS engineers at machinery SMEs) is reached via national
+trade associations (VDMA etc.), machinery-safety LinkedIn groups, and
+notified-body/consultancy referral networks — not generic content
+marketing — and that €0 channel is plausible but unproven. **Also
+unresolved and arguably more important than distribution:** this is
+safety-critical, legally load-bearing documentation (product liability,
+market-surveillance exposure, injury risk if a technical file is wrong)
+— whether compliance engineers would trust a solo/unknown-brand tool for
+this versus paying a consultancy specifically because of that liability
+exposure has not been tested. Proceeding to dedicated adversarial
+validation on exactly these two questions (plus a non-English competitor
+re-check, since machinery manufacturing concentrates in Germany/Italy and
+an English-only search could have missed a German/Italian-language
+tool) before any build commitment. See `research/eu-machinery-regulation-compliance-tool.md`.
